@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+title: "Dilomatic: Historical Political Strategy Dilemmas Dataset"
+abstract: >
+  A structured JSON dataset of historical political and military dilemmas,
+  documenting opposing strategies and their outcomes. Designed to support
+  retrieval, comparison, and analogical reasoning over historical cases.
+type: dataset
+authors:
+  - family-names: Khalek
+    given-names: Rabah
+    alias: rabah-khalek
+license: CC-BY-4.0
+version: "0.0.1"
+date-released: "2026-03-20"
+repository-code: "https://github.com/rabah-khalek/dilomatic"
+keywords:
+  - history
+  - political-strategy
+  - military-strategy
+  - counterinsurgency
+  - open-data

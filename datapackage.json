@@ -1,0 +1,23 @@
+{
+  "name": "dilomatic-events",
+  "title": "Dilomatic: Historical Political Strategy Dilemmas",
+  "description": "Structured records of historical political and military dilemmas documenting opposing strategies and their outcomes. Each record includes inline citations with verification-oriented metadata.",
+  "version": "0.0.1",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0",
+      "path": "LICENSE"
+    }
+  ],
+  "keywords": ["history", "political-strategy", "military-strategy", "counterinsurgency", "open-data"],
+  "resources": [
+    {
+      "name": "events",
+      "path": "data/*.json",
+      "description": "One JSON file per historical event, conforming to the versioned schemas in schemas/",
+      "mediatype": "application/json",
+      "schema": "schemas/v1/schema.json"
+    }
+  ]
+}
