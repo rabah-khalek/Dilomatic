@@ -1,0 +1,22 @@
+EVENT_FILES := $(wildcard data/*.json)
+SCHEMA_FILES := $(wildcard schemas/*/schema.json schemas/*/template.json)
+SCRIPT_DIR := .github/scripts
+
+.PHONY: validate validate-metadata validate-json validate-schema validate-integrity validate-security
+
+validate: validate-metadata validate-json validate-schema validate-integrity validate-security
+
+validate-metadata: $(SCRIPT_DIR)/validate-metadata.sh
+	@./$(SCRIPT_DIR)/validate-metadata.sh
+
+validate-json: $(EVENT_FILES) $(SCRIPT_DIR)/validate-json.sh
+	@./$(SCRIPT_DIR)/validate-json.sh
+
+validate-schema: $(EVENT_FILES) $(SCRIPT_DIR)/validate-schema.sh
+	@./$(SCRIPT_DIR)/validate-schema.sh
+
+validate-integrity: $(EVENT_FILES) $(SCRIPT_DIR)/integrity-check.sh
+	@./$(SCRIPT_DIR)/integrity-check.sh
+
+validate-security: $(EVENT_FILES) $(SCHEMA_FILES) $(SCRIPT_DIR)/security-check.sh
+	@./$(SCRIPT_DIR)/security-check.sh

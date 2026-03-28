@@ -1,0 +1,224 @@
+name: Submission To PR
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+      - reopened
+
+concurrency:
+  group: submission-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  submission:
+    if: ${{ github.actor != 'github-actions[bot]' && startsWith(github.event.issue.title, '[Submission]') }}
+    runs-on: ubuntu-latest
+    env:
+      DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+      ISSUE_NUMBER: ${{ github.event.issue.number }}
+      ISSUE_URL: ${{ github.event.issue.html_url }}
+      ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+      REPOSITORY: ${{ github.repository }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+          cache: pip
+          cache-dependency-path: .github/requirements-ci.txt
+
+      - name: Install Python dependencies
+        run: pip install -r .github/requirements-ci.txt --quiet
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Generate submission record
+        id: generate
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/submission-issue-to-record.py 2>&1 | tee "$RUNNER_TEMP/generate.log"
+
+      - name: Validate submission
+        id: validate
+        if: steps.generate.outcome == 'success'
+        continue-on-error: true
+        env:
+          CHECK_URL_REACHABILITY: off
+        run: |
+          set -euo pipefail
+          make validate 2>&1 | tee "$RUNNER_TEMP/validate.log"
+
+      - name: Commit and push submission branch
+        id: push
+        if: steps.validate.outcome == 'success'
+        continue-on-error: true
+        env:
+          BRANCH_NAME: ${{ steps.generate.outputs.branch_name }}
+          FILE_PATH: ${{ steps.generate.outputs.file_path }}
+          COMMIT_MESSAGE: ${{ steps.generate.outputs.commit_message }}
+        run: |
+          set -euo pipefail
+          branch="$BRANCH_NAME"
+          file_path="$FILE_PATH"
+          commit_message="$COMMIT_MESSAGE"
+
+          git checkout -B "$branch"
+          git add "$file_path"
+
+          if git diff --cached --quiet; then
+            if git ls-remote --exit-code --heads origin "$branch" >/dev/null 2>&1; then
+              echo "created_commit=false" >> "$GITHUB_OUTPUT"
+              echo "OK - Submission branch already up to date ($branch)" | tee "$RUNNER_TEMP/push.log"
+              exit 0
+            fi
+
+            echo "No generated file changes to commit for a new submission branch." | tee "$RUNNER_TEMP/push.log"
+            exit 1
+          fi
+
+          git commit -m "$commit_message"
+          git push --force-with-lease origin "$branch" 2>&1 | tee "$RUNNER_TEMP/push.log"
+          echo "created_commit=true" >> "$GITHUB_OUTPUT"
+
+      - name: Create or update pull request
+        id: pr
+        if: steps.push.outcome == 'success'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BRANCH_NAME: ${{ steps.generate.outputs.branch_name }}
+          PR_TITLE: ${{ steps.generate.outputs.pr_title }}
+          RECORD_ID: ${{ steps.generate.outputs.record_id }}
+          FILE_PATH: ${{ steps.generate.outputs.file_path }}
+          SOURCE_NOTES: ${{ steps.generate.outputs.source_notes }}
+          REVIEWER_NOTES: ${{ steps.generate.outputs.reviewer_notes }}
+        run: |
+          set -euo pipefail
+          branch="$BRANCH_NAME"
+          pr_title="$PR_TITLE"
+          record_id="$RECORD_ID"
+          file_path="$FILE_PATH"
+          source_notes="$SOURCE_NOTES"
+          reviewer_notes="$REVIEWER_NOTES"
+          body_file="$RUNNER_TEMP/pr-body.md"
+
+          {
+            printf '## Automated Submission\n\n'
+            printf -- '- Source issue: #%s\n' "$ISSUE_NUMBER"
+            printf -- '- Submitted by: @%s\n' "$ISSUE_AUTHOR"
+            printf -- '- Record id: `%s`\n' "$record_id"
+            printf -- '- File path: `%s`\n\n' "$file_path"
+            printf '## Source Notes\n\n'
+            if [ -n "$source_notes" ]; then
+              printf '%s\n\n' "$source_notes"
+            else
+              printf '_No response._\n\n'
+            fi
+            printf '## Reviewer Notes\n\n'
+            if [ -n "$reviewer_notes" ]; then
+              printf '%s\n' "$reviewer_notes"
+            else
+              printf '_No response._\n'
+            fi
+          } > "$body_file"
+
+          pr_number="$(gh pr list --head "$branch" --state open --json number --jq '.[0].number')"
+          if [ -z "$pr_number" ]; then
+            gh pr create --base "$DEFAULT_BRANCH" --head "$branch" --title "$pr_title" --body-file "$body_file" 2>&1 | tee "$RUNNER_TEMP/pr.log"
+            pr_number="$(gh pr list --head "$branch" --state open --json number --jq '.[0].number')"
+          else
+            gh pr edit "$pr_number" --title "$pr_title" --body-file "$body_file" 2>&1 | tee "$RUNNER_TEMP/pr.log"
+          fi
+
+          pr_url="$(gh pr view "$pr_number" --json url --jq '.url')"
+          echo "pr_number=$pr_number" >> "$GITHUB_OUTPUT"
+          echo "pr_url=$pr_url" >> "$GITHUB_OUTPUT"
+
+      - name: Build issue comment
+        if: always()
+        env:
+          OUTCOME_GENERATE: ${{ steps.generate.outcome }}
+          OUTCOME_VALIDATE: ${{ steps.validate.outcome }}
+          OUTCOME_PUSH: ${{ steps.push.outcome }}
+          OUTCOME_PR: ${{ steps.pr.outcome }}
+          OUT_RECORD_ID: ${{ steps.generate.outputs.record_id }}
+          OUT_FILE_PATH: ${{ steps.generate.outputs.file_path }}
+          OUT_PR_URL: ${{ steps.pr.outputs.pr_url }}
+        run: |
+          set -euo pipefail
+          comment_file="$RUNNER_TEMP/submission-comment.md"
+          marker='<!-- dilomatic-submission-bot -->'
+
+          if [ "$OUTCOME_PR" = "success" ]; then
+            {
+              printf '%s\n' "$marker"
+              printf 'Submission processed successfully.\n\n'
+              printf -- '- Record: `%s`\n' "$OUT_RECORD_ID"
+              printf -- '- File: `%s`\n' "$OUT_FILE_PATH"
+              printf -- '- Pull request: %s\n' "$OUT_PR_URL"
+            } > "$comment_file"
+          else
+            failed_step=""
+            log_file=""
+
+            if [ "$OUTCOME_GENERATE" != "success" ]; then
+              failed_step="generation"
+              log_file="$RUNNER_TEMP/generate.log"
+            elif [ "$OUTCOME_VALIDATE" != "success" ]; then
+              failed_step="validation"
+              log_file="$RUNNER_TEMP/validate.log"
+            elif [ "$OUTCOME_PUSH" != "success" ]; then
+              failed_step="git push"
+              log_file="$RUNNER_TEMP/push.log"
+            else
+              failed_step="pull request creation"
+              log_file="$RUNNER_TEMP/pr.log"
+            fi
+
+            {
+              printf '%s\n' "$marker"
+              printf 'Submission processing failed during **%s**.\n\n' "$failed_step"
+              printf 'Update this issue and the workflow will try again automatically.\n\n'
+              printf '<details>\n<summary>Failure details</summary>\n\n```text\n'
+              if [ -f "$log_file" ]; then
+                tail -n 80 "$log_file"
+              else
+                printf 'No log output captured.\n'
+              fi
+              printf '```\n</details>\n'
+            } > "$comment_file"
+          fi
+
+          echo "comment_file=$comment_file" >> "$GITHUB_OUTPUT"
+
+      - name: Upsert issue comment
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          comment_file="$RUNNER_TEMP/submission-comment.md"
+          body="$(cat "$comment_file")"
+          comment_id="$(gh api "repos/$REPOSITORY/issues/$ISSUE_NUMBER/comments" --paginate --jq '.[] | select(.user.login == "github-actions[bot]") | select(.body | contains("<!-- dilomatic-submission-bot -->")) | .id' | head -n 1 || true)"
+
+          if [ -n "$comment_id" ]; then
+            gh api --method PATCH "repos/$REPOSITORY/issues/comments/$comment_id" -f body="$body" >/dev/null
+          else
+            gh issue comment "$ISSUE_NUMBER" --body-file "$comment_file" >/dev/null
+          fi
+
+      - name: Fail job if automation failed
+        if: ${{ steps.generate.outcome != 'success' || steps.validate.outcome != 'success' || steps.push.outcome != 'success' || steps.pr.outcome != 'success' }}
+        run: exit 1

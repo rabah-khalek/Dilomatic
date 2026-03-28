@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "InlineCitation",
+  "title": "InlineCitation",
+  "description": "Defines the structure of an inline citation embedded in text fields. Raw form: {{cite|<ref_id>|<pages>|<quotations>}}. The integrity check parses each cite tag and validates the result against this schema.",
+  "type": "object",
+  "required": [
+    "ref_id",
+    "pages",
+    "quotations"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "ref_id": {
+      "type": "string",
+      "description": "Must match an id in the record's references array.",
+      "pattern": "^[a-z][a-z0-9_-]+$"
+    },
+    "pages": {
+      "type": "string",
+      "description": "Page or page range. Examples: 'p. 47', 'pp. 78-120'.",
+      "pattern": "^pp?\\. (\\d+|[ivxlcdm]+)(-(?:\\d+|[ivxlcdm]+))?$"
+    },
+    "quotations": {
+      "type": "array",
+      "description": "One or more verbatim quotations from the cited pages. Displayed as tooltip on the UI. In the raw cite tag, entries are separated by a semicolon between the closing page-ref parenthesis and the next opening quote: \"text\" (p. N);\"text\" (pp. N-M). Semicolons inside quotation text are allowed.",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/quotation_entry"
+      }
+    }
+  },
+  "definitions": {
+    "quotation_entry": {
+      "type": "object",
+      "description": "A single verbatim quotation with its own page reference. Raw form: \"<text>\" (<page>).",
+      "required": [
+        "text",
+        "page"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string",
+          "description": "Verbatim text from the source, without surrounding quotes.",
+          "minLength": 1
+        },
+        "page": {
+          "type": "string",
+          "description": "Page reference for this specific quotation. Examples: 'p. 85', 'pp. 102-103'.",
+          "pattern": "^pp?\\. (\\d+|[ivxlcdm]+)(-(?:\\d+|[ivxlcdm]+))?$"
+        }
+      }
+    }
+  }
+}

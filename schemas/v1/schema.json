@@ -1,0 +1,471 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "HistoricalStrategicEvent_v1",
+  "title": "HistoricalStrategicEvent",
+  "description": "Dilomatic event record schema v1. Encodes historical political dilemmas: the actors, the strategies they pursued, the outcomes, and scholarly assessment. Text fields use inline citations defined by schemas/inline_citation.json: {{cite|ref_id|pages|quotations}}. All three citation fields are required.",
+  "type": "object",
+  "required": [
+    "record_id",
+    "schema_version",
+    "added_at",
+    "edited_at",
+    "event",
+    "actors",
+    "strategies",
+    "outcomes",
+    "assessment",
+    "references"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "description": "Globally unique identifier. Lowercase hyphenated slug.",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "schema_version": {
+      "type": "string",
+      "description": "Schema version this record conforms to.",
+      "const": "v1"
+    },
+    "added_at": {
+      "type": "string",
+      "description": "Date this record was first added. Format: YYYY-MM-DD.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "edited_at": {
+      "type": "string",
+      "description": "Date this record was last edited. Format: YYYY-MM-DD.",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "contributors": {
+      "type": "array",
+      "description": "People who authored or reviewed this record.",
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "github": {
+            "type": "string",
+            "description": "GitHub username without the @ prefix."
+          },
+          "role": {
+            "type": "string",
+            "enum": [
+              "author",
+              "reviewer",
+              "editor"
+            ],
+            "description": "Contribution role for this record."
+          }
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "required": [
+        "title",
+        "time_period",
+        "geography",
+        "context",
+        "conflict_type",
+        "core_dilemma"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "description": "Short descriptive title of the event or dilemma."
+        },
+        "alternate_names": {
+          "type": "array",
+          "description": "Other names this event is known by.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "time_period": {
+          "type": "object",
+          "required": [
+            "start_year"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "start_year": {
+              "type": "integer"
+            },
+            "end_year": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          }
+        },
+        "geography": {
+          "type": "array",
+          "description": "Locations relevant to the event. Countries, regions, cities, or any geographic descriptor.",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "iso_country_code": {
+          "type": "string",
+          "description": "ISO 3166-1 alpha-2 country code for the badge flag. Optional override when the geography entries are ambiguous, historical, or multi-country. If omitted, the UI guesses from geography entries.",
+          "pattern": "^[A-Z]{2}$"
+        },
+        "context": {
+          "type": "string",
+          "description": "Scene-setting: who the actors are, why this dilemma arose, and what structural conditions shaped it. 2-5 paragraphs."
+        },
+        "triggering_event": {
+          "type": "string",
+          "description": "The specific proximate event that forced the strategic choice. Narrow and concrete \u2014 one event, one moment."
+        },
+        "conflict_type": {
+          "type": "array",
+          "description": "Tags describing the type of conflict or political context. Examples: counterinsurgency, counterterrorism, civil-war, interstate-war, hybrid-war, proxy-conflict, covert-action, economic-warfare, information-warfare, election-interference, ethnic-conflict, separatist-conflict, revolutionary-war, decolonization, state-repression, constitutional-crisis, diplomatic-negotiation, sanctions, trade-dispute, institutional-reform, succession-crisis, coalition-politics, peace-process, regime-transition.",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "core_dilemma": {
+          "type": "object",
+          "required": [
+            "summary",
+            "questions",
+            "category"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "summary": {
+              "type": "string",
+              "description": "One-sentence framing of the central strategic dilemma."
+            },
+            "questions": {
+              "type": "array",
+              "description": "Key questions the dilemma raises.",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              }
+            },
+            "category": {
+              "type": "array",
+              "description": "The dilemma expressed as a pair of opposing choices. Examples: [participate, boycott], [negotiate, resist], [escalate, restrain], [intervene, abstain], [separate, unify], [forgive, prosecute], [confront, comply], [reform, continue], [align, isolate].",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "actors": {
+      "type": "array",
+      "description": "All significant actors in the dilemma. No hierarchy imposed \u2014 ordering is presentational only.",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "name"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string",
+            "description": "The actor's position, motivations, and structural role in the dilemma."
+          },
+          "key_leaders": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "name",
+                "role"
+              ],
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "role": {
+                  "type": "string"
+                },
+                "significance": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "strategies": {
+      "type": "array",
+      "description": "Flat list of strategies pursued by any actor. Each entry self-describes who pursued it and whether it succeeded, failed, or had mixed results.",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/definitions/strategy_entry"
+      }
+    },
+    "outcomes": {
+      "type": "object",
+      "description": "What happened as a result of the dilemma and the strategies pursued.",
+      "required": [
+        "description"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Overall narrative of what happened and why."
+        },
+        "consequences": {
+          "type": "array",
+          "description": "Structured list of consequences. Each entry describes one consequence and its domain.",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "description"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "description": {
+                "type": "string"
+              },
+              "domain": {
+                "type": "string",
+                "description": "The sphere in which this consequence manifested. Examples: human, political, institutional, economic, military, intellectual, social, legal."
+              }
+            }
+          }
+        }
+      }
+    },
+    "assessment": {
+      "type": "object",
+      "description": "Editorial analysis, clearly separated from factual outcomes.",
+      "required": [
+        "verdict"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "verdict": {
+          "type": "string",
+          "description": "Bottom-line judgement: which strategy was superior, why, and with what caveats. This is the only editorial narrative field \u2014 it must synthesize AND judge."
+        },
+        "historiography": {
+          "type": "array",
+          "description": "Competing scholarly interpretations of the dilemma and its outcome.",
+          "items": {
+            "type": "object",
+            "required": [
+              "interpretation"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "interpretation": {
+                "type": "string",
+                "description": "The scholarly reading or framing, with inline citations."
+              },
+              "school": {
+                "type": "string",
+                "description": "The intellectual tradition or tendency (e.g. 'party-line', 'Western Marxist', 'liberal-institutionalist')."
+              }
+            }
+          }
+        }
+      }
+    },
+    "related_events": {
+      "type": "array",
+      "description": "References to other Dilomatic records that influenced or were influenced by this event.",
+      "items": {
+        "type": "object",
+        "required": [
+          "record_id",
+          "relationship"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "record_id": {
+            "type": "string",
+            "description": "The record_id of the related event.",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "relationship": {
+            "type": "string",
+            "description": "How this event relates to the referenced one. Examples: influenced-by, led-to, parallel, response-to, continuation-of."
+          }
+        }
+      }
+    },
+    "references": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "type",
+          "title"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9_-]+$"
+          },
+          "type": {
+            "type": "string",
+            "description": "Source type. Examples: book, academic-article, documentary, primary-source, government-report, memoir, journalism, website, speech, interview, archive, legal-document, treaty."
+          },
+          "author": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "year": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "publisher": {
+            "type": "string"
+          },
+          "isbn": {
+            "type": "string"
+          },
+          "doi": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          },
+          "author_ids": {
+            "type": "array",
+            "description": "Links to the id of the author(s) in the cited_authors array.",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "cited_authors": {
+      "type": "array",
+      "description": "Biographical introductions for authors cited in this record.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "bio"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Unique slug for the author, e.g., 'rashid-khalidi'"
+          },
+          "name": {
+            "type": "string"
+          },
+          "bio": {
+            "type": "string",
+            "description": "Short bibliographical/biographical intro."
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "strategy_entry": {
+      "type": "object",
+      "required": [
+        "strategy_name",
+        "actor",
+        "description",
+        "effectiveness"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "strategy_name": {
+          "type": "string"
+        },
+        "actor": {
+          "type": "string",
+          "description": "Who pursued this strategy. Should match an actor name from the actors array."
+        },
+        "description": {
+          "type": "string"
+        },
+        "mechanism": {
+          "type": "string",
+          "description": "How this strategy operated causally."
+        },
+        "evidence": {
+          "type": "string",
+          "description": "Documented evidence of results."
+        },
+        "effectiveness": {
+          "type": "string",
+          "enum": [
+            "effective",
+            "ineffective",
+            "mixed"
+          ],
+          "description": "Whether this strategy achieved its stated aims."
+        },
+        "explanation": {
+          "type": "string",
+          "description": "Why this strategy was effective, ineffective, or produced mixed results."
+        },
+        "period": {
+          "type": "object",
+          "description": "Time period during which this strategy was actively pursued.",
+          "required": [
+            "start_year"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "start_year": {
+              "type": "integer"
+            },
+            "end_year": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          }
+        },
+        "related_strategies": {
+          "type": "array",
+          "description": "Names of other strategies in this record that this one reinforced, contradicted, or responded to.",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

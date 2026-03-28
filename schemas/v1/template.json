@@ -1,0 +1,136 @@
+{
+  "record_id": "replace-with-lowercase-hyphenated-slug",
+  "schema_version": "v1",
+  "added_at": "2026-01-01",
+  "edited_at": "2026-01-01",
+  "contributors": [
+    {
+      "name": "Your Name",
+      "github": "your-github-username",
+      "role": "author"
+    }
+  ],
+  "event": {
+    "title": "Replace with event title",
+    "alternate_names": [
+      "Optional alternate name"
+    ],
+    "time_period": {
+      "start_year": 1900,
+      "end_year": 1901
+    },
+    "geography": [
+      "Replace with country or region"
+    ],
+    "iso_country_code": "IT",
+    "context": "2-5 paragraphs combining overview and structural background with inline citations such as {{cite|example2024|pp. 10-20|\"Verbatim quote from source\" (p. 15)}}. Who the actors are, why this dilemma arose, and what conditions shaped it.",
+    "triggering_event": "The specific proximate event that forced the strategic choice. Narrow and concrete.",
+    "conflict_type": [
+      "state-repression"
+    ],
+    "core_dilemma": {
+      "summary": "Frame the central strategic dilemma in one sentence.",
+      "questions": [
+        "Question one?",
+        "Question two?"
+      ],
+      "category": ["participate", "boycott"]
+    }
+  },
+  "actors": [
+    {
+      "name": "First actor",
+      "description": "Describe the actor's position, motivations, and structural role.",
+      "key_leaders": [
+        {
+          "name": "Leader name",
+          "role": "Leader role",
+          "significance": "This leader's distinctive individual contribution."
+        }
+      ]
+    },
+    {
+      "name": "Second actor",
+      "description": "Describe the actor.",
+      "key_leaders": []
+    }
+  ],
+  "strategies": [
+    {
+      "strategy_name": "Strategy that worked",
+      "actor": "First actor",
+      "description": "What was done?",
+      "mechanism": "How did it work causally?",
+      "evidence": "What evidence supports this?",
+      "effectiveness": "effective",
+      "explanation": "Why it succeeded.",
+      "period": {
+        "start_year": 1900,
+        "end_year": 1901
+      },
+      "related_strategies": [
+        "Strategy that failed"
+      ]
+    },
+    {
+      "strategy_name": "Strategy that failed",
+      "actor": "Second actor",
+      "description": "What was attempted?",
+      "mechanism": "How was it supposed to work?",
+      "evidence": "What evidence documents the outcome?",
+      "effectiveness": "ineffective",
+      "explanation": "Why it failed.",
+      "period": {
+        "start_year": 1900,
+        "end_year": 1901
+      },
+      "related_strategies": [
+        "Strategy that worked"
+      ]
+    }
+  ],
+  "outcomes": {
+    "description": "Overall narrative of what happened and why.",
+    "consequences": [
+      {
+        "description": "Describe a consequence with citations.",
+        "domain": "political"
+      }
+    ]
+  },
+  "assessment": {
+    "verdict": "Bottom-line judgement: which strategy was superior, why, and with what caveats.",
+    "historiography": [
+      {
+        "interpretation": "A scholarly reading with inline citations.",
+        "school": "Name the intellectual tradition."
+      }
+    ]
+  },
+  "related_events": [
+    {
+      "record_id": "replace-with-related-record-id",
+      "relationship": "influenced-by"
+    }
+  ],
+  "references": [
+    {
+      "id": "example2024",
+      "type": "book",
+      "author": "Surname, Name",
+      "author_ids": [
+        "surname-name"
+      ],
+      "title": "Replace with title",
+      "year": 2024,
+      "publisher": "Replace with publisher"
+    }
+  ],
+  "cited_authors": [
+    {
+      "id": "surname-name",
+      "name": "Surname, Name",
+      "bio": "Short bibliographical or biographical introduction for this cited author."
+    }
+  ]
+}

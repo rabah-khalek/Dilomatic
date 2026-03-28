@@ -1,0 +1,328 @@
+name: Event Submission
+description: Submit a new Dilomatic event record through a structured GitHub form.
+title: "[Submission] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to propose a **new event record** for Dilomatic.
+
+        The submission workflow will convert your answers into `data/<record_id>.json`, run validation, and open a pull request automatically if everything passes.
+
+        For complex nested fields, enter valid JSON arrays where requested. You can start from the latest template in `schemas/`.
+        When a source has identifiable authors, link `references[].author_ids` to matching top-level `cited_authors` entries and provide a short `bio` for each cited author.
+
+  - type: input
+    id: record_id
+    attributes:
+      label: Record ID
+      description: Lowercase hyphenated slug. This becomes the filename.
+      placeholder: legitimation-1923-italian-communism-under-fascism
+    validations:
+      required: true
+
+  - type: input
+    id: event_title
+    attributes:
+      label: Event Title
+      placeholder: Participate or Boycott?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternate_names
+    attributes:
+      label: Alternate Names
+      description: Optional. One alternate name per line.
+      placeholder: |
+        The Aventine Crisis and the PCd'I
+        The Aventine Secession and PCI Return
+    validations:
+      required: false
+
+  - type: input
+    id: start_year
+    attributes:
+      label: Start Year
+      placeholder: "1921"
+    validations:
+      required: true
+
+  - type: input
+    id: end_year
+    attributes:
+      label: End Year
+      description: Optional. Leave blank if open-ended or same-year.
+      placeholder: "1926"
+    validations:
+      required: false
+
+  - type: textarea
+    id: geography
+    attributes:
+      label: Geography
+      description: One geographic label per line (country, region, or scope).
+      placeholder: |
+        Kingdom of Italy
+        Western Europe
+    validations:
+      required: true
+
+  - type: input
+    id: iso_country_code
+    attributes:
+      label: ISO Country Code
+      description: Optional. Two-letter uppercase ISO 3166-1 alpha-2 code for the badge flag when geography is ambiguous, historical, or multi-country.
+      placeholder: IT
+    validations:
+      required: false
+
+  - type: textarea
+    id: conflict_types
+    attributes:
+      label: Conflict Types
+      description: One conflict type per line (e.g. civil-war, state-repression, election-interference). At least one required.
+      placeholder: |
+        state-repression
+        election-interference
+    validations:
+      required: true
+
+  - type: input
+    id: dilemma_category
+    attributes:
+      label: Dilemma Category
+      description: "Two opposing choices separated by a slash (e.g. participate / boycott, negotiate / resist)."
+      placeholder: participate / boycott
+    validations:
+      required: true
+
+  - type: textarea
+    id: dilemma_summary
+    attributes:
+      label: Dilemma Summary
+      description: One-sentence framing of the central dilemma.
+      placeholder: Should a revolutionary party participate in bourgeois parliamentary institutions to reach the masses, or does participation inevitably corrupt the party and legitimize the system it seeks to overthrow?
+    validations:
+      required: true
+
+  - type: textarea
+    id: dilemma_questions
+    attributes:
+      label: Dilemma Questions
+      description: One question per line.
+      placeholder: |
+        Does parliamentary participation give a revolutionary party a platform to agitate and organize, or does it breed reformism and compromise revolutionary discipline?
+        Under an authoritarian regime, does boycotting institutions deny the regime legitimacy, or does it surrender the last legal arena for opposition?
+    validations:
+      required: true
+
+  - type: textarea
+    id: event_context
+    attributes:
+      label: Event Context
+      description: "2-5 paragraphs combining overview and structural background: who the actors are, why this dilemma arose, and what conditions shaped it. Use inline citations."
+      placeholder: Include `{{cite|ref_id|pp. X-Y|"verbatim quote" (p. N)}}` inline where appropriate.
+    validations:
+      required: true
+
+  - type: textarea
+    id: triggering_event
+    attributes:
+      label: Triggering Event
+      description: Optional. The specific proximate event that forced the strategic choice. Narrow and concrete.
+    validations:
+      required: false
+
+  - type: textarea
+    id: actors_json
+    attributes:
+      label: Actors JSON
+      description: "Required JSON array. Each actor needs a name and description. Optional: key_leaders array."
+      render: json
+      placeholder: |
+        [
+          {
+            "name": "Antonio Gramsci (participationists)",
+            "description": "Background and position of this actor.",
+            "key_leaders": [
+              {
+                "name": "Antonio Gramsci",
+                "role": "General secretary from August 1924",
+                "significance": "His line prevailed at the Lyon Congress."
+              }
+            ]
+          },
+          {
+            "name": "Amadeo Bordiga (abstentionists)",
+            "description": "Background and position of this actor."
+          }
+        ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: strategies_json
+    attributes:
+      label: Strategies JSON
+      description: "Required JSON array of strategy entries. Each needs: strategy_name, actor, description, effectiveness (effective/ineffective/mixed). Optional: mechanism, evidence, explanation, period, related_strategies."
+      render: json
+      placeholder: |
+        [
+          {
+            "strategy_name": "Parliamentary Presence",
+            "actor": "Antonio Gramsci (participationists)",
+            "description": "What was done?",
+            "mechanism": "How did it work causally?",
+            "evidence": "What evidence supports the result?",
+            "effectiveness": "effective",
+            "explanation": "Why it succeeded.",
+            "period": {
+              "start_year": 1924,
+              "end_year": 1926
+            },
+            "related_strategies": ["Aventine Secession"]
+          },
+          {
+            "strategy_name": "Aventine Secession",
+            "actor": "Aventine Parties",
+            "description": "What was attempted?",
+            "mechanism": "How was it supposed to work?",
+            "evidence": "What evidence documents the outcome?",
+            "effectiveness": "ineffective",
+            "explanation": "Why it failed.",
+            "related_strategies": ["Parliamentary Presence"]
+          }
+        ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome_description
+    attributes:
+      label: Outcome Description
+      description: What happened as a direct result of the strategies described above.
+    validations:
+      required: true
+
+  - type: textarea
+    id: consequences_json
+    attributes:
+      label: Consequences JSON
+      description: "Optional JSON array. Each entry needs a description and a domain (human/political/intellectual/institutional/economic/military/social)."
+      render: json
+      placeholder: |
+        [
+          {
+            "description": "Describe the consequence with citations.",
+            "domain": "political"
+          }
+        ]
+    validations:
+      required: false
+
+  - type: textarea
+    id: assessment_verdict
+    attributes:
+      label: Assessment Verdict
+      description: "Bottom-line judgement: which strategy was superior, why, and with what caveats."
+    validations:
+      required: true
+
+  - type: textarea
+    id: historiography_json
+    attributes:
+      label: Historiography JSON
+      description: "Optional JSON array of competing scholarly interpretations."
+      render: json
+      placeholder: |
+        [
+          {
+            "interpretation": "A scholarly reading with inline citations.",
+            "school": "Name the intellectual tradition."
+          }
+        ]
+    validations:
+      required: false
+
+  - type: textarea
+    id: related_events_json
+    attributes:
+      label: Related Events JSON
+      description: "Optional JSON array for `related_events`. Use this to link other Dilomatic records by `record_id` and relationship."
+      render: json
+      placeholder: |
+        [
+          {
+            "record_id": "replace-with-related-record-id",
+            "relationship": "influenced-by"
+          }
+        ]
+    validations:
+      required: false
+
+  - type: textarea
+    id: references_json
+    attributes:
+      label: References JSON
+      description: Required JSON array for `references`. When a source has identifiable authors, add `author_ids` entries that point to matching `cited_authors` ids.
+      render: json
+      placeholder: |
+        [
+          {
+            "id": "example2024",
+            "type": "book",
+            "author": "Surname, Name",
+            "author_ids": ["surname-name"],
+            "title": "Book Title",
+            "year": 2024,
+            "publisher": "Publisher"
+          }
+        ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: cited_authors_json
+    attributes:
+      label: Cited Authors JSON
+      description: Required JSON array for `cited_authors`. Use `[]` if none. Each entry needs `id`, `name`, and `bio`.
+      render: json
+      placeholder: |
+        [
+          {
+            "id": "surname-name",
+            "name": "Surname, Name",
+            "bio": "Short bibliographical or biographical introduction for this cited author."
+          }
+        ]
+    validations:
+      required: true
+
+  - type: textarea
+    id: source_notes
+    attributes:
+      label: Source Notes
+      description: Optional reviewer notes about source quality, uncertainty, or things to verify closely.
+    validations:
+      required: false
+
+  - type: textarea
+    id: reviewer_notes
+    attributes:
+      label: Additional Reviewer Notes
+      description: Optional.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Submission Checklist
+      options:
+        - label: I have written this record from a Neutral Point of View (NPOV), avoiding editorializing or bias.
+          required: true
+        - label: I used real published sources and cited them inline using the strict format {{cite|ref_id|pages|quotations}} with verbatim quotation(s) from each source.
+          required: true
+        - label: I understand this form is for new event records and will open a pull request automatically if validation passes.
+          required: true
