@@ -2,10 +2,13 @@ EVENT_FILES := $(wildcard data/*.json)
 SCHEMA_FILES := $(wildcard schemas/*/schema.json schemas/*/template.json)
 SCRIPT_DIR := .github/scripts
 
-.PHONY: validate sync-edited-at validate-metadata validate-json validate-schema validate-integrity validate-security
+.PHONY: validate validate-prereqs sync-edited-at validate-metadata validate-json validate-schema validate-integrity validate-security
 
-validate: sync-edited-at
+validate: validate-prereqs sync-edited-at
 	@$(MAKE) validate-metadata validate-json validate-schema validate-integrity validate-security
+
+validate-prereqs: $(SCRIPT_DIR)/check-prereqs.sh
+	@./$(SCRIPT_DIR)/check-prereqs.sh
 
 sync-edited-at: $(SCRIPT_DIR)/sync-edited-at.sh
 	@./$(SCRIPT_DIR)/sync-edited-at.sh

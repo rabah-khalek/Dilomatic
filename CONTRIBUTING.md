@@ -29,6 +29,14 @@ By contributing data, you agree that event records are licensed under CC BY 4.0.
 
 ## Technical Reference
 
+### Local Validation Requirements
+
+- `make`
+- `git`
+- `python3`
+- `jq`
+- `check-jsonschema` (install with `python3 -m pip install -r .github/requirements-ci.txt`)
+
 ### Manual Pull Request
 
 1. Copy the latest template (e.g. [`schemas/v1/template.json`](schemas/v1/template.json)) to `data/<your-record-id>.json`.
