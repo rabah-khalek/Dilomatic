@@ -21,7 +21,6 @@ For **new records**:
 - [ ] Every inline citation includes verbatim quotation(s) from the source
 
 For **existing record updates**:
-- [ ] I updated `edited_at` to today's date
 - [ ] I validated with `make validate`
 - [ ] The edits maintain a Neutral Point of View (NPOV)
 - [ ] Every inline citation maps to a real entry in `references`

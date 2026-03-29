@@ -20,7 +20,7 @@ Both automatically generate a validated pull request.
 ## Updating An Existing Event
 
 1. Edit the matching file in `data/`.
-2. Update `edited_at`.
+2. Run `make validate`.
 3. Open a pull request summarizing the change and citing your sources for the correction.
 
 ## Licensing
