@@ -19,4 +19,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow.
 
 ## License
 
-- Dataset: [CC BY 4.0](LICENSE)
+Dataset original content is licensed under [CC BY 4.0](LICENSE), excluding third-party verbatim quotations.

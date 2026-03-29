@@ -1,6 +1,12 @@
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-This license applies to the dataset contained in `data/*.json`.
+This license applies to the original dataset content contained in `data/*.json`,
+including the selection, structure, analysis, citation apparatus, and editorial
+judgements in each record.
+
+This license does not apply to verbatim quotations from third-party sources
+embedded in the dataset. Those quotations remain subject to their own applicable
+copyright status and are not licensed under CC BY 4.0 by this repository.
 
 You are free to:
   Share - copy and redistribute the material in any medium or format
@@ -13,7 +19,6 @@ Under the following terms:
 
 Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
 
-Note: Historical facts are not copyrightable. The CC BY 4.0 license applies
-to the original selection, structure, analysis, citation apparatus, and
-editorial judgements in each record - not to the underlying historical facts
-themselves.
+Note: Historical facts are not copyrightable. The CC BY 4.0 license applies to
+the original dataset content described above - not to the underlying historical
+facts themselves, and not to excluded third-party quotations.
