@@ -57,6 +57,9 @@ jobs:
           CHECK_URL_REACHABILITY: warn
         run: ./.github/scripts/integrity-check.sh
 
+      - name: Validate inline quote citations
+        run: ./.github/scripts/validate-quotes.sh
+
       - name: Run security checks
         run: ./.github/scripts/security-check.sh
 
