@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "InlineCitation",
   "title": "InlineCitation",
-  "description": "Defines the structure of an inline citation embedded in text fields. Raw form: {{cite|<ref_id>|<pages>|<quotations>}}. The integrity check parses each cite tag and validates the result against this schema.",
+  "description": "Defines the structure of an inline citation embedded in text fields. Raw form: {{cite|<ref_id>|<pages>|<quotations>}}. Each quotation in the raw tag must end with its own page reference in parentheses, e.g. \"text\" (p. 47). The integrity check parses each cite tag and validates the result against this schema.",
   "type": "object",
   "required": [
     "ref_id",
