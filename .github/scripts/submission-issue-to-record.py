@@ -272,6 +272,10 @@ def main() -> int:
     if triggering_event is not None:
         record["event"]["triggering_event"] = triggering_event
 
+    timeline = parse_json_array(sections, "Timeline JSON")
+    if timeline:
+        record["event"]["timeline"] = timeline
+
     consequences = parse_json_array(sections, "Consequences JSON")
     if consequences:
         record["outcomes"]["consequences"] = consequences

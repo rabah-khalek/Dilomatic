@@ -135,6 +135,29 @@ body:
       required: false
 
   - type: textarea
+    id: timeline_json
+    attributes:
+      label: Timeline JSON
+      description: "Optional JSON array of dated events. Each entry needs `date` (YYYY, YYYY-MM, or YYYY-MM-DD) and `description`. Optional: `end_date` (same format) for multi-day/month events; `tag` (one of precondition, trigger, crisis, strategy, outcome, consequence). Descriptions support inline citations."
+      render: json
+      placeholder: |
+        [
+          {
+            "date": "1900-01-15",
+            "description": "Example precondition event with inline citation {{cite|example2024|p. 5|\"verbatim quote\" (p. 5)}}.",
+            "tag": "precondition"
+          },
+          {
+            "date": "1900-06",
+            "end_date": "1900-08",
+            "description": "Example multi-month crisis window.",
+            "tag": "crisis"
+          }
+        ]
+    validations:
+      required: false
+
+  - type: textarea
     id: actors_json
     attributes:
       label: Actors JSON
