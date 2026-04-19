@@ -323,6 +323,23 @@ body:
       required: true
 
   - type: textarea
+    id: defined_terms_json
+    attributes:
+      label: Defined Terms JSON
+      description: "Optional JSON array for `defined_terms`. Each entry needs `id`, `term`, and `definition`. Only include terms that genuinely need explanation and that appear verbatim somewhere in the record's prose."
+      render: json
+      placeholder: |
+        [
+          {
+            "id": "example-term",
+            "term": "Example Term",
+            "definition": "Short plain-language definition of the term, readable out of context."
+          }
+        ]
+    validations:
+      required: false
+
+  - type: textarea
     id: source_notes
     attributes:
       label: Source Notes

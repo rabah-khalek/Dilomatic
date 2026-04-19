@@ -288,6 +288,10 @@ def main() -> int:
     if related_events:
         record["related_events"] = related_events
 
+    defined_terms = parse_json_array(sections, "Defined Terms JSON")
+    if defined_terms:
+        record["defined_terms"] = defined_terms
+
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with output_path.open("w", encoding="utf-8") as handle:
         json.dump(record, handle, indent=2, ensure_ascii=False)

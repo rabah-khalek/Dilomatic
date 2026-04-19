@@ -19,6 +19,7 @@ For **new records**:
 - [ ] Every inline citation maps to a real entry in `references`
 - [ ] Every `references[].author_ids` entry maps to `cited_authors`, and every cited author includes a short `bio`
 - [ ] Every inline citation includes verbatim quotation(s) from the source
+- [ ] Every `defined_terms[].term` (if any) appears verbatim somewhere in the record's prose and genuinely needs definition
 
 For **existing record updates**:
 - [ ] I validated with `make validate`
@@ -26,6 +27,7 @@ For **existing record updates**:
 - [ ] Every inline citation maps to a real entry in `references`
 - [ ] Every `references[].author_ids` entry maps to `cited_authors`, and every cited author includes a short `bio`
 - [ ] Every inline citation includes verbatim quotation(s) from the source
+- [ ] Every `defined_terms[].term` (if any) appears verbatim somewhere in the record's prose and genuinely needs definition
 
 ## Sources And Verification Notes
 

@@ -7,7 +7,7 @@ Dilomatic accepts new event records, corrections, and metadata improvements.
 When contributing data, please adhere to the following principles:
 
 1. **Neutral Point of View (NPOV):** Political history is inherently complex and often biased. All contributions must be written from a neutral, objective standpoint. Avoid editorializing, moralizing, or using loaded language.
-2. **High-Quality Citations:** Claims must be backed by reliable sources (e.g., academic papers, historical texts, primary documents). Use the `references` array to cite your sources properly. When a source has identifiable authors, link it with `references[].author_ids` and add a matching `cited_authors` entry with a short `bio`.
+2. **High-Quality Citations:** Claims must be backed by reliable sources (e.g., academic papers, historical texts, primary documents). Use the `references` array to cite your sources properly. When a source has identifiable authors, link it with `references[].author_ids` and add a matching `cited_authors` entry with a short `bio`. Reserve `defined_terms` for concepts that genuinely need explanation and appear verbatim in the record's prose; do not pollute it with terms already clarified in context.
 3. **Documenting Disputed Outcomes:** Historians often disagree on *why* a strategy worked or failed. Instead of forcing a single "truth," use the `historiography` section to document both sides of a historical debate.
 
 ## Adding A New Event
