@@ -129,6 +129,46 @@
           "type": "string",
           "description": "The specific proximate event that forced the strategic choice. Narrow and concrete \u2014 one event, one moment."
         },
+        "timeline": {
+          "type": "array",
+          "description": "Chronological entries marking the datable events of the dilemma \u2014 preconditions, the crisis itself, and downstream consequences. Each description supports inline citations using the {{cite|ref|pages|quotations}} syntax.",
+          "items": {
+            "type": "object",
+            "required": [
+              "date",
+              "description"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "date": {
+                "type": "string",
+                "description": "Date of the event. Format: YYYY, YYYY-MM, or YYYY-MM-DD. Use the most precise form available.",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              },
+              "end_date": {
+                "type": "string",
+                "description": "End date for multi-day or multi-month events. Same format as date. Omit for single-point events.",
+                "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+              },
+              "description": {
+                "type": "string",
+                "description": "What happened. Supports inline citations."
+              },
+              "tag": {
+                "type": "string",
+                "enum": [
+                  "precondition",
+                  "trigger",
+                  "crisis",
+                  "strategy",
+                  "outcome",
+                  "consequence"
+                ],
+                "description": "Category bucket for rendering and filtering. precondition = background events predating the crisis; trigger = the proximate event that forced the choice; crisis = the decision window itself; strategy = notable actions taken by actors during the crisis; outcome = the direct result; consequence = downstream effects."
+              }
+            }
+          }
+        },
         "conflict_type": {
           "type": "array",
           "description": "Tags describing the type of conflict or political context. Examples: counterinsurgency, counterterrorism, civil-war, interstate-war, hybrid-war, proxy-conflict, covert-action, economic-warfare, information-warfare, election-interference, ethnic-conflict, separatist-conflict, revolutionary-war, decolonization, state-repression, constitutional-crisis, diplomatic-negotiation, sanctions, trade-dispute, institutional-reform, succession-crisis, coalition-politics, peace-process, regime-transition.",

@@ -25,6 +25,24 @@
     "iso_country_code": "IT",
     "context": "2-5 paragraphs combining overview and structural background with inline citations such as {{cite|example2024|pp. 10-20|\"Verbatim quote from source\" (p. 15)}}. Who the actors are, why this dilemma arose, and what conditions shaped it.",
     "triggering_event": "The specific proximate event that forced the strategic choice. Narrow and concrete.",
+    "timeline": [
+      {
+        "date": "1900-01-15",
+        "description": "Example precondition event with inline citation {{cite|example2024|p. 5|\"verbatim quote\" (p. 5)}}.",
+        "tag": "precondition"
+      },
+      {
+        "date": "1900-06",
+        "end_date": "1900-08",
+        "description": "Example of a multi-month crisis window; use end_date for ranges.",
+        "tag": "crisis"
+      },
+      {
+        "date": "1900-09-01",
+        "description": "Example outcome event.",
+        "tag": "outcome"
+      }
+    ],
     "conflict_type": [
       "state-repression"
     ],
