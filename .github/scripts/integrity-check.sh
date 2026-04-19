@@ -314,6 +314,46 @@ for file_path in DATA_FILES:
     for unused_ref_id in unused_ref_ids:
         errors.append(f"{file_path}::$.references: reference id {unused_ref_id!r} is never cited")
 
+    defined_terms = payload.get("defined_terms") or []
+    term_ids_seen: set[str] = set()
+    term_surfaces_seen: set[str] = set()
+    for idx, entry in enumerate(defined_terms):
+        if not isinstance(entry, dict):
+            continue
+        term_id = entry.get("id")
+        term_surface = entry.get("term")
+        if isinstance(term_id, str):
+            if term_id in term_ids_seen:
+                errors.append(f"{file_path}::$.defined_terms[{idx}].id: duplicate term id {term_id!r}")
+            term_ids_seen.add(term_id)
+        if isinstance(term_surface, str):
+            if term_surface in term_surfaces_seen:
+                errors.append(f"{file_path}::$.defined_terms[{idx}].term: duplicate term surface {term_surface!r}")
+            term_surfaces_seen.add(term_surface)
+
+    if defined_terms:
+        search_corpus_parts: list[str] = []
+        for path_parts, value in iter_strings(payload):
+            if path_parts and path_parts[0] == "defined_terms":
+                continue
+            search_corpus_parts.append(value)
+        search_corpus = "\n".join(search_corpus_parts)
+        for idx, entry in enumerate(defined_terms):
+            if not isinstance(entry, dict):
+                continue
+            term_surface = entry.get("term")
+            if not isinstance(term_surface, str) or not term_surface:
+                continue
+            boundary_pattern = (
+                r"(?<![A-Za-z0-9\-])"
+                + re.escape(term_surface)
+                + r"(?![A-Za-z0-9\-])"
+            )
+            if not re.search(boundary_pattern, search_corpus):
+                errors.append(
+                    f"{file_path}::$.defined_terms[{idx}]: term {term_surface!r} does not appear verbatim in any prose field"
+                )
+
     if URL_MODE != "off":
         for index, ref in enumerate(references):
             if not isinstance(ref, dict):
