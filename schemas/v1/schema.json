@@ -281,10 +281,15 @@
           "items": {
             "type": "object",
             "required": [
+              "title",
               "description"
             ],
             "additionalProperties": false,
             "properties": {
+              "title": {
+                "type": "string",
+                "description": "Short descriptive title for this consequence, analogous to strategies[].strategy_name."
+              },
               "description": {
                 "type": "string"
               },
@@ -432,6 +437,34 @@
           "bio": {
             "type": "string",
             "description": "Short bibliographical/biographical intro."
+          }
+        }
+      }
+    },
+    "defined_terms": {
+      "type": "array",
+      "description": "Glossary of proper nouns, operations, slogans, or technical labels that are vital to the record but not defined in the prose itself. Any exact-case occurrence of a term in text fields is auto-linked to its definition in the UI (tooltip/anchor). No inline tag is needed; do not list a term that the prose already explains.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "term",
+          "definition"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$",
+            "description": "Unique slug for the term, e.g., 'bay-of-pigs'."
+          },
+          "term": {
+            "type": "string",
+            "description": "Surface form to match in prose, case-sensitive and whole-word. Use the canonical spelling as it appears in the text."
+          },
+          "definition": {
+            "type": "string",
+            "description": "One-to-three sentence explanation. May contain inline citations."
           }
         }
       }

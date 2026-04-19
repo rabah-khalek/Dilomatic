@@ -111,13 +111,14 @@
     "description": "Overall narrative of what happened and why.",
     "consequences": [
       {
+        "title": "Short consequence title",
         "description": "Describe a consequence with citations.",
         "domain": "political"
       }
     ]
   },
   "assessment": {
-    "verdict": "Bottom-line judgement: which strategy was superior, why, and with what caveats.",
+    "verdict": "**Opening summary.** Bottom-line judgement: which strategy was superior, why, and with what caveats.\n\n**Second paragraph summary.** Each paragraph begins with a bold summary header, like the event.context field.",
     "historiography": [
       {
         "interpretation": "A scholarly reading with inline citations.",
@@ -149,6 +150,13 @@
       "id": "surname-name",
       "name": "Surname, Name",
       "bio": "Short bibliographical or biographical introduction for this cited author."
+    }
+  ],
+  "defined_terms": [
+    {
+      "id": "example-term",
+      "term": "Example Term",
+      "definition": "One-to-three sentence definition of a proper noun, operation, slogan, or technical label vital to the record but not explained in the prose. The UI auto-links every exact-case occurrence of the term in text fields to this definition."
     }
   ]
 }
