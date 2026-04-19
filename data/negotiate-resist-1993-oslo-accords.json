@@ -32,67 +32,67 @@
     "timeline": [
       {
         "date": "1987-12",
-        "description": "First Palestinian Intifada erupts in Gaza and the West Bank; the mostly nonviolent uprising damages Israel's international standing more than decades of PLO armed struggle had {{cite|khalidi2020|p. 249|\"The Intifada caused us a lot more political harm, damage to our image, than everything that the PLO had succeeded in doing throughout its existence\" (p. 249)}} and brings the Israeli security establishment to the realization that the occupation {{quote|needed modification}} {{cite|khalidi2020|p. 278|\"The intifada had brought Rabin and the Israeli security establishment to the realization that the occupation - with Israeli troops policing densely populated Palestinian centers simmering with anger - needed modification\" (p. 278)}}.",
+        "description": "First Palestinian Intifada erupts in Gaza and the West Bank; the mostly nonviolent uprising damages Israel's international standing more than decades of PLO armed struggle.",
         "tag": "trigger"
       },
       {
         "date": "1988-11",
-        "description": "Palestine National Council adopts the Palestinian Declaration of Independence, which {{quote|formally abandoned the PLO's claim to the entirety of Palestine, accepting the principles of partition, a two-state solution, and a peaceful resolution to the conflict}} {{cite|khalidi2020|p. 246|\"Drafted largely by Mahmoud Darwish, who was aided by Edward Said and the respected intellectual Shafiq al-Hout, the document formally abandoned the PLO's claim to the entirety of Palestine, accepting the principles of partition, a two-state solution, and a peaceful resolution to the conflict\" (p. 246)}}.",
+        "description": "Palestine National Council adopts the Palestinian Declaration of Independence, abandoning the PLO's claim to the entirety of Palestine and accepting partition, a two-state solution, and a peaceful resolution.",
         "tag": "precondition"
       },
       {
         "date": "1988-12-14",
-        "description": "Arafat explicitly accepts Resolutions 242 and 338, recognizes Israel's right to exist, and renounces terrorism; Khalidi calls this {{quote|capitulation to American conditions}} that secured the opening with Washington but produced no breakthrough for three more years {{cite|khalidi2020|p. 247|\"This capitulation to American conditions finally obtained for the PLO the long-sought opening with Washington, but it neither moved the Israelis to agree to deal with the organization nor led to peace negotiations, at least not for three more years\" (p. 247)}}.",
+        "description": "Arafat explicitly accepts UN Resolutions 242 and 338, recognizes Israel's right to exist, and renounces terrorism; the US opens direct dialogue with the PLO, but Israel continues to refuse to deal with the organization.",
         "tag": "precondition"
       },
       {
         "date": "1990-08",
-        "description": "Iraq invades Kuwait; the PLO's {{quote|disastrous alignment with Saddam Hussein}} devastates its standing {{cite|khalidi2006|p. 146|\"A blunder of a different sort was the PLO's disastrous alignment with Saddam Hussein after Iraq's invasion of Kuwait in 1990\" (p. 146)}} and by war's end leaves it {{quote|more friendless and alone than perhaps at any stage in its history}} {{cite|khalidi2020|p. 259|\"after the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history. The icebergs on which 'Arafat and his comrades were afloat were melting fast, and they were desperately eager to jump to solid ground\" (p. 259)}}.",
+        "description": "Iraq invades Kuwait; the PLO aligns with Saddam Hussein, devastating its diplomatic and financial standing and leaving it more isolated than at any point in its history.",
         "tag": "precondition"
       },
       {
         "date": "1991-10",
-        "description": "Madrid Peace Conference convened under US and Soviet sponsorship: {{quote|Every item of essence, including Palestinian self-determination, sovereignty, the return of refugees, an end to occupation and colonization, the disposition of Jerusalem, the future of the Jewish settlements, and control of land and water rights, was disallowed}} {{cite|khalidi2020|pp. 262-265|\"Every item of essence, including Palestinian self-determination, sovereignty, the return of refugees, an end to occupation and colonization, the disposition of Jerusalem, the future of the Jewish settlements, and control of land and water rights, was disallowed. Instead, these issues were postponed, supposedly for four years, but in fact until a future that never came\" (pp. 262-265)}}.",
+        "description": "Madrid Peace Conference convenes under US and Soviet sponsorship; Palestinian self-determination, sovereignty, refugees, occupation, Jerusalem, settlements, and land and water rights are all disallowed as topics.",
         "tag": "precondition"
       },
       {
         "date": "1992-01",
-        "description": "Palestinian delegation in Washington tables the PISGA proposal for broad interim jurisdiction over land and people; both the Shamir and Rabin governments reject it, exposing the proposal as a {{quote|vain attempt to do an end run around the limitations that constrained the negotiations}} {{cite|khalidi2020|pp. 270-271|\"Although the PISGA proposal constituted a genuine effort to envisage a transition from occupation to independence, it was ultimately a vain attempt to do an end run around the limitations that constrained the negotiations and the restricted forms of self-rule that Israel was prepared to countenance\" (pp. 270-271)}}.",
+        "description": "Palestinian delegation in Washington tables the PISGA proposal for broad interim jurisdiction over land and people; both the Shamir and Rabin governments reject it.",
         "tag": "strategy"
       },
       {
         "date": "1992-06",
-        "description": "Rabin's Labor-led coalition takes power in Israel, signalling a shift from Shamir's rejectionism; but Rabin's assessment, per Shlaim, is that the PLO is {{quote|on the ropes}} and therefore likely {{quote|to drop some of its sacred principles to secure Israeli recognition}} {{cite|shlaim2000|p. 534|\"In his estimate the PLO was 'on the ropes,' and it was therefore highly probable that the PLO would drop some of its sacred principles to secure Israeli recognition\" (p. 534)}}.",
+        "description": "Rabin's Labor-led coalition takes power in Israel; Rabin judges the PLO to be on the ropes and likely to drop core principles for recognition.",
         "tag": "precondition"
       },
       {
         "date": "1992-08",
-        "description": "James Baker leaves the State Department. US negotiator Aaron David Miller later calls the stance of his cohort that of {{quote|Israel's lawyer}} {{cite|khalidi2020|p. 268|\"American negotiator Aaron David Miller later regretfully used the term 'Israel's lawyer' to describe his stance and that of many of his colleagues\" (p. 268)}}.",
+        "description": "James Baker leaves the State Department.",
         "tag": "precondition"
       },
       {
         "date": "1993-01",
-        "description": "Secret Oslo back channel begins with Norwegian facilitation; {{quote|fourteen sessions of talks were held over an eight-month period, all behind a thick veil of secrecy}} {{cite|shlaim2000|p. 531|\"Secret talks in Oslo got under way in late January 1993 with the active encouragement of Beilin, who kept Peres fully informed. Altogether, fourteen sessions of talks were held over an eight-month period, all behind a thick veil of secrecy\" (p. 531)}}, bypassing the Washington delegation whose legal and linguistic expertise the Oslo negotiators lacked {{cite|khalidi2020|pp. 274-275|\"the personnel the PLO sent to Oslo were not strong on details. Indeed, they did not have the linguistic or legal or other expertise necessary to comprehend exactly what the Israelis were doing\" (pp. 274-275)}}.",
+        "description": "Secret Oslo back channel begins with Norwegian facilitation; fourteen sessions over an eight-month period bypass the Washington delegation, whose legal and linguistic expertise the Oslo negotiators lack.",
         "tag": "strategy"
       },
       {
         "date": "1993-08",
-        "description": "Peres finalizes the Declaration of Principles in direct talks with Ahmad Qurei (Abu Ala), who reports back to Arafat and Mahmoud Abbas (Abu Mazen) in Tunis {{cite|shlaim2000|p. 532|\"Abu Ala reported directly to Arafat and to Arafat's deputy, Mahmoud Abbas (Abu Mazen), an indirect line of communication had been established between Jerusalem and the PLO headquarters in Tunis\" (p. 532)}}.",
+        "description": "Peres finalizes the Declaration of Principles in direct talks with Ahmad Qurei (Abu Ala), who reports back to Arafat and Mahmoud Abbas (Abu Mazen) in Tunis.",
         "tag": "crisis"
       },
       {
         "date": "1993-09-13",
-        "description": "Declaration of Principles signed on the White House lawn; Arafat-Rabin mutual recognition letters exchanged. Shlaim notes the DoP was {{quote|essentially an agenda for negotiations}} {{cite|shlaim2000|pp. 535-536|\"The Declaration of Principles on Interim Self-Government Arrangements was essentially an agenda for negotiations, governed by a tight timetable, rather than a full-blown agreement\" (pp. 535-536)}} that was {{quote|completely silent on such vital issues as the right of return of the 1948 refugees, the borders of the Palestinian entity, the future of the Jewish settlements on the West Bank and Gaza, and the status of Jerusalem}} {{cite|shlaim2000|p. 536|\"The declaration was completely silent on such vital issues as the right of return of the 1948 refugees, the borders of the Palestinian entity, the future of the Jewish settlements on the West Bank and Gaza, and the status of Jerusalem\" (p. 536)}}.",
+        "description": "Declaration of Principles signed on the White House lawn; Arafat-Rabin mutual recognition letters exchanged. The text is silent on refugees, borders, settlements, and Jerusalem.",
         "tag": "outcome"
       },
       {
         "date": "1994-07",
-        "description": "Arafat returns from exile to Gaza as head of the newly created Palestinian Authority; Khalidi records receiving the same {{quote|brush-off}} from Arafat and Abu Mazen when raising concerns about deteriorating conditions in Jerusalem {{cite|khalidi2020|p. 280|\"I received precisely the same brush-off later that day when I expressed similar concerns to Abu Mazin, also newly arrived in Gaza\" (p. 280)}}.",
+        "description": "Arafat returns from exile to Gaza as head of the newly created Palestinian Authority.",
         "tag": "consequence"
       },
       {
         "date": "1995-09",
-        "description": "Oslo II (Interim Agreement) signed, carving the West Bank into Areas A, B, and C. Roy summarises that the Oslo process was {{quote|doing the exact opposite: deepening Israel's control of the territories through a variety of policies, including territorial fragmentation and the large-scale expropriation of Arab land and other resources}} {{cite|roy2016|p. 21|\"the Oslo peace process was doing the exact opposite: deepening Israel's control of the territories through a variety of policies, including territorial fragmentation and the large-scale expropriation of Arab land and other resources, intended to ensure Israel's continued presence and preclude the establishment of a Palestinian state\" (p. 21)}}.",
+        "description": "Oslo II (Interim Agreement) signed, carving the West Bank into Areas A, B, and C.",
         "tag": "consequence"
       },
       {
@@ -107,22 +107,22 @@
       },
       {
         "date": "2000-09",
-        "description": "Second Intifada erupts; the Oslo peace process effectively collapses. Khalidi's retrospective verdict on the original transaction is that it was {{quote|a resounding, historic mistake, one with grave consequences for the Palestinian people}} {{cite|khalidi2020|p. 273|\"This was a peculiar transaction, whereby a national liberation movement had obtained nominal recognition from its oppressors, without achieving liberation, by trading its own recognition of the state that had colonized its homeland and continued to occupy it. This was a resounding, historic mistake, one with grave consequences for the Palestinian people\" (p. 273)}}.",
+        "description": "Second Intifada erupts; the Oslo peace process effectively collapses.",
         "tag": "consequence"
       },
       {
         "date": "2002-09",
-        "description": "Israeli army besieges Arafat's Ramallah headquarters and reoccupies PA-controlled territory; Khalidi writes that {{quote|the PLO had entered the lion's mouth, and it did not take long for the jaws to snap shut}} {{cite|khalidi2020|pp. 281-282|\"the PLO had entered the lion's mouth, and it did not take long for the jaws to snap shut. In September 2002, the Israeli army imposed a siege on the Muqata'a, 'Arafat's Ramallah HQ, making him a virtual prisoner for the next two years until shortly before he died\" (pp. 281-282)}}.",
+        "description": "Israeli army besieges Arafat's Ramallah headquarters and reoccupies PA-controlled territory.",
         "tag": "consequence"
       },
       {
         "date": "2004-11",
-        "description": "Yasser Arafat dies; Mahmoud Abbas succeeds him as PA president in 2005. The Oslo period is {{quote|adjudged in retrospect to have been disastrous by most Palestinians}} and becomes fully identified with Arafat and Fatah {{cite|khalidi2006|p. 149|\"The Oslo period (1991-2000), adjudged in retrospect to have been disastrous by most Palestinians, was fully identified with 'Arafat\" (p. 149)}}.",
+        "description": "Yasser Arafat dies; Mahmoud Abbas succeeds him as PA president in 2005.",
         "tag": "consequence"
       },
       {
         "date": "2006-01",
-        "description": "Hamas wins the Palestinian legislative elections, what Khalidi calls a {{quote|resounding repudiation}} of Fatah's Oslo-era record {{cite|khalidi2006|p. 152|\"The defeat of Fateh in the 2006 elections was a resounding repudiation of what the Palestinian public in the occupied West Bank and Gaza Strip perceived to be these and other failures on its part\" (p. 152)}}.",
+        "description": "Hamas wins the Palestinian legislative elections.",
         "tag": "consequence"
       }
     ],

@@ -31,32 +31,32 @@
     "timeline": [
       {
         "date": "1919-05",
-        "description": "Gramsci, Togliatti, Tasca, and Terracini launch L'Ordine Nuovo in Turin, theorizing factory councils as the embryo of a new workers' state {{cite|cammett1967|p. 70|\"Tasca, Togliatti, Terracini, and Gramsci reassembled the old student group of the FGS, intending to found a collectively managed journal of Marxist theory and culture... by the end of April 1919, plans had been made for launching a weekly newspaper, L'Ordine nuovo, and its first issue appeared on May 1, 1919\" (p. 70)}}.",
+        "description": "Gramsci, Togliatti, Tasca, and Terracini launch L'Ordine Nuovo in Turin, theorizing factory councils as the embryo of a new workers' state.",
         "tag": "precondition"
       },
       {
         "date": "1919",
-        "description": "Bordiga founds the Communist Abstentionist Faction within the PSI, insisting parliamentary engagement inevitably breeds reformism and calling for the immediate expulsion of the reformists {{cite|cammett1967|pp. 68-69|\"the Party must abstain from elections, which it regarded as diversions from the fundamental task of preparing the revolution\" (p. 68);\"demanded the immediate expulsion of the reformists\" (p. 69)}}.",
+        "description": "Bordiga founds the Communist Abstentionist Faction within the PSI, holding that parliamentary engagement inevitably breeds reformism and calling for the immediate expulsion of the reformists.",
         "tag": "precondition"
       },
       {
         "date": "1920",
-        "description": "Lenin's 'Left-Wing Communism: An Infantile Disorder' directly targets Bordiga's abstentionism: parliament is {{quote|an arena of the class struggle}} and boycott is {{quote|merely a cheap way of avoiding the difficult problem of combating bourgeois-democratic influences inside the working-class movement}} {{cite|cammett1967|pp. 105-106|\"for the moment, Parliament was 'an arena of the class struggle'\" (p. 105);\"Lenin was greatly disturbed by the extremist elements in Bordiga's position. Bordiga feared that participation in parliament would corrupt the Communist deputies with 'social-democratic' values. Even before the Second Congress, Lenin had warned Bordiga that abstentionism was merely a cheap way of avoiding 'the difficult problem of combating bourgeois-democratic influences inside the working-class movement.'\" (pp. 105-106)}}.",
+        "description": "Lenin's Left-Wing Communism: An Infantile Disorder directly targets Bordiga's abstentionism, arguing that parliament is an arena of class struggle and boycott merely avoids the task of combating bourgeois-democratic influences inside the working-class movement.",
         "tag": "precondition"
       },
       {
         "date": "1921-01",
-        "description": "Livorno split: the Communist faction breaks from the PSI and founds the PCd'I, bringing Bordiga's abstentionists and Gramsci's Ordine Nuovo group into the same party {{cite|cammett1967|p. 143|\"Bordiga's abstentionists, including Bruno Fortichiari, Luigi Repossi, and Luigi Polano; Gramsci's Ordine Nuovo group, including Terracini and Togliatti\" (p. 143)}}.",
+        "description": "Livorno split: the Communist faction breaks from the PSI and founds the PCd'I, bringing Bordiga's abstentionists and Gramsci's Ordine Nuovo group into the same party.",
         "tag": "precondition"
       },
       {
         "date": "1922-03",
-        "description": "Rome Congress of the PCd'I adopts Bordiga's Rome Theses by 31,089 to 4,151, the high point of his factional dominance {{cite|cammett1967|p. 161|\"[the Rome Theses] were accepted at Rome by a vote of 31,089 to 4,151\" (p. 161)}}.",
+        "description": "Rome Congress of the PCd'I adopts Bordiga's Rome Theses by 31,089 to 4,151, the high point of his factional dominance.",
         "tag": "precondition"
       },
       {
         "date": "1922-10",
-        "description": "March on Rome: Mussolini takes power in what Lyttelton calls {{quote|a colossal bluff}}; the King, lacking confidence in his advisers, gives way {{cite|lyttelton2004|pp. 70-77|\"In reality, the March on Rome, in the strict sense, was a colossal bluff. The city was defended by 12,000 men of the regular army, under the loyal General Pugliese, who would have been able to disperse the Fascist bands without difficulty.\" (p. 71);\"All authority depends on confidence; and the King, rational to a fault and with a low opinion of man in general, had none. He gave way, one can suggest, because to him the evidence of his solitude had become overwhelming\" (p. 77)}}.",
+        "description": "March on Rome: Mussolini takes power after the King gives way.",
         "tag": "precondition"
       },
       {
@@ -66,32 +66,32 @@
       },
       {
         "date": "1923-02-03",
-        "description": "Bordiga and Ruggero Grieco, {{quote|the main PCI opposition to the line of the Third International}}, are arrested; Bordiga is held until October {{cite|cammett1967|p. 166|\"On February 3, 1923, Bordiga and Grieco, the main PCI opposition to the line of the Third International, were arrested.\" (p. 166)}}.",
+        "description": "Bordiga and Ruggero Grieco, the main PCI opposition to the Comintern line, are arrested; Bordiga is held until October.",
         "tag": "precondition"
       },
       {
         "date": "1923",
-        "description": "Acerbo Law restructures the electoral system to award two-thirds of seats to any coalition winning at least 25% of the vote; Lyttelton notes its real significance lay not in the technical premium but in the {{quote|moral effect}} of discouraging all shades of opposition {{cite|lyttelton2004|p. 103|\"The true importance of the Acerbo scheme [...] was not so much in the technical provisions of the premium, but in its moral effect. It discouraged all shades of opposition, and more especially attempts by the allies of Fascism to assert their independence\" (p. 103)}}.",
+        "description": "Acerbo Law restructures the electoral system to award two-thirds of seats to any coalition winning at least 25% of the vote.",
         "tag": "precondition"
       },
       {
         "date": "1923-10",
-        "description": "Bordiga released after eight months in prison; he finds the party apparatus reorganized under Comintern guidance during his absence {{cite|cammett1967|p. 166|\"On February 3, 1923, Bordiga and Grieco, the main PCI opposition to the line of the Third International, were arrested.\" (p. 166)}}.",
+        "description": "Bordiga released after eight months in prison; he finds the party apparatus reorganized under Comintern guidance during his absence.",
         "tag": "precondition"
       },
       {
         "date": "1923-11",
-        "description": "Gramsci leaves Moscow for Vienna and begins directing PCd'I reorganization from exile, after Leonetti writes that {{quote|you alone are the person who can and must assume the initiative to save the Party from a schism with the International on the one hand, and from falling into chaos and the most degrading inertia on the other hand}} {{cite|cammett1967|p. 167|\"[Leonetti] confided to Gramsci [...] that 'you alone are the person who can and must assume the initiative to save the Party from a schism with the International on the one hand, and from falling into chaos and the most degrading inertia on the other hand'\" (p. 167)}}.",
+        "description": "Gramsci leaves Moscow for Vienna and begins directing PCd'I reorganization from exile.",
         "tag": "precondition"
       },
       {
         "date": "1924-04",
-        "description": "April elections are marred by widespread fascist violence and intimidation under the Acerbo framework, which Lyttelton identifies as designed to discourage {{quote|all shades of opposition}} {{cite|lyttelton2004|p. 103|\"The true importance of the Acerbo scheme [...] was not so much in the technical provisions of the premium, but in its moral effect. It discouraged all shades of opposition, and more especially attempts by the allies of Fascism to assert their independence\" (p. 103)}}; Gramsci is elected to parliament in absentia.",
+        "description": "April elections are marred by widespread fascist violence and intimidation under the Acerbo framework; Gramsci is elected to parliament in absentia.",
         "tag": "precondition"
       },
       {
         "date": "1924-05",
-        "description": "Gramsci returns to Italy to consolidate control of the PCd'I; he later moves the party back to direct parliamentary confrontation once it is clear the liberal and Socialist Aventine parties intend to limit themselves to a {{quote|moral protest}} {{cite|cammett1967|p. 169|\"[Gramsci] even participated in the Aventine opposition that followed the assassination of Matteotti in June 1924, until it was clear to him that the liberal and Socialist parties intended to limit their opposition to a 'moral protest.' Gramsci then returned the Party to the regular Parliament, where, directly confronting the Fascists, he hoped to win the national audience that only a national legislative body could provide.\" (p. 169)}}.",
+        "description": "Gramsci returns to Italy to consolidate control of the PCd'I.",
         "tag": "precondition"
       },
       {
@@ -101,34 +101,34 @@
       },
       {
         "date": "1924-06-10",
-        "description": "Fascist operatives abduct and murder Matteotti; Lyttelton concludes it is {{quote|unquestionable that the attack on Matteotti was ordered either by Mussolini himself or by the two leading members of his entourage, Cesare Rossi and Marinelli}} {{cite|lyttelton2004|p. 198|\"it seems unquestionable that the attack on Matteotti was ordered either by Mussolini himself or by the two leading members of his entourage, Cesare Rossi and Marinelli, on their own responsibility\" (p. 198)}}.",
+        "description": "Fascist operatives abduct and murder Matteotti.",
         "tag": "trigger"
       },
       {
         "date": "1924-06",
         "end_date": "1924-12",
-        "description": "Aventine Secession: non-communist opposition withdraws from parliament appealing to the King to dismiss Mussolini; Lyttelton judges the premise that {{quote|a dignified but essentially passive protest would bring about the fall of Fascism}} to have been {{quote|a dangerous illusion}} {{cite|lyttelton2004|p. 200|\"The idea that a dignified but essentially passive protest would bring about the fall of Fascism was a dangerous illusion\" (p. 200)}}. The PCd'I initially joins, then returns to the chamber, the only opposition deputies remaining on the record {{cite|lyttelton2004|p. 221|\"The Aventine deputies were declared to have forfeited their mandate, together with the Communists, in spite of the fact that the latter had returned to the hall\" (p. 221)}}.",
+        "description": "Aventine Secession: non-communist opposition withdraws from parliament, appealing to the King to dismiss Mussolini. The PCd'I initially joins, then returns to the chamber as the only opposition deputies on the record.",
         "tag": "crisis"
       },
       {
         "date": "1924-08",
-        "description": "Gramsci becomes general secretary of the PCd'I and begins {{quote|transforming the Party into a semi-clandestine organization, so that it could continue in case of complete suppression}} {{cite|cammett1967|p. 169|\"[Gramsci] began transforming the Party into a semi-clandestine organization, so that it could continue in case of complete suppression\" (p. 169)}}.",
+        "description": "Gramsci becomes general secretary of the PCd'I and begins transforming the party into a semi-clandestine organization so that it can continue in case of complete suppression.",
         "tag": "crisis"
       },
       {
         "date": "1926-01",
-        "description": "Lyon Congress definitively defeats Bordiga's abstentionism; the Lyon Theses, drafted by Gramsci and Togliatti, make {{quote|rigorous scientific and historical analysis}} of Italian social structure the basis of the party's line {{cite|cammett1967|p. 171|\"[Togliatti] emphasized that the importance and the novelty of the Theses lay in their 'rigorous scientific and historical analysis' of the Italian social structure, the development of the labor movement, and the nature of Italian capitalism\" (p. 171)}}.",
+        "description": "Lyon Congress definitively defeats Bordiga's abstentionism; the Lyon Theses, drafted by Gramsci and Togliatti, base the party's line on a scientific and historical analysis of Italian social structure.",
         "tag": "outcome"
       },
       {
         "date": "1926-11",
-        "description": "Leggi fascistissime ban opposition parties; Gramsci is arrested and sentenced to over twenty years, Bordiga sent to confino, the regime's new instrument of {{quote|internal exile and confinement to an enforced domicile}} for suspected subversives {{cite|lyttelton2004|p. 247|\"The institution of confino made possible the internal exile and confinement to an enforced domicile, for a period of up to five years, of those suspected of the intention of engaging in subversive activity\" (p. 247)}}.",
+        "description": "Leggi fascistissime ban opposition parties; Gramsci is arrested and sentenced to over twenty years, Bordiga is sent to confino.",
         "tag": "consequence"
       },
       {
         "date": "1929",
         "end_date": "1935",
-        "description": "Gramsci writes the Prison Notebooks, developing the concepts of hegemony and war of position: {{quote|State = political society + civil society, in other words hegemony protected by the armour of coercion}} {{cite|gramsci_notebooks1971|p. 263|\"State = political society + civil society, in other words hegemony protected by the armour of coercion\" (p. 263)}}; {{quote|The massive structures of the modern democracies, both as State organisations, and as complexes of associations in civil society, constitute for the art of politics as it were the 'trenches' and the permanent fortifications of the front in the war of position}} {{cite|gramsci_notebooks1971|p. 243|\"The massive structures of the modern democracies, both as State organisations, and as complexes of associations in civil society, constitute for the art of politics as it were the 'trenches' and the permanent fortifications of the front in the war of position\" (p. 243)}}.",
+        "description": "Gramsci writes the Prison Notebooks, developing the concepts of hegemony and war of position.",
         "tag": "consequence"
       }
     ],

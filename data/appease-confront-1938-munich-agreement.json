@@ -38,69 +38,69 @@
       },
       {
         "date": "1936",
-        "description": "Germany remilitarizes the Rhineland; Britain and France decline to act. Wheeler-Bennett later identifies this as part of the pattern of {{quote|early and bloodless victories}} that convinced Hitler the Western Powers would never fight {{cite|wheeler_bennett1948|p. 6|\"It is a tragic irony of history that this very will for peace was among the most important contributory factors to the Second World War, for it is clear that early and bloodless victories convinced Hitler that Britain and France would never oppose him by force\" (p. 6)}}.",
+        "description": "Germany remilitarizes the Rhineland; Britain and France decline to act.",
         "tag": "precondition"
       },
       {
         "date": "1937-11",
-        "description": "Hossbach Conference: Hitler tells his generals that Germany's armaments are currently superior to those of any European state but would {{quote|become obsolescent}}, and that Germany had {{quote|nothing to gain from a long period of peace}} {{cite|wheeler_bennett1948|pp. 12-13|\"Germany's armaments, said the Führer, were at that moment superior in calibre and modernity to those of any other European State, but they would become obsolescent...Germany had 'nothing to gain from a long period of peace'. The question for Germany's future was 'where the greatest possible conquest could be made at the lowest cost', the objective being not the conquest of people but of 'agriculturally useful space'\" (pp. 12-13)}}.",
+        "description": "Hossbach Conference: Hitler tells his generals Germany's armaments are currently superior but will become obsolescent, and that Germany has nothing to gain from a long period of peace.",
         "tag": "precondition"
       },
       {
         "date": "1938-02",
-        "description": "Anthony Eden resigns as Foreign Secretary over Chamberlain's approach to Italy, the first public break within the Conservative leadership over appeasement {{cite|churchill1948|p. 306|\"Eden saw no use in continuing a search for formulas, and by midnight, on the twentieth, his resignation became final. 'Greatly to his credit, as I see it,' noted the Prime Minister\" (p. 306)}}.",
+        "description": "Anthony Eden resigns as Foreign Secretary over Chamberlain's approach to Italy, the first public break within the Conservative leadership over appeasement.",
         "tag": "precondition"
       },
       {
         "date": "1938-03",
-        "description": "Anschluss: Germany annexes Austria without resistance, reinforcing Hitler's assessment that the Western Powers will not fight {{cite|wheeler_bennett1948|p. 6|\"It is a tragic irony of history that this very will for peace was among the most important contributory factors to the Second World War, for it is clear that early and bloodless victories convinced Hitler that Britain and France would never oppose him by force\" (p. 6)}}.",
+        "description": "Anschluss: Germany annexes Austria without resistance.",
         "tag": "precondition"
       },
       {
         "date": "1938-09-12",
-        "description": "Hitler's Nuremberg rally speech demands self-determination for the three million Sudeten Germans and threatens German intervention, bringing the crisis to its acute phase. Chamberlain writes privately: {{quote|Is it not positively horrible to think that the fate of hundreds of millions depends on one man, and he is half mad?}} {{cite|feiling1946|p. 357|\"Is it not positively horrible to think that the fate of hundreds of millions depends on one man [Hitler], and he is half mad?\" (p. 357)}}",
+        "description": "Hitler's Nuremberg rally speech demands self-determination for the three million Sudeten Germans and threatens German intervention, bringing the crisis to its acute phase.",
         "tag": "trigger"
       },
       {
         "date": "1938-09-15",
-        "description": "Chamberlain flies to Berchtesgaden for his first meeting with Hitler and comes away with the impression of {{quote|a man who could be relied upon when he had given his word}} {{cite|feiling1946|p. 367|\"[Chamberlain, recounting his first meeting with Hitler at Berchtesgaden:] I did not see any trace of insanity, but occasionally he [Hitler] became very excited and poured out his indignation against the Czechs in a torrent of words...I got the impression that here was a man who could be relied upon when he had given his word\" (p. 367)}}.",
+        "description": "Chamberlain flies to Berchtesgaden for his first meeting with Hitler.",
         "tag": "crisis"
       },
       {
         "date": "1938-09-21",
-        "description": "Under Anglo-French pressure, the Czech government bows to the proposal to cede the Sudetenland {{cite|churchill1948|p. 358|\"Under this pressure on September 21, the Czech Government bowed to the Anglo-French proposals\" (p. 358)}}.",
+        "description": "Under Anglo-French pressure, the Czech government bows to the proposal to cede the Sudetenland.",
         "tag": "crisis"
       },
       {
         "date": "1938-09-22",
         "end_date": "1938-09-24",
-        "description": "Godesberg meeting: Hitler escalates to an ultimatum demanding military occupation by October 1 on terms amounting to immediate annexation. Feiling records Chamberlain comparing himself to {{quote|a man called on to play poker with a gangster, with no cards in his hand}} {{cite|feiling1946|p. 364|\"[Feiling on Chamberlain:] he [Chamberlain] compared himself to a man called on to play poker with a gangster, with no cards in his hand\" (p. 364)}}.",
+        "description": "Godesberg meeting: Hitler escalates to an ultimatum demanding military occupation by October 1 on terms amounting to immediate annexation.",
         "tag": "crisis"
       },
       {
         "date": "1938-09-27",
-        "description": "Duff Cooper secures authorization for mobilization of the British fleet, the government's first hard signal of military resolve {{cite|churchill1948|p. 365|\"I dined that night with Mr. Duff Cooper at the Admiralty. He told me that he was demanding from the Prime Minister the immediate mobilisation of the Fleet.\" (p. 365)}}.",
+        "description": "Duff Cooper secures authorization for mobilization of the British fleet, the government's first hard signal of military resolve.",
         "tag": "crisis"
       },
       {
         "date": "1938-09-29",
         "end_date": "1938-09-30",
-        "description": "Munich Conference: Germany, Italy, Britain, and France sign the Munich Agreement; Czechoslovakia is excluded from the conference deciding her fate, on Chamberlain's view that {{quote|the four powers who had the responsibility must make the settlement}} {{cite|feiling1946|p. 377|\"the four powers who had the responsibility must make the settlement\" (p. 377)}}.",
+        "description": "Munich Conference: Germany, Italy, Britain, and France sign the Munich Agreement; Czechoslovakia is excluded from the conference deciding her fate.",
         "tag": "outcome"
       },
       {
         "date": "1938-09-30",
-        "description": "Chamberlain returns to London and declares {{quote|peace for our time}} {{cite|feiling1946|p. 381|\"[Chamberlain, speaking from the window of 10 Downing Street, 30 September 1938:] This is the second time in our history that there has come back from Germany to Downing Street peace with honour. I believe it is peace for our time\" (p. 381)}}; Duff Cooper resigns as First Lord of the Admiralty in protest, arguing Hitler is {{quote|more open to the language of the mailed fist}} than to {{quote|sweet reasonableness}} {{cite|churchill1948|p. 382|\"The Prime Minister has believed in addressing Herr Hitler through the language of sweet reasonableness. I have believed that he was more open to the language of the mailed fist\" (p. 382)}}.",
+        "description": "Chamberlain returns to London and declares peace for our time; Duff Cooper resigns as First Lord of the Admiralty in protest.",
         "tag": "outcome"
       },
       {
         "date": "1938-10-05",
-        "description": "Churchill's House of Commons speech: {{quote|We have sustained a total and unmitigated defeat}} {{cite|churchill1948|p. 384|\"[Churchill, in the House of Commons, 5 October 1938:] We have sustained a total and unmitigated defeat\" (p. 384)}}.",
+        "description": "Churchill tells the House of Commons that Britain has sustained a total and unmitigated defeat.",
         "tag": "consequence"
       },
       {
         "date": "1939-03-15",
-        "description": "German forces occupy Prague and the remainder of Czechoslovakia, destroying the premise on which the Munich settlement rested; Hitler, Churchill records, has {{quote|finally become the undisputed master of Germany, and the path was clear for the great design}} {{cite|churchill1948|p. 377|\"Hitler had ...finally become the undisputed master of Germany, and the path was clear for the great design\" (p. 377)}}.",
+        "description": "German forces occupy Prague and the remainder of Czechoslovakia, destroying the premise on which the Munich settlement rested.",
         "tag": "consequence"
       },
       {
