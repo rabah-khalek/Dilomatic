@@ -122,7 +122,7 @@ body:
     attributes:
       label: Event Context
       description: "2-5 paragraphs combining overview and structural background: who the actors are, why this dilemma arose, and what conditions shaped it. Use inline citations."
-      placeholder: Include `{{cite|ref_id|pp. X-Y|"verbatim quote" (p. N)}}` inline where appropriate.
+      placeholder: Include `{{cite|ref_id|pp. X-Y|excerpt-id}}` inline where appropriate, and store the verbatim quote under `references[].excerpts`.
     validations:
       required: true
 
@@ -144,7 +144,7 @@ body:
         [
           {
             "date": "1900-01-15",
-            "description": "Example precondition event with inline citation {{cite|example2024|p. 5|\"verbatim quote\" (p. 5)}}.",
+            "description": "Example precondition event with inline citation {{cite|example2024|p. 5|founding-order}}.",
             "tag": "precondition"
           },
           {
@@ -288,7 +288,7 @@ body:
     id: references_json
     attributes:
       label: References JSON
-      description: Required JSON array for `references`. When a source has identifiable authors, add `author_ids` entries that point to matching `cited_authors` ids.
+      description: Required JSON array for `references`. When a source has identifiable authors, add `author_ids` entries that point to matching `cited_authors` ids. If you want citation tooltips to show verbatim evidence, store those quotes under `excerpts` and refer to them by `excerpt_id` from prose.
       render: json
       placeholder: |
         [
@@ -299,7 +299,18 @@ body:
             "author_ids": ["surname-name"],
             "title": "Book Title",
             "year": 2024,
-            "publisher": "Publisher"
+            "publisher": "Publisher",
+            "excerpts": [
+              {
+                "id": "founding-order",
+                "quotes": [
+                  {
+                    "text": "Verbatim quote from source",
+                    "page": "p. 5"
+                  }
+                ]
+              }
+            ]
           }
         ]
     validations:
@@ -362,7 +373,7 @@ body:
       options:
         - label: I have written this record from a Neutral Point of View (NPOV), avoiding editorializing or bias.
           required: true
-        - label: I used real published sources and cited them inline using the strict format {{cite|ref_id|pages|quotations}} with verbatim quotation(s) from each source.
+        - label: I used real published sources and cited them inline with {{cite|ref_id|pages|excerpt_id}} when I needed tooltip evidence, storing verbatim quotations under references[].excerpts.
           required: true
         - label: I understand this form is for new event records and will open a pull request automatically if validation passes.
           required: true

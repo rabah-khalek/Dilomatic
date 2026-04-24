@@ -23,12 +23,12 @@
       "Replace with country or region"
     ],
     "iso_country_code": "IT",
-    "context": "2-5 paragraphs combining overview and structural background with inline citations such as {{cite|example2024|pp. 10-20|\"Verbatim quote from source\" (p. 15)}}. Who the actors are, why this dilemma arose, and what conditions shaped it.",
+    "context": "2-5 paragraphs combining overview and structural background with inline citations such as {{cite|example2024|pp. 10-20|opening-scene}}. Store tooltip excerpts under references[].excerpts. Who the actors are, why this dilemma arose, and what conditions shaped it.",
     "triggering_event": "The specific proximate event that forced the strategic choice. Narrow and concrete.",
     "timeline": [
       {
         "date": "1900-01-15",
-        "description": "Example precondition event with inline citation {{cite|example2024|p. 5|\"verbatim quote\" (p. 5)}}.",
+        "description": "Example precondition event with inline citation {{cite|example2024|p. 5|founding-order}}.",
         "tag": "precondition"
       },
       {
@@ -142,7 +142,27 @@
       ],
       "title": "Replace with title",
       "year": 2024,
-      "publisher": "Replace with publisher"
+      "publisher": "Replace with publisher",
+      "excerpts": [
+        {
+          "id": "opening-scene",
+          "quotes": [
+            {
+              "text": "Verbatim quote from source",
+              "page": "p. 15"
+            }
+          ]
+        },
+        {
+          "id": "founding-order",
+          "quotes": [
+            {
+              "text": "Another verbatim quote from source",
+              "page": "p. 5"
+            }
+          ]
+        }
+      ]
     }
   ],
   "cited_authors": [

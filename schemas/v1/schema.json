@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "HistoricalStrategicEvent_v1",
   "title": "HistoricalStrategicEvent",
-  "description": "Dilomatic event record schema v1. Encodes historical political dilemmas: the actors, the strategies they pursued, the outcomes, and scholarly assessment. Text fields use inline citations defined by schemas/inline_citation.json: {{cite|ref_id|pages|quotations}}. All three citation fields are required.",
+  "description": "Dilomatic event record schema v1. Encodes historical political dilemmas: the actors, the strategies they pursued, the outcomes, and scholarly assessment. Text fields use inline citations in one of three forms: {{cite|ref_id}}, {{cite|ref_id|pages}}, or {{cite|ref_id|pages|excerpt_id}}. Verbatim evidence for tooltips lives in references[].excerpts[].quotes.",
   "type": "object",
   "required": [
     "record_id",
@@ -131,7 +131,7 @@
         },
         "timeline": {
           "type": "array",
-          "description": "Chronological entries marking the datable events of the dilemma \u2014 preconditions, the crisis itself, and downstream consequences. Each description supports inline citations using the {{cite|ref|pages|quotations}} syntax.",
+          "description": "Chronological entries marking the datable events of the dilemma \u2014 preconditions, the crisis itself, and downstream consequences. Each description supports inline citations using the {{cite|ref}}, {{cite|ref|pages}}, or {{cite|ref|pages|excerpt_id}} syntax.",
           "items": {
             "type": "object",
             "required": [
@@ -410,6 +410,13 @@
             "items": {
               "type": "string"
             }
+          },
+          "excerpts": {
+            "type": "array",
+            "description": "Optional verbatim excerpts stored separately from prose and linked by inline cite tags via excerpt_id.",
+            "items": {
+              "$ref": "#/definitions/reference_excerpt"
+            }
           }
         }
       }
@@ -471,6 +478,46 @@
     }
   },
   "definitions": {
+    "quotation_entry": {
+      "type": "object",
+      "required": [
+        "text",
+        "page"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "page": {
+          "type": "string",
+          "pattern": "^pp?\\. (\\d+|[ivxlcdm]+)(-(?:\\d+|[ivxlcdm]+))?$"
+        }
+      }
+    },
+    "reference_excerpt": {
+      "type": "object",
+      "required": [
+        "id",
+        "quotes"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_-]*$",
+          "description": "Reference-local identifier used by {{cite|ref_id|pages|excerpt_id}}."
+        },
+        "quotes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/quotation_entry"
+          }
+        }
+      }
+    },
     "strategy_entry": {
       "type": "object",
       "required": [
@@ -504,13 +551,14 @@
           "enum": [
             "effective",
             "ineffective",
-            "mixed"
+            "mixed",
+            "unattempted"
           ],
-          "description": "Whether this strategy achieved its stated aims."
+          "description": "Whether this strategy achieved its stated aims. Use 'unattempted' for strategies proposed or analyzed but never actually pursued by the actor, to distinguish them from strategies that were executed and failed."
         },
         "explanation": {
           "type": "string",
-          "description": "Why this strategy was effective, ineffective, or produced mixed results."
+          "description": "Why this strategy was effective, ineffective, produced mixed results, or was never pursued."
         },
         "period": {
           "type": "object",

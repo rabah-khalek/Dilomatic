@@ -2,7 +2,7 @@
   "record_id": "negotiate-resist-1993-oslo-accords",
   "schema_version": "v1",
   "added_at": "2026-03-28",
-  "edited_at": "2026-04-19",
+  "edited_at": "2026-04-24",
   "contributors": [
     {
       "name": "Rabah Khalek",
@@ -13,10 +13,10 @@
   "event": {
     "title": "The Oslo Accords",
     "alternate_names": [
-      "A Palestinian Versailles {{cite|said1995|p. 16|\"So first of all let us call the agreement by its real name: an instrument of Palestinian surrender, a Palestinian Versailles\" (p. 7)}}",
-      "Entering the Lion's Mouth {{cite|khalidi2020|p. 281|\"the PLO had entered the lion's mouth, and it did not take long for the jaws to snap shut\" (p. 281)}}",
-      "Recognition without Liberation {{cite|khalidi2020|p. 273|\"a national liberation movement had obtained nominal recognition from its oppressors, without achieving liberation, by trading its own recognition of the state that had colonized its homeland\" (p. 273)}}",
-      "A Lahd or a Super-Lahd {{cite|khalidi2020|p. 280|\"Yasser 'Arafat has a choice. He can be a Lahd or a super-Lahd\" (p. 280)}}"
+      "A Palestinian Versailles {{cite|said1995|p. 16|excerpt-1}}",
+      "Entering the Lion's Mouth {{cite|khalidi2020|p. 281|excerpt-1}}",
+      "Recognition without Liberation {{cite|khalidi2020|p. 273|excerpt-2}}",
+      "A Lahd or a Super-Lahd {{cite|khalidi2020|p. 280|excerpt-3}}"
     ],
     "time_period": {
       "start_year": 1991,
@@ -28,7 +28,7 @@
       "United States"
     ],
     "iso_country_code": "PS",
-    "triggering_event": "The first Palestinian intifada, which erupted in December 1987, fundamentally changed the dynamics of the Israeli-Palestinian conflict. The mostly nonviolent popular uprising revealed the limits of military occupation and damaged Israel's international standing {{cite|khalidi2020|p. 249|\"The Intifada caused us a lot more political harm, damage to our image, than everything that the PLO had succeeded in doing throughout its existence\" (p. 249)}}. The Mossad director Nahum Admoni's assessment confirmed that the intifada had a more positive impact on world opinion than the PLO's armed struggle ever had {{cite|khalidi2020|pp. 248-249|\"The mainly nonviolent intifada in Palestine enabled 'Arafat to take account, albeit belatedly, of Ahmad's view, and at the same time to respond positively to a prime US condition for dialogue: renouncing armed resistance\" (pp. 248-249)}}.\n\nIn November 1988, buoyed by the intifada's momentum, the Palestine National Council adopted the Palestinian Declaration of Independence, formally accepting partition, a two-state solution, and a peaceful resolution to the conflict {{cite|khalidi2020|p. 246|\"Drafted largely by Mahmoud Darwish, who was aided by Edward Said and the respected intellectual Shafiq al-Hout, the document formally abandoned the PLO's claim to the entirety of Palestine, accepting the principles of partition, a two-state solution, and a peaceful resolution to the conflict\" (p. 246)}}. On December 14, 1988, Arafat explicitly accepted Resolutions 242 and 338, recognized Israel's right to exist, and renounced terrorism {{cite|khalidi2020|p. 247|\"This capitulation to American conditions finally obtained for the PLO the long-sought opening with Washington, but it neither moved the Israelis to agree to deal with the organization nor led to peace negotiations, at least not for three more years\" (p. 247)}}.\n\nThe PLO's {{quote|disastrous alignment with Saddam Hussein}} during the 1990-91 Gulf War then devastated the organization's position {{cite|khalidi2006|p. 146|\"A blunder of a different sort was the PLO's disastrous alignment with Saddam Hussein after Iraq's invasion of Kuwait in 1990\" (p. 146)}}. The Gulf states halted financial support, the Palestinian community in Kuwait was uprooted, and the PLO found itself more isolated than at any point in its history {{cite|khalidi2020|p. 259|\"after the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history. The icebergs on which 'Arafat and his comrades were afloat were melting fast, and they were desperately eager to jump to solid ground\" (p. 259)}}. It was in this context of PLO weakness and American triumphalism that Secretary of State James Baker organized the Madrid Peace Conference in October 1991, and that secret back-channel negotiations in Oslo began in January 1993.",
+    "triggering_event": "The first Palestinian intifada, which erupted in December 1987, fundamentally changed the dynamics of the Israeli-Palestinian conflict. The mostly nonviolent popular uprising revealed the limits of military occupation and damaged Israel's international standing {{cite|khalidi2020|p. 249|excerpt-4}}. The Mossad director Nahum Admoni's assessment confirmed that the intifada had a more positive impact on world opinion than the PLO's armed struggle ever had {{cite|khalidi2020|pp. 248-249|excerpt-5}}.\n\nIn November 1988, buoyed by the intifada's momentum, the Palestine National Council adopted the Palestinian Declaration of Independence, formally accepting partition, a two-state solution, and a peaceful resolution to the conflict {{cite|khalidi2020|p. 246|excerpt-6}}. On December 14, 1988, Arafat explicitly accepted Resolutions 242 and 338, recognized Israel's right to exist, and renounced terrorism {{cite|khalidi2020|p. 247|excerpt-7}}.\n\nThe PLO's {{quote|disastrous alignment with Saddam Hussein}} during the 1990-91 Gulf War then devastated the organization's position {{cite|khalidi2006|p. 146|excerpt-1}}. The Gulf states halted financial support, the Palestinian community in Kuwait was uprooted, and the PLO found itself more isolated than at any point in its history {{cite|khalidi2020|p. 259|excerpt-8}}. It was in this context of PLO weakness and American triumphalism that Secretary of State James Baker organized the Madrid Peace Conference in October 1991, and that secret back-channel negotiations in Oslo began in January 1993.",
     "timeline": [
       {
         "date": "1987-12",
@@ -143,79 +143,79 @@
         "resist"
       ]
     },
-    "context": "**Occupation context.** The Israeli-Palestinian conflict has been centered, since 1967, on Israel's military occupation of the West Bank, Gaza Strip, and East Jerusalem, and the continuous expansion of Jewish settlements in those territories {{cite|khalidi2006|pp. 197-198|\"[The practical effect of the ground rules was to] lighten the moral, political, and security burden for Israel of its military occupation of the West Bank, Gaza Strip, and East Jerusalem for a decade, while allowing it not only to maintain, but indeed to reinforce, its presence in most of the occupied territories... and a considerable expansion of its illegal settlements\" (pp. 197-198)}}. By the early 1990s, the first intifada had demonstrated the unsustainability of direct Israeli policing of densely populated Palestinian areas {{cite|khalidi2020|p. 278|\"The intifada had brought Rabin and the Israeli security establishment to the realization that the occupation - with Israeli troops policing densely populated Palestinian centers simmering with anger - needed modification\" (p. 278)}}, while the Palestine Liberation Organization (PLO) was isolated after the Gulf War and in urgent need of a political lifeline {{cite|khalidi2020|p. 259|\"After the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history. The icebergs on which 'Arafat and his comrades were afloat were melting fast, and they were desperately eager to jump to solid ground\" (p. 259)}}.\n\n**Madrid framework.** The Madrid Peace Conference of October 1991 brought the parties together but under terms dictated by Israel and the United States: the Palestinians were denied independent representation, barred from including PLO members or Jerusalemites in their delegation, and restricted to discussing limited self-rule rather than statehood, sovereignty, or any final status issue {{cite|khalidi2020|pp. 262-265|\"Every item of essence, including Palestinian self-determination, sovereignty, the return of refugees, an end to occupation and colonization, the disposition of Jerusalem, the future of the Jewish settlements, and control of land and water rights, was disallowed. Instead, these issues were postponed, supposedly for four years, but in fact until a future that never came\" (pp. 262-265)}}.\n\n**Washington stalemate.** The bilateral talks in Washington that followed Madrid produced ten rounds of fruitless negotiations over eighteen months. The Palestinian delegation, drawing on legal and diplomatic expertise developed in the process, put forward a substantive proposal (PISGA) envisaging a Palestinian interim authority with broad jurisdiction over land and people. Both the Shamir and Rabin governments rejected it {{cite|khalidi2020|pp. 270-271|\"Although the PISGA proposal constituted a genuine effort to envisage a transition from occupation to independence, it was ultimately a vain attempt to do an end run around the limitations that constrained the negotiations and the restricted forms of self-rule that Israel was prepared to countenance\" (pp. 270-271)}}.\n\n**Tunis back channel.** Meanwhile, the PLO leadership in Tunis, impatient with the Washington process and urgently seeking to secure its own role, authorized secret direct negotiations with Israel in Oslo beginning in January 1993 {{cite|shlaim2000|p. 531|\"Secret talks in Oslo got under way in late January 1993 with the active encouragement of Beilin, who kept Peres fully informed. Altogether, fourteen sessions of talks were held over an eight-month period, all behind a thick veil of secrecy\" (p. 531)}}. The PLO's negotiating team at Oslo lacked the legal expertise, linguistic competence, and familiarity with occupied Palestine that the Washington delegation had developed {{cite|khalidi2020|pp. 274-275|\"the personnel the PLO sent to Oslo were not strong on details. Indeed, they did not have the linguistic or legal or other expertise necessary to comprehend exactly what the Israelis were doing\" (pp. 274-275)}} {{cite|said1995|p. 16|\"the PLO, which negotiated in English, a language that neither Arafat nor his emissary in Oslo knows, with no legal adviser\" (p. 16)}}.\n\n**Israeli reassessment.** On the Israeli side, Rabin's conversion to direct talks with the PLO was driven by assessments that Arafat's weakened position made him the most convenient interlocutor and by the alarming growth of Hamas {{cite|shlaim2000|pp. 533-534|\"the assessment of the IDF director of military intelligence that Arafat's dire situation, and possible imminent collapse, made him the most convenient interlocutor for Israel at that juncture\" (pp. 533-534)}} {{cite|shlaim2000|pp. 533-534|\"Other reports that reached Rabin during this period pointed to an alarming growth in the popular following of Hamas and Islamic Jihad in the occupied territories\" (pp. 533-534)}}. Rabin estimated the PLO was 'on the ropes' and could be induced to drop its core demands in exchange for recognition {{cite|shlaim2000|p. 534|\"In his estimate the PLO was 'on the ropes,' and it was therefore highly probable that the PLO would drop some of its sacred principles to secure Israeli recognition\" (p. 534)}}.\n\n**No honest broker.** The negotiations framework was further shaped by the fact that the United States could not serve as an honest broker. A secret 1975 Kissinger-Rabin memorandum had committed the US not to present peace proposals that Israel disapproved of, effectively giving Israel veto power over American positions {{cite|khalidi2020|pp. 265-266|\"Had I understood how heavily the deck was stacked and that the United States was bound in this way by a formal commitment, which meant that Israel effectively determined both its own position and that of its sponsor, I probably would not have gone to Madrid\" (pp. 265-266)}}, and key US negotiators acted as what one later called {{quote|Israel's lawyer}} {{cite|khalidi2020|p. 268|\"American negotiator Aaron David Miller later regretfully used the term 'Israel's lawyer' to describe his stance and that of many of his colleagues\" (p. 268)}}.\n\n**Breakthrough.** The secret channel culminated in the signing of the Declaration of Principles in September 1993. The PLO accepted mutual recognition and limited interim self-rule through the creation of the Palestinian Authority, while deferring core issues like statehood, settlements, and refugees to a later date {{cite|shlaim2000|pp. 535-536|\"The Declaration of Principles on Interim Self-Government Arrangements was essentially an agenda for negotiations, governed by a tight timetable, rather than a full-blown agreement\" (pp. 535-536)}} {{cite|shlaim2000|p. 536|\"The declaration was completely silent on such vital issues as the right of return of the 1948 refugees, the borders of the Palestinian entity, the future of the Jewish settlements on the West Bank and Gaza, and the status of Jerusalem\" (p. 536)}}. Ultimately, this 'interim' arrangement became a permanent reality: Israeli settlements expanded, final status negotiations failed at Camp David in 2000, and the process collapsed into the Second Intifada {{cite|roy2016|p. 21|\"the Oslo peace process was doing the exact opposite: deepening Israel's control of the territories through a variety of policies, including territorial fragmentation and the large-scale expropriation of Arab land and other resources, intended to ensure Israel's continued presence and preclude the establishment of a Palestinian state\" (p. 21)}}."
+    "context": "**Occupation context.** The Israeli-Palestinian conflict has been centered, since 1967, on Israel's military occupation of the West Bank, Gaza Strip, and East Jerusalem, and the continuous expansion of Jewish settlements in those territories {{cite|khalidi2006|pp. 197-198|excerpt-2}}. By the early 1990s, the first intifada had demonstrated the unsustainability of direct Israeli policing of densely populated Palestinian areas {{cite|khalidi2020|p. 278|excerpt-9}}, while the Palestine Liberation Organization (PLO) was isolated after the Gulf War and in urgent need of a political lifeline {{cite|khalidi2020|p. 259|excerpt-10}}.\n\n**Madrid framework.** The Madrid Peace Conference of October 1991 brought the parties together but under terms dictated by Israel and the United States: the Palestinians were denied independent representation, barred from including PLO members or Jerusalemites in their delegation, and restricted to discussing limited self-rule rather than statehood, sovereignty, or any final status issue {{cite|khalidi2020|pp. 262-265|excerpt-11}}.\n\n**Washington stalemate.** The bilateral talks in Washington that followed Madrid produced ten rounds of fruitless negotiations over eighteen months. The Palestinian delegation, drawing on legal and diplomatic expertise developed in the process, put forward a substantive proposal (PISGA) envisaging a Palestinian interim authority with broad jurisdiction over land and people. Both the Shamir and Rabin governments rejected it {{cite|khalidi2020|pp. 270-271|excerpt-12}}.\n\n**Tunis back channel.** Meanwhile, the PLO leadership in Tunis, impatient with the Washington process and urgently seeking to secure its own role, authorized secret direct negotiations with Israel in Oslo beginning in January 1993 {{cite|shlaim2000|p. 531|excerpt-1}}. The PLO's negotiating team at Oslo lacked the legal expertise, linguistic competence, and familiarity with occupied Palestine that the Washington delegation had developed {{cite|khalidi2020|pp. 274-275|excerpt-13}} {{cite|said1995|p. 16|excerpt-2}}.\n\n**Israeli reassessment.** On the Israeli side, Rabin's conversion to direct talks with the PLO was driven by assessments that Arafat's weakened position made him the most convenient interlocutor and by the alarming growth of Hamas {{cite|shlaim2000|pp. 533-534|excerpt-2}} {{cite|shlaim2000|pp. 533-534|excerpt-3}}. Rabin estimated the PLO was 'on the ropes' and could be induced to drop its core demands in exchange for recognition {{cite|shlaim2000|p. 534|excerpt-4}}.\n\n**No honest broker.** The negotiations framework was further shaped by the fact that the United States could not serve as an honest broker. A secret 1975 Kissinger-Rabin memorandum had committed the US not to present peace proposals that Israel disapproved of, effectively giving Israel veto power over American positions {{cite|khalidi2020|pp. 265-266|excerpt-14}}, and key US negotiators acted as what one later called {{quote|Israel's lawyer}} {{cite|khalidi2020|p. 268|excerpt-15}}.\n\n**Breakthrough.** The secret channel culminated in the signing of the Declaration of Principles in September 1993. The PLO accepted mutual recognition and limited interim self-rule through the creation of the Palestinian Authority, while deferring core issues like statehood, settlements, and refugees to a later date {{cite|shlaim2000|pp. 535-536|excerpt-5}} {{cite|shlaim2000|p. 536|excerpt-6}}. Ultimately, this 'interim' arrangement became a permanent reality: Israeli settlements expanded, final status negotiations failed at Camp David in 2000, and the process collapsed into the Second Intifada {{cite|roy2016|p. 21|excerpt-1}}."
   },
   "actors": [
     {
       "name": "PLO Leadership (Tunis-based, pro-negotiation)",
-      "description": "The Tunis-based PLO leadership under Yasser Arafat had been moving toward acceptance of a two-state solution since the mid-1970s, formally adopting it in the 1988 Palestinian Declaration of Independence. After the 1982 expulsion from Lebanon and especially after the catastrophic alignment with Iraq during the 1990-91 Gulf War, the organization was severely weakened financially, diplomatically, and politically {{cite|khalidi2006|p. 146|\"the PLO's disastrous alignment with Saddam Hussein after Iraq's invasion of Kuwait in 1990\" (p. 146)}} {{cite|khalidi2006|p. 146|\"there was the lamentable error of accepting a series of flawed accords with the Israelis, beginning with the 1993 Oslo agreement\" (p. 146)}}.\n\nThe assassinations of key leaders, Abu Jihad by Israel in 1988 and Abu Iyad by the Abu Nidal network in 1991, left virtually no one within the leadership capable of standing up to Arafat {{cite|khalidi2006|p. 147|\"Especially after the assassinations in Tunis of Abu Jihad in 1988 and Abu Iyyad in 1991 (by Israel and the Abu Nidal group respectively), there remained virtually no one within the Palestinian leadership who could stand up to al-khityar, the 'old man,' as 'Arafat was respectfully referred to privately\" (p. 147)}}. This concentration of decision-making in Arafat's hands shaped the Oslo process decisively.\n\nThe PLO leadership pursued negotiations as an existential imperative: to escape isolation, secure international recognition as the legitimate Palestinian interlocutor, and establish a physical foothold in the Occupied Territories. Parsons preserves Camille Mansour's defense of this logic: Oslo redeemed the PLO as an institution and restored Arafat's patronage network, even as it compromised the national project {{cite|parsons2005|p. 68|\"Go back to [19]48[...] the PLO saved itself and by saving itself it saved the Palestinian people\" (p. 68);\"The terms of the Oslo process clearly did redeem the institution and the chairman's patronage network\" (p. 68)}}. Their eagerness to reach any agreement, however, led them to accept terms that their own delegation in Washington had rejected {{cite|khalidi2020|pp. 263-264|\"So desperate were they to be brought into the negotiation process and to escape their isolation, that even had they known how tightly bound the United States was to follow the Israeli line, I believe they would likely have still made the mistakes they ended up making in the talks\" (pp. 263-264)}}.",
+      "description": "The Tunis-based PLO leadership under Yasser Arafat had been moving toward acceptance of a two-state solution since the mid-1970s, formally adopting it in the 1988 Palestinian Declaration of Independence. After the 1982 expulsion from Lebanon and especially after the catastrophic alignment with Iraq during the 1990-91 Gulf War, the organization was severely weakened financially, diplomatically, and politically {{cite|khalidi2006|p. 146|excerpt-3}} {{cite|khalidi2006|p. 146|excerpt-4}}.\n\nThe assassinations of key leaders, Abu Jihad by Israel in 1988 and Abu Iyad by the Abu Nidal network in 1991, left virtually no one within the leadership capable of standing up to Arafat {{cite|khalidi2006|p. 147|excerpt-5}}. This concentration of decision-making in Arafat's hands shaped the Oslo process decisively.\n\nThe PLO leadership pursued negotiations as an existential imperative: to escape isolation, secure international recognition as the legitimate Palestinian interlocutor, and establish a physical foothold in the Occupied Territories. Parsons preserves Camille Mansour's defense of this logic: Oslo redeemed the PLO as an institution and restored Arafat's patronage network, even as it compromised the national project {{cite|parsons2005|p. 68|excerpt-1}}. Their eagerness to reach any agreement, however, led them to accept terms that their own delegation in Washington had rejected {{cite|khalidi2020|pp. 263-264|excerpt-16}}.",
       "key_leaders": [
         {
           "name": "Yasser Arafat",
           "role": "Chairman of the PLO; authorized the secret Oslo channel; signed the Declaration of Principles on September 13, 1993; returned to Gaza in July 1994 as head of the Palestinian Authority; besieged in Ramallah headquarters from 2002 until shortly before his death in November 2004",
-          "significance": "Arafat's decision to accept the Oslo Accords was the defining strategic choice of his career and of the Palestinian national movement. He traded the PLO's recognition of the state of Israel for Israel's recognition of the PLO as representative of the Palestinian people, but without obtaining Israeli recognition of a Palestinian state or even a commitment to allow one {{cite|khalidi2020|p. 273|\"This was a peculiar transaction, whereby a national liberation movement had obtained nominal recognition from its oppressors, without achieving liberation, by trading its own recognition of the state that had colonized its homeland and continued to occupy it. This was a resounding, historic mistake, one with grave consequences for the Palestinian people\" (p. 273)}}.\n\nHis increasing autocracy after 1991, combined with a diminished inner circle, meant that the most consequential Palestinian diplomatic decisions were made without adequate consultation, expertise, or democratic deliberation."
+          "significance": "Arafat's decision to accept the Oslo Accords was the defining strategic choice of his career and of the Palestinian national movement. He traded the PLO's recognition of the state of Israel for Israel's recognition of the PLO as representative of the Palestinian people, but without obtaining Israeli recognition of a Palestinian state or even a commitment to allow one {{cite|khalidi2020|p. 273|excerpt-17}}.\n\nHis increasing autocracy after 1991, combined with a diminished inner circle, meant that the most consequential Palestinian diplomatic decisions were made without adequate consultation, expertise, or democratic deliberation."
         },
         {
           "name": "Mahmoud Abbas (Abu Mazen)",
           "role": "Senior PLO figure; supervised the Oslo negotiations on the Palestinian side alongside Arafat; later succeeded Arafat as PA president in 2005",
-          "significance": "Co-supervised the Oslo back channel from Tunis.\n\nKhalidi reports that when he expressed concerns about deteriorating conditions in Jerusalem after Oslo, Abbas gave him {{quote|precisely the same brush-off}} as Arafat, airily indicating that problems would be resolved {{cite|khalidi2020|p. 280|\"I received precisely the same brush-off later that day when I expressed similar concerns to Abu Mazin, also newly arrived in Gaza\" (p. 280)}}."
+          "significance": "Co-supervised the Oslo back channel from Tunis.\n\nKhalidi reports that when he expressed concerns about deteriorating conditions in Jerusalem after Oslo, Abbas gave him {{quote|precisely the same brush-off}} as Arafat, airily indicating that problems would be resolved {{cite|khalidi2020|p. 280|excerpt-18}}."
         },
         {
           "name": "Ahmad Qurei (Abu Ala)",
           "role": "PLO treasurer; lead Palestinian negotiator at Oslo; later PA prime minister",
-          "significance": "The key Palestinian interlocutor in the Oslo talks.\n\nHe reported directly to Arafat and Abbas {{cite|shlaim2000|p. 532|\"Abu Ala reported directly to Arafat and to Arafat's deputy, Mahmoud Abbas (Abu Mazen), an indirect line of communication had been established between Jerusalem and the PLO headquarters in Tunis\" (p. 532)}}."
+          "significance": "The key Palestinian interlocutor in the Oslo talks.\n\nHe reported directly to Arafat and Abbas {{cite|shlaim2000|p. 532|excerpt-7}}."
         }
       ]
     },
     {
       "name": "Palestinian Delegation to Madrid/Washington (local leadership)",
-      "description": "The delegation negotiating with Israel at Madrid and then in Washington was composed of Palestinians from the Occupied Territories, many of them veteran leaders of the intifada. Israel had barred anyone connected to the PLO, from Jerusalem, or from the diaspora from formal participation. Advisors including Rashid Khalidi, Camille Mansour, and Raja Shehadeh were allowed to join but barred from formal talks {{cite|khalidi2020|p. 263|\"leaders excluded by these terms, such as Husayni, 'Ashrawi, and Sari Nuseibeh, as well as advisors and legal and diplomatic experts, such as Raja Shehadeh, Camille Mansour, and me, were allowed to join the delegation, but were barred from the formal talks with the Israelis\" (p. 263)}}.\n\nThis delegation developed substantial legal and diplomatic expertise over ten rounds of negotiations and produced the PISGA proposal, a serious counter-framework to Israel's limited autonomy model. They rejected the Begin-style autonomy plan that the PLO envoys at Oslo later accepted {{cite|khalidi2020|p. 276|\"After Israel's rejection of the PISGA proposal, our delegation had refused to accept self-rule a la Begin. The delegates from the Occupied Territories knew what self-rule Israeli style would mean in practice\" (p. 276)}}.",
+      "description": "The delegation negotiating with Israel at Madrid and then in Washington was composed of Palestinians from the Occupied Territories, many of them veteran leaders of the intifada. Israel had barred anyone connected to the PLO, from Jerusalem, or from the diaspora from formal participation. Advisors including Rashid Khalidi, Camille Mansour, and Raja Shehadeh were allowed to join but barred from formal talks {{cite|khalidi2020|p. 263|excerpt-19}}.\n\nThis delegation developed substantial legal and diplomatic expertise over ten rounds of negotiations and produced the PISGA proposal, a serious counter-framework to Israel's limited autonomy model. They rejected the Begin-style autonomy plan that the PLO envoys at Oslo later accepted {{cite|khalidi2020|p. 276|excerpt-20}}.",
       "key_leaders": [
         {
           "name": "Haidar Abd al-Shafi",
           "role": "Head of the Palestinian delegation at Madrid; physician from Gaza; widely respected for his integrity",
-          "significance": "His dignified speech at Madrid gave many Palestinians the impression that their cause was gaining traction {{cite|khalidi2020|p. 263|\"At the outset of the conference, the dignified speech by the head of the Palestinian delegation, 'Abd al-Shafi... gave many Palestinians the impression that their cause was at last getting traction\" (p. 263)}}. He later became a prominent critic of the Oslo Accords."
+          "significance": "His dignified speech at Madrid gave many Palestinians the impression that their cause was gaining traction {{cite|khalidi2020|p. 263|excerpt-21}}. He later became a prominent critic of the Oslo Accords."
         },
         {
           "name": "Hanan Ashrawi",
           "role": "Spokesperson and member of the Palestinian delegation; professor at Birzeit University",
-          "significance": "Her effective media appearances at Madrid were instrumental in reshaping the Palestinian image internationally {{cite|khalidi2020|p. 263|\"the effective media appearances by 'Ashrawi gave many Palestinians the impression that their cause was at last getting traction and that the sacrifices of the intifada were not in vain\" (p. 263)}}."
+          "significance": "Her effective media appearances at Madrid were instrumental in reshaping the Palestinian image internationally {{cite|khalidi2020|p. 263|excerpt-22}}."
         },
         {
           "name": "Faysal Husayni",
           "role": "Foremost Palestinian leader in Jerusalem; senior Fatah figure; oversaw delegation formation with the PLO",
-          "significance": "Served as the link between the delegation and the PLO leadership in Tunis, though deep tensions ran between the two, with Husayni and Arafat engaging in {{quote|furious phone exchanges}} over strategy {{cite|khalidi2020|p. 272|\"We were all aware of this tension, and we saw it flare into open dispute on occasion. Many of us were present in Faysal Husayni's Washington hotel suite during furious phone exchanges between him and 'Arafat\" (p. 272)}}."
+          "significance": "Served as the link between the delegation and the PLO leadership in Tunis, though deep tensions ran between the two, with Husayni and Arafat engaging in {{quote|furious phone exchanges}} over strategy {{cite|khalidi2020|p. 272|excerpt-23}}."
         }
       ]
     },
     {
       "name": "Israeli Government (Labor-led coalition under Rabin)",
-      "description": "The Labor-led coalition that took power in June 1992 under Yitzhak Rabin represented a shift from Shamir's outright rejectionism but not a departure from the core Israeli position on Palestinian self-rule. Rabin had committed to Begin's Camp David approach: autonomy for the people but not the land, and no independent Palestinian state {{cite|khalidi2020|p. 271|\"In a speech given in 1989, Rabin had made clear his commitment to Begin's Camp David approach, including autonomy but no independent state for the Palestinians\" (p. 271)}} {{cite|khalidi2020|p. 271|\"less than a month before he was assassinated, Rabin told the Knesset that any Palestinian 'entity' to be created would be 'less than a state'\" (p. 271)}}.\n\nRabin's approach to the PLO was driven by the lesson of the intifada, namely that Israel could no longer control the Occupied Territories solely by force, combined with the assessment that Arafat's weakened position made him a pliable partner {{cite|khalidi2020|p. 278|\"The intifada had brought Rabin and the Israeli security establishment to the realization that the occupation, with Israeli troops policing densely populated Palestinian centres simmering with anger, needed modification\" (p. 278)}}. According to Khalidi, the resulting Oslo framework was designed to preserve the occupation's advantages while offloading its costs {{cite|khalidi2020|p. 279|\"Oslo I also involved the most far-reaching modification, which was the decision to enlist the PLO as a subcontractor for the occupation\" (p. 279)}}.",
+      "description": "The Labor-led coalition that took power in June 1992 under Yitzhak Rabin represented a shift from Shamir's outright rejectionism but not a departure from the core Israeli position on Palestinian self-rule. Rabin had committed to Begin's Camp David approach: autonomy for the people but not the land, and no independent Palestinian state {{cite|khalidi2020|p. 271|excerpt-24}} {{cite|khalidi2020|p. 271|excerpt-25}}.\n\nRabin's approach to the PLO was driven by the lesson of the intifada, namely that Israel could no longer control the Occupied Territories solely by force, combined with the assessment that Arafat's weakened position made him a pliable partner {{cite|khalidi2020|p. 278|excerpt-26}}. According to Khalidi, the resulting Oslo framework was designed to preserve the occupation's advantages while offloading its costs {{cite|khalidi2020|p. 279|excerpt-27}}.",
       "key_leaders": [
         {
           "name": "Yitzhak Rabin",
           "role": "Prime minister (1992-1995); authorized the Oslo back channel; signed the Declaration of Principles and the mutual recognition letters; assassinated by an Israeli ultranationalist on November 4, 1995",
-          "significance": "Rabin held out against direct talks with the PLO for as long as he could before being persuaded by Peres and Beilin, and by intelligence assessments of Arafat's weakened position and Hamas's growth {{cite|shlaim2000|p. 530|\"Rabin held out against direct talks with the PLO for as long as he could\" (p. 530)}} {{cite|shlaim2000|p. 530|\"Beilin was even more categorical in his view that talking to the PLO was a necessary condition for an agreement with the Palestinians. He had always belonged to the extreme dovish wing of the Labor Party. He was the real architect behind the Israeli recognition of the PLO\" (p. 530)}}.\n\nHe had no clear idea of the final shape of a settlement but wanted to preserve the settlements and keep Israel's security border along the Jordan River {{cite|shlaim2000|p. 531|\"He wanted to preserve the Jewish settlements in the occupied territories and to keep Israel's security border along the Jordan River\" (p. 531)}}."
+          "significance": "Rabin held out against direct talks with the PLO for as long as he could before being persuaded by Peres and Beilin, and by intelligence assessments of Arafat's weakened position and Hamas's growth {{cite|shlaim2000|p. 530|excerpt-8}} {{cite|shlaim2000|p. 530|excerpt-9}}.\n\nHe had no clear idea of the final shape of a settlement but wanted to preserve the settlements and keep Israel's security border along the Jordan River {{cite|shlaim2000|p. 531|excerpt-10}}."
         },
         {
           "name": "Shimon Peres",
           "role": "Foreign minister; supervised the Oslo negotiations on the Israeli side; ordered Uri Savir and Yoel Singer to join the Oslo talks in May 1993; met secretly with Abu Ala to finalize the accord in August 1993",
-          "significance": "Peres took the view that without the PLO there could be no settlement, but he was {{quote|no more prepared to see the Palestinians as equals or to countenance Palestinian statehood and sovereignty than were Rabin or Shamir}} {{cite|khalidi2020|p. 275|\"Shimon Peres, who was no more prepared to see the Palestinians as equals or to countenance Palestinian statehood and sovereignty than were Rabin or Shamir\" (p. 275)}}."
+          "significance": "Peres took the view that without the PLO there could be no settlement, but he was {{quote|no more prepared to see the Palestinians as equals or to countenance Palestinian statehood and sovereignty than were Rabin or Shamir}} {{cite|khalidi2020|p. 275|excerpt-28}}."
         },
         {
           "name": "Yossi Beilin",
           "role": "Deputy foreign minister; the intellectual architect behind Israel's recognition of the PLO; initiated and encouraged the Oslo back channel",
-          "significance": "Beilin had a clearer vision of a final settlement than Rabin, including return to pre-1967 borders, an independent Palestinian state, and dismantling of settlements {{cite|shlaim2000|p. 530|\"Beilin not only recognized the need to talk to the PLO but had a clear and coherent long-term strategy... a return to the pre-June 1967 borders with only minor modifications, an independent Palestinian state, the dismantling of Jewish settlements\" (p. 530)}}.\n\nIt was his initiative and the policy vacuum in Rabin's government that enabled the back channel to develop {{cite|shlaim2000|p. 531|\"It was this policy vacuum at the heart of the government that enabled Beilin to take the lead, to exert an influence that was out of all proportion to his junior position\" (p. 531)}}."
+          "significance": "Beilin had a clearer vision of a final settlement than Rabin, including return to pre-1967 borders, an independent Palestinian state, and dismantling of settlements {{cite|shlaim2000|p. 530|excerpt-11}}.\n\nIt was his initiative and the policy vacuum in Rabin's government that enabled the back channel to develop {{cite|shlaim2000|p. 531|excerpt-12}}."
         }
       ]
     },
     {
       "name": "Palestinian Critics of Oslo (secular and intellectual opposition)",
-      "description": "A range of Palestinian intellectuals and political figures opposed the Oslo Accords from their inception. Edward Said was the most prominent international voice of dissent, calling the agreement {{quote|an instrument of Palestinian surrender, a Palestinian Versailles}} on the day of the signing {{cite|said1995|p. 16|\"So first of all let us call the agreement by its real name: an instrument of Palestinian surrender, a Palestinian Versailles\" (p. 7)}}. His critique focused on the asymmetry of the exchange: the PLO had given up on self-determination, Jerusalem, and the refugees, allowing them to become part of indeterminate {{quote|final status negotiations,}} while Israel conceded nothing of substance {{cite|said1995|pp. 29-30|\"For the first time in our history, our leadership had simply given up on self-determination, Jerusalem, and the refugees, allowing them to become part of an undetermined set of 'final status negotiations.' For the first time in the twentieth century, an anticolonial liberation movement had not only discarded its own considerable achievements but made an agreement to cooperate with a military occupation before that occupation had ended\" (pp. 29-30)}}.\n\nWithin the PLO, secular factions including the PFLP and DFLP opposed the accords. Haidar Abd al-Shafi, head of the Palestinian delegation at Madrid, became a vocal critic. Rashid Khalidi, who had served as an advisor to the delegation, later concluded that rejecting Israel's offer would have been preferable to the deal that emerged {{cite|khalidi2020|p. 277|\"I am convinced that rejecting Israel's bare-bones offer in Washington and Oslo would have been the right course. Had the PLO taken such a tough stance, the outcome would not have been worse than the loss of land, resources, and freedom of movement suffered by the Palestinians since 1993\" (p. 277)}}."
+      "description": "A range of Palestinian intellectuals and political figures opposed the Oslo Accords from their inception. Edward Said was the most prominent international voice of dissent, calling the agreement {{quote|an instrument of Palestinian surrender, a Palestinian Versailles}} on the day of the signing {{cite|said1995|p. 16|excerpt-1}}. His critique focused on the asymmetry of the exchange: the PLO had given up on self-determination, Jerusalem, and the refugees, allowing them to become part of indeterminate {{quote|final status negotiations,}} while Israel conceded nothing of substance {{cite|said1995|pp. 29-30|excerpt-3}}.\n\nWithin the PLO, secular factions including the PFLP and DFLP opposed the accords. Haidar Abd al-Shafi, head of the Palestinian delegation at Madrid, became a vocal critic. Rashid Khalidi, who had served as an advisor to the delegation, later concluded that rejecting Israel's offer would have been preferable to the deal that emerged {{cite|khalidi2020|p. 277|excerpt-29}}."
     },
     {
       "name": "Hamas and Islamic Jihad (rejectionist resistance camp)",
-      "description": "These Islamist movements rejected Oslo from the outset, arguing that the agreement would preserve occupation in another form and that resistance, not negotiation, was the path to liberation. Roy notes that Hamas and Islamic Jihad shared the goal of an Islamic state in all of Palestine but differed over means: Hamas emphasizes social transformation (de-secularization) as a precondition, while Islamic Jihad holds that statehood can only emerge through armed confrontation. The signing of the Declaration of Principles intensified factional conflict because Hamas rejected it outright {{cite|roy2016|pp. 21-22|\"Hamas believes that an Islamic state will emerge when Palestinian society is de-secularized\" (p. 22);\"can only be created as a result of armed confrontation with Israel\" (p. 22);\"The signing of the Israeli-PLO Declaration of Principles in September 1993, which Hamas fiercely opposes, intensified existing divisions with Fatah\" (p. 22)}}.\n\nHamas's refusal to endorse Oslo positioned it as the main political beneficiary of the later discrediting of the negotiation strategy. Its victory in the 2006 Palestinian legislative elections became a {{quote|resounding repudiation}} of Oslo-era failures {{cite|khalidi2006|p. 152|\"The defeat of Fateh in the 2006 elections was a resounding repudiation of what the Palestinian public in the occupied West Bank and Gaza Strip perceived to be these and other failures on its part\" (p. 152)}}.",
+      "description": "These Islamist movements rejected Oslo from the outset, arguing that the agreement would preserve occupation in another form and that resistance, not negotiation, was the path to liberation. Roy notes that Hamas and Islamic Jihad shared the goal of an Islamic state in all of Palestine but differed over means: Hamas emphasizes social transformation (de-secularization) as a precondition, while Islamic Jihad holds that statehood can only emerge through armed confrontation. The signing of the Declaration of Principles intensified factional conflict because Hamas rejected it outright {{cite|roy2016|pp. 21-22|excerpt-2}}.\n\nHamas's refusal to endorse Oslo positioned it as the main political beneficiary of the later discrediting of the negotiation strategy. Its victory in the 2006 Palestinian legislative elections became a {{quote|resounding repudiation}} of Oslo-era failures {{cite|khalidi2006|p. 152|excerpt-6}}.",
       "key_leaders": [
         {
           "name": "Ahmed Yassin",
@@ -226,7 +226,7 @@
     },
     {
       "name": "United States Government",
-      "description": "The United States played a central role in shaping the negotiation framework, from the Madrid conference through the Oslo process. While formally committed to acting as an 'honest broker' {{cite|khalidi2020|p. 265|\"the United States pledged to 'act as an honest broker in trying to resolve the Arab-Israeli conflict'\" (p. 265)}} and to preventing unilateral actions that would prejudge final outcomes, the US never enforced these commitments {{cite|khalidi2020|p. 265|\"The United States never made good on these commitments, failing to prevent an unending series of unilateral Israeli actions, from settlement expansion and the closure of Jerusalem to West Bankers and Gazans\" (p. 265)}}.\n\nKey US negotiators, particularly Dennis Ross, were described by colleagues as operating with a pronounced pro-Israel bias. Ross pre-consulted with the Israelis and was prone to what a State Department colleague called {{quote|preemptive capitulations to red lines,}} referring to Israel's red lines {{cite|khalidi2020|p. 269|\"As one senior State Department official said of him: 'Ross's bad habit is pre-consultation with the Israelis.' Another was even more scathing: Ross, he said, was prone to 'preemptive capitulations to red lines,' referring to Israel's red lines\" (p. 269)}}. The exception was James Baker, who had the stature and will to push back on Israel, but he left the State Department in August 1992, ten months after Madrid {{cite|khalidi2020|pp. 268-269|\"Baker was only able, or willing, to do so much\" (pp. 268-269)}} {{cite|khalidi2020|pp. 268-269|\"he was gone from the State Department ten months after Madrid\" (pp. 268-269)}}.",
+      "description": "The United States played a central role in shaping the negotiation framework, from the Madrid conference through the Oslo process. While formally committed to acting as an 'honest broker' {{cite|khalidi2020|p. 265|excerpt-30}} and to preventing unilateral actions that would prejudge final outcomes, the US never enforced these commitments {{cite|khalidi2020|p. 265|excerpt-31}}.\n\nKey US negotiators, particularly Dennis Ross, were described by colleagues as operating with a pronounced pro-Israel bias. Ross pre-consulted with the Israelis and was prone to what a State Department colleague called {{quote|preemptive capitulations to red lines,}} referring to Israel's red lines {{cite|khalidi2020|p. 269|excerpt-32}}. The exception was James Baker, who had the stature and will to push back on Israel, but he left the State Department in August 1992, ten months after Madrid {{cite|khalidi2020|pp. 268-269|excerpt-33}} {{cite|khalidi2020|pp. 268-269|excerpt-34}}.",
       "key_leaders": [
         {
           "name": "James Baker",
@@ -236,24 +236,24 @@
         {
           "name": "Dennis Ross",
           "role": "Special Middle East coordinator under Clinton; previously involved in Bush-era peace process; later headed the AIPAC-linked Washington Institute for Near East Policy",
-          "significance": "Ross's bias toward Israel shaped US policy throughout the 1990s negotiations.\n\nHe {{quote|deemed recognition of the PLO and its involvement in negotiations unacceptable to Israel, even though Rabin in fact eventually agreed to these terms}} {{cite|khalidi2020|p. 269|\"He deemed recognition of the PLO and its involvement in negotiations unacceptable to Israel, even though Rabin in fact eventually agreed to these terms\" (p. 269)}}."
+          "significance": "Ross's bias toward Israel shaped US policy throughout the 1990s negotiations.\n\nHe {{quote|deemed recognition of the PLO and its involvement in negotiations unacceptable to Israel, even though Rabin in fact eventually agreed to these terms}} {{cite|khalidi2020|p. 269|excerpt-35}}."
         }
       ]
     },
     {
       "name": "Norwegian Facilitators",
-      "description": "The Norwegian government, through Foreign Minister Johan Joergen Holst and social scientist Terje Rod-Larsen, hosted and facilitated the secret Oslo talks. They acted as {{quote|generous hosts and facilitators}} {{cite|shlaim2000|p. 531|\"The Norwegian foreign affairs minister, Johan Joergen Holst, and the social scientist Terge Rod Larsen acted as generous hosts and facilitators\" (p. 531)}}.\n\nHowever, the Norwegian hosts were not neutral: Khalidi notes that they {{quote|assiduously aided and abetted}} the Israeli delegation {{quote|for reasons that can only be speculated at}} {{cite|khalidi2006|p. 167|\"the Israeli delegation at Oslo, which we now know was assiduously aided and abetted by the Norwegian hosts (for reasons that can only be speculated at), out-negotiated the PLO team at every turn\" (p. 167)}}."
+      "description": "The Norwegian government, through Foreign Minister Johan Joergen Holst and social scientist Terje Rod-Larsen, hosted and facilitated the secret Oslo talks. They acted as {{quote|generous hosts and facilitators}} {{cite|shlaim2000|p. 531|excerpt-13}}.\n\nHowever, the Norwegian hosts were not neutral: Khalidi notes that they {{quote|assiduously aided and abetted}} the Israeli delegation {{quote|for reasons that can only be speculated at}} {{cite|khalidi2006|p. 167|excerpt-7}}."
     }
   ],
   "strategies": [
     {
       "strategy_name": "The Oslo Back Channel: Secret Negotiations for Mutual Recognition and Interim Self-Government",
       "actor": "PLO Leadership (Tunis-based, pro-negotiation)",
-      "description": "The PLO authorized secret direct negotiations with Israel in Oslo, bypassing both the official Palestinian delegation in Washington and the public scrutiny that attended the bilateral talks. Fourteen sessions were held over eight months, beginning in January 1993 {{cite|shlaim2000|pp. 531-532|\"Altogether, fourteen sessions of talks were held over an eight-month period, all behind a thick veil of secrecy\" (pp. 531-532)}}.\n\nThe talks initially dealt with economic cooperation but quickly broadened into a declaration of principles, made possible by a shift in the PLO's position: it agreed to discuss interim arrangements without prior agreement on the final outcome {{cite|shlaim2000|p. 532|\"In the past the PLO had always demanded that Israel recognize the right of the Palestinians to national self-determination as the price for recognizing Israel. Now the PLO men were prepared to discuss interim arrangements without prior agreement on the final outcome\" (p. 532)}}.",
-      "mechanism": "The secrecy of the channel allowed both sides to explore positions without the political costs of public concessions. For the PLO, the channel offered direct access to the Israeli decision-makers that the Washington framework denied. For Israel, it provided a pliable interlocutor: the PLO envoys were less experienced and less demanding than the Washington delegation.\n\nThe agreement on mutual recognition, consisting of Arafat's letter recognizing Israel's right to exist, renouncing terrorism, and committing to amend the Palestinian National Charter, in exchange for Rabin's terse one-sentence recognition of the PLO, was negotiated as part of this channel {{cite|shlaim2000|pp. 535-536|\"In his letter to Rabin, Arafat observed that the signing of the Declaration of Principles marked a new era in the history of the Middle East. He then confirmed the PLO's commitment to recognize Israel's right to live in peace and security, to accept UN Security Council Resolutions 242 and 338, to renounce the use of terrorism\" (pp. 535-536)}} {{cite|shlaim2000|pp. 535-536|\"In his terse, one-sentence reply to Arafat, Rabin confirmed that in the light of these commitments, the government of Israel decided to recognize the PLO as the representative of the Palestinian people\" (pp. 535-536)}}.",
-      "evidence": "The Declaration of Principles was signed on the White House lawn on September 13, 1993. It created an interim Palestinian authority for {{quote|a transitional period not exceeding five years}} while deferring {{quote|remaining issues, including: Jerusalem, refugees, settlements, security arrangements, borders}} to permanent status negotiations {{cite|enderlin2003|pp. 388-390|\"a transitional period not exceeding five years\" (p. 388);\"these negotiations shall cover remaining issues, including: Jerusalem, refugees, settlements, security arrangements, borders\" (p. 390)}} {{cite|shlaim2000|pp. 535-536|\"The Declaration of Principles on Interim Self-Government Arrangements was essentially an agenda for negotiations, governed by a tight timetable, rather than a full-blown agreement\" (pp. 535-536)}}.\n\nHowever, the declaration was completely silent on refugees, borders, settlements, and Jerusalem {{cite|shlaim2000|p. 536|\"The declaration was completely silent on such vital issues as the right of return of the 1948 refugees, the borders of the Palestinian entity, the future of the Jewish settlements on the West Bank and Gaza, and the status of Jerusalem\" (p. 536)}}.",
+      "description": "The PLO authorized secret direct negotiations with Israel in Oslo, bypassing both the official Palestinian delegation in Washington and the public scrutiny that attended the bilateral talks. Fourteen sessions were held over eight months, beginning in January 1993 {{cite|shlaim2000|pp. 531-532|excerpt-14}}.\n\nThe talks initially dealt with economic cooperation but quickly broadened into a declaration of principles, made possible by a shift in the PLO's position: it agreed to discuss interim arrangements without prior agreement on the final outcome {{cite|shlaim2000|p. 532|excerpt-15}}.",
+      "mechanism": "The secrecy of the channel allowed both sides to explore positions without the political costs of public concessions. For the PLO, the channel offered direct access to the Israeli decision-makers that the Washington framework denied. For Israel, it provided a pliable interlocutor: the PLO envoys were less experienced and less demanding than the Washington delegation.\n\nThe agreement on mutual recognition, consisting of Arafat's letter recognizing Israel's right to exist, renouncing terrorism, and committing to amend the Palestinian National Charter, in exchange for Rabin's terse one-sentence recognition of the PLO, was negotiated as part of this channel {{cite|shlaim2000|pp. 535-536|excerpt-16}} {{cite|shlaim2000|pp. 535-536|excerpt-17}}.",
+      "evidence": "The Declaration of Principles was signed on the White House lawn on September 13, 1993. It created an interim Palestinian authority for {{quote|a transitional period not exceeding five years}} while deferring {{quote|remaining issues, including: Jerusalem, refugees, settlements, security arrangements, borders}} to permanent status negotiations {{cite|enderlin2003|pp. 388-390|excerpt-1}} {{cite|shlaim2000|pp. 535-536|excerpt-5}}.\n\nHowever, the declaration was completely silent on refugees, borders, settlements, and Jerusalem {{cite|shlaim2000|p. 536|excerpt-6}}.",
       "effectiveness": "mixed",
-      "explanation": "The Oslo back channel created a framework for direct engagement between Israel and the PLO, but it did so under sharply unequal conditions. For the PLO, the agreement brought limited institutional gains: its leadership and cadres were able to return from exile, and the movement gained an administrative foothold in parts of the Occupied Territories through the Palestinian Authority. At a moment when the PLO was {{quote|more friendless and alone than perhaps at any stage in its history}} after the Gulf War {{cite|khalidi2020|p. 259|\"after the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history\" (p. 259)}}, these arrangements helped preserve it as the internationally recognized Palestinian interlocutor.\n\nBut the exchange was structurally one-sided. Israel recognized the PLO without recognizing a Palestinian state or committing to allow one {{cite|khalidi2020|p. 273|\"Israel had not recognized a Palestinian state or even made a commitment to allow the creation of one\" (p. 273)}}. The PLO accepted a five-year interim period without any Israeli commitments on the permanent settlement, thereby surrendering much of its leverage {{cite|shlaim2000|p. 537|\"At Oslo the PLO accepted the Israeli formula. In contrast to the official Palestinian position in Washington, the PLO agreed to a five-year transition period without clear commitments by Israel as to the nature of the permanent settlement\" (p. 537)}}. By deferring Jerusalem, refugees, borders, settlements, and sovereignty while allowing the occupation and settlement project to continue, the framework gave Israel room to alter facts on the ground during the supposed transitional period.",
+      "explanation": "The Oslo back channel created a framework for direct engagement between Israel and the PLO, but it did so under sharply unequal conditions. For the PLO, the agreement brought limited institutional gains: its leadership and cadres were able to return from exile, and the movement gained an administrative foothold in parts of the Occupied Territories through the Palestinian Authority. At a moment when the PLO was {{quote|more friendless and alone than perhaps at any stage in its history}} after the Gulf War {{cite|khalidi2020|p. 259|excerpt-36}}, these arrangements helped preserve it as the internationally recognized Palestinian interlocutor.\n\nBut the exchange was structurally one-sided. Israel recognized the PLO without recognizing a Palestinian state or committing to allow one {{cite|khalidi2020|p. 273|excerpt-37}}. The PLO accepted a five-year interim period without any Israeli commitments on the permanent settlement, thereby surrendering much of its leverage {{cite|shlaim2000|p. 537|excerpt-18}}. By deferring Jerusalem, refugees, borders, settlements, and sovereignty while allowing the occupation and settlement project to continue, the framework gave Israel room to alter facts on the ground during the supposed transitional period.",
       "related_strategies": [
         "The PISGA Counter-Proposal: Broad Interim Jurisdiction",
         "Security Subcontracting: The PA as Occupation Manager"
@@ -262,11 +262,11 @@
     {
       "strategy_name": "The PISGA Counter-Proposal: Broad Interim Jurisdiction",
       "actor": "Palestinian Delegation to Madrid/Washington (local leadership)",
-      "description": "In January 1992, the Palestinian delegation in Washington put forward a proposal for a Palestinian Interim Self-Governing Authority (PISGA) that envisaged a substantially different form of self-rule than what Israel offered. Its core was an elected authority with complete jurisdiction over the air, land, and water of the entirety of the Occupied Territories, including settlements.\n\nIsrael would freeze settlement activity and withdraw troops to redeployment points along the borders {{cite|khalidi2020|p. 270|\"The authority would have complete jurisdiction (but neither sovereignty nor full security control) over the air, land, and water of the entirety of the Occupied Territories, including settlements (but not settlers), and over all their Palestinian inhabitants. Israel would have been obliged to freeze settlement activity and withdraw its troops 'to redeployment points along the borders of the occupied Palestinian territories'\" (p. 270)}}.",
-      "mechanism": "By insisting on jurisdiction over land as well as people, the PISGA proposal sought to prevent the Begin-style 'autonomy for the people but not the land' that Israel intended {{cite|khalidi2020|p. 276|\"After Israel's rejection of the PISGA proposal, our delegation had refused to accept self-rule a la Begin. The delegates from the Occupied Territories knew what self-rule Israeli style would mean in practice\" (p. 276)}}.\n\nThe delegation, having developed legal and diplomatic expertise through ten rounds of Washington talks, understood that without territorial jurisdiction, self-rule would be an empty shell.",
-      "evidence": "Both the Shamir and Rabin governments rejected the proposal.\n\nIn contrast, the PLO envoys at Oslo subsequently accepted a framework far closer to Israel's position {{cite|khalidi2020|pp. 275-276|\"When we first saw the text of what had been agreed in Oslo, those of us with twenty-one months of experience in Madrid and Washington grasped immediately that the Palestinian negotiators had failed to understand what Israel meant by autonomy. What they had signed on to was a highly restricted form of self-rule in a fragment of the Occupied Territories, and without control of land, water, borders, or much else\" (pp. 275-276)}} {{cite|khalidi2020|pp. 275-276|\"they ended up accepting a barely modified version of the Begin autonomy plan\" (pp. 275-276)}}.",
+      "description": "In January 1992, the Palestinian delegation in Washington put forward a proposal for a Palestinian Interim Self-Governing Authority (PISGA) that envisaged a substantially different form of self-rule than what Israel offered. Its core was an elected authority with complete jurisdiction over the air, land, and water of the entirety of the Occupied Territories, including settlements.\n\nIsrael would freeze settlement activity and withdraw troops to redeployment points along the borders {{cite|khalidi2020|p. 270|excerpt-38}}.",
+      "mechanism": "By insisting on jurisdiction over land as well as people, the PISGA proposal sought to prevent the Begin-style 'autonomy for the people but not the land' that Israel intended {{cite|khalidi2020|p. 276|excerpt-20}}.\n\nThe delegation, having developed legal and diplomatic expertise through ten rounds of Washington talks, understood that without territorial jurisdiction, self-rule would be an empty shell.",
+      "evidence": "Both the Shamir and Rabin governments rejected the proposal.\n\nIn contrast, the PLO envoys at Oslo subsequently accepted a framework far closer to Israel's position {{cite|khalidi2020|pp. 275-276|excerpt-39}} {{cite|khalidi2020|pp. 275-276|excerpt-40}}.",
       "effectiveness": "ineffective",
-      "explanation": "The proposal offered a comprehensive legal framework, but had no prospect of acceptance given the power asymmetry and Israel's core position that sovereignty over the entirety of the land belonged exclusively to the Jewish people. The PLO leadership in Tunis showed a {{quote|distinct lack of enthusiasm}} for it and failed to promote it internationally {{cite|khalidi2020|p. 271|\"Although the PLO leadership had approved the proposal, I sensed a distinct lack of enthusiasm for the concepts it embodied. They failed to promote it internationally, in the Arab world, or in Israel\" (p. 271)}}.\n\nIts rejection, combined with the PLO's decision to bypass the Washington delegation entirely, meant that the expertise and leverage it embodied were never brought to bear on the final agreement.",
+      "explanation": "The proposal offered a comprehensive legal framework, but had no prospect of acceptance given the power asymmetry and Israel's core position that sovereignty over the entirety of the land belonged exclusively to the Jewish people. The PLO leadership in Tunis showed a {{quote|distinct lack of enthusiasm}} for it and failed to promote it internationally {{cite|khalidi2020|p. 271|excerpt-41}}.\n\nIts rejection, combined with the PLO's decision to bypass the Washington delegation entirely, meant that the expertise and leverage it embodied were never brought to bear on the final agreement.",
       "related_strategies": [
         "The Oslo Back Channel: Secret Negotiations for Mutual Recognition and Interim Self-Government"
       ]
@@ -274,9 +274,9 @@
     {
       "strategy_name": "Security Subcontracting: The PA as Occupation Manager",
       "actor": "Israeli Government (Labor-led coalition under Rabin)",
-      "description": "The Oslo framework's central mechanism, from Israel's perspective, was the enlistment of the PLO as a subcontractor for the occupation. The PA was tasked with policing the Palestinian population on Israel's behalf, while Israel retained control over borders, settlements, land, water, airspace, and population registers {{cite|khalidi2020|pp. 279-280|\"Oslo I also involved the most far-reaching modification, which was the decision to enlist the PLO as a subcontractor for the occupation; this was the actual meaning of the security deal Rabin made with 'Arafat\" (pp. 279-280)}} {{cite|khalidi2020|pp. 279-280|\"More bluntly, as Rabin's collaborator, Maj. Gen. Shlomo Gazit, put it publicly in 1994, 'Yasser 'Arafat has a choice. He can be a Lahd or a super-Lahd'\" (pp. 279-280)}}.\n\nGazit's reference was to Antoine Lahd, commander of the Israeli-armed and Israeli-controlled South Lebanese Army.",
-      "mechanism": "Oslo II (1995) carved the territories into Areas A (18% - PA administrative and security control), B (22% - PA administrative control, Israeli security), and C (over 60% - complete Israeli control) {{cite|khalidi2020|p. 279|\"It carved both regions into an infamous patchwork of areas, A, B, and C, with over 60 percent of the territory, Area C, under complete, direct, and unfettered Israeli control\" (p. 279)}}. This arrangement offloaded the financial burden and political costs of directly governing a hostile population while preserving all the strategic and territorial advantages of occupation.\n\nThe term 'occupation' appeared nowhere in the Oslo agreements, and Israel was not acknowledged as an occupying power {{cite|roy2016|p. 21|\"the term 'occupation' appears nowhere in any of the Oslo agreements, which also fail to acknowledge Israel as an occupying power\" (p. 21)}}.",
-      "evidence": "During the decade of negotiations from 1991 to 2001, the number of Israeli settlers in the occupied territories doubled {{cite|khalidi2006|p. 160|\"during the decade of negotiations running from the spring of 1991 ... the number of Israeli settlers in the occupied Palestinian territories doubled\" (p. 160)}}. Settlement spending was curbed under Rabin but overall settlement activity increased {{cite|khalidi2020|p. 278|\"spending on the settlements was curbed under Rabin's government but overall settlement activity increased\" (p. 278)}}.\n\nThe occupation was reinforced in myriad ways, becoming stronger and more all-encompassing than before Oslo {{cite|roy2016|p. 21|\"the Oslo peace process was doing the exact opposite: deepening Israel's control of the territories through a variety of policies, including territorial fragmentation and the large-scale expropriation of Arab land and other resources, intended to ensure Israel's continued presence and preclude the establishment of a Palestinian state\" (p. 21)}}.",
+      "description": "The Oslo framework's central mechanism, from Israel's perspective, was the enlistment of the PLO as a subcontractor for the occupation. The PA was tasked with policing the Palestinian population on Israel's behalf, while Israel retained control over borders, settlements, land, water, airspace, and population registers {{cite|khalidi2020|pp. 279-280|excerpt-42}} {{cite|khalidi2020|pp. 279-280|excerpt-43}}.\n\nGazit's reference was to Antoine Lahd, commander of the Israeli-armed and Israeli-controlled South Lebanese Army.",
+      "mechanism": "Oslo II (1995) carved the territories into Areas A (18% - PA administrative and security control), B (22% - PA administrative control, Israeli security), and C (over 60% - complete Israeli control) {{cite|khalidi2020|p. 279|excerpt-44}}. This arrangement offloaded the financial burden and political costs of directly governing a hostile population while preserving all the strategic and territorial advantages of occupation.\n\nThe term 'occupation' appeared nowhere in the Oslo agreements, and Israel was not acknowledged as an occupying power {{cite|roy2016|p. 21|excerpt-3}}.",
+      "evidence": "During the decade of negotiations from 1991 to 2001, the number of Israeli settlers in the occupied territories doubled {{cite|khalidi2006|p. 160|excerpt-8}}. Settlement spending was curbed under Rabin but overall settlement activity increased {{cite|khalidi2020|p. 278|excerpt-45}}.\n\nThe occupation was reinforced in myriad ways, becoming stronger and more all-encompassing than before Oslo {{cite|roy2016|p. 21|excerpt-1}}.",
       "effectiveness": "effective",
       "explanation": "Effective from Israel's strategic standpoint: the Oslo framework relieved Israel of the costs of direct occupation while maintaining and even strengthening its control. The PA provided security cooperation that policed Palestinian resistance, while settlement expansion continued uninterrupted and the territorial basis for a Palestinian state was progressively eroded.\n\nThe arrangements created during Oslo remain in force over three decades later, with Palestinians still living in what was supposed to be a temporary 'interim' status.",
       "related_strategies": [
@@ -286,11 +286,11 @@
     {
       "strategy_name": "Public Dissent: Intellectual Opposition to the Accords",
       "actor": "Palestinian Critics of Oslo (secular and intellectual opposition)",
-      "description": "Edward Said published what he described as {{quote|the only Palestinian dissent against the noisy (but terribly dishonest) celebrations of the Oslo Accords}} {{cite|said1995|p. 24|\"My first piece, which appeared simultaneously in London's Guardian daily, al-Hayat, al-Ahram Weekly, and The Nation, was the only Palestinian dissent against the noisy (but terribly dishonest) celebrations of the Oslo Accords\" (p. 24)}}.\n\nHe was invited by Clinton's office to attend the White House ceremony and refused, saying that September 13 {{quote|ought to be a day of mourning}} {{cite|said1995|p. 30|\"when I was invited by President Clinton's office to attend the White House ceremony, I refused, saying that for all Palestinians September 13 ought to be a day of mourning\" (p. 30)}}.",
-      "mechanism": "Said's critique operated through published essays and interviews, building a dissenting record in real time. His core argument was that the PLO had entered negotiations 'through an act of abjection' from a position of total weakness, yielding all leverage without securing any guarantees on statehood, refugees, or Jerusalem {{cite|said1995|pp. 24-25|\"from the secret negotiations in Oslo between the PLO and Israel to the Israeli-Jordanian agreement proclaimed in Washington, and after, there has run a clear and, to me, unnecessary line of Arab capitulation by which Israel has achieved all of its tactical and strategic objectives at the expense of nearly every proclaimed principle of Arab and Palestinian nationalism and struggle\" (pp. 24-25)}}.\n\nHe argued that {{quote|true reconciliation cannot be imposed; neither can it occur between cultures and societies that are enormously uneven in power}} {{cite|said1995|p. 26|\"true reconciliation cannot be imposed; neither can it occur between cultures and societies that are enormously uneven in power. The kind of reconciliation that can bring real peace can only occur between equals\" (p. 26)}}.",
-      "evidence": "Said noted that the PLO had negotiated in English, a language neither Arafat nor his Oslo emissary spoke fluently, without legal advisers, and with a tiny handful of negotiators facing {{quote|an entire corps of Israeli Foreign Ministry experts}} {{cite|said1995|p. 16|\"the PLO, which negotiated in English, a language that neither Arafat nor his emissary in Oslo knows, with no legal adviser (the PLO's two main legal negotiators resigned in protest some time ago; Arafat and his three or four subordinates alone faced an entire corps of Israeli Foreign Ministry experts)\" (p. 7)}}.\n\nHe also observed that none of the Palestinian negotiators at Oslo had ever seen an Israeli settlement {{cite|said1995|p. 9|\"Neither Arafat, nor any of his Palestinian partners negotiating with the Israelis in Oslo, has ever seen an Israeli settlement\" (p. 9)}}.",
+      "description": "Edward Said published what he described as {{quote|the only Palestinian dissent against the noisy (but terribly dishonest) celebrations of the Oslo Accords}} {{cite|said1995|p. 24|excerpt-4}}.\n\nHe was invited by Clinton's office to attend the White House ceremony and refused, saying that September 13 {{quote|ought to be a day of mourning}} {{cite|said1995|p. 30|excerpt-5}}.",
+      "mechanism": "Said's critique operated through published essays and interviews, building a dissenting record in real time. His core argument was that the PLO had entered negotiations 'through an act of abjection' from a position of total weakness, yielding all leverage without securing any guarantees on statehood, refugees, or Jerusalem {{cite|said1995|pp. 24-25|excerpt-6}}.\n\nHe argued that {{quote|true reconciliation cannot be imposed; neither can it occur between cultures and societies that are enormously uneven in power}} {{cite|said1995|p. 26|excerpt-7}}.",
+      "evidence": "Said noted that the PLO had negotiated in English, a language neither Arafat nor his Oslo emissary spoke fluently, without legal advisers, and with a tiny handful of negotiators facing {{quote|an entire corps of Israeli Foreign Ministry experts}} {{cite|said1995|p. 16|excerpt-8}}.\n\nHe also observed that none of the Palestinian negotiators at Oslo had ever seen an Israeli settlement {{cite|said1995|p. 9|excerpt-9}}.",
       "effectiveness": "mixed",
-      "explanation": "Said's critiques were prescient: virtually all of his warnings about the interim stage becoming permanent, about settlements expanding, and about the PA becoming a mechanism for managing occupation rather than ending it proved accurate {{cite|said1995|p. xxiv|\"Over time, I regret to say, my initial misgivings... have generally been proved right, although the abuse against Palestinians continues\" (p. xxiv)}}.\n\nHowever, at the time, his was a lonely voice against the prevailing euphoria, and he had no ability to affect the PLO's decisions.\n\nOver time, as Said later noted, 'more and more readers were won over, and now, in the general despair and disrepair, people have at last begun to ask questions' {{cite|said1995|p. xxiv|\"in the general despair and disrepair, people have at last begun to ask questions, express opposition, challenge the clammy embrace of Arafat, Rabin, and their apparatchiks, enforcers, and sophists\" (p. xxiv)}}.",
+      "explanation": "Said's critiques were prescient: virtually all of his warnings about the interim stage becoming permanent, about settlements expanding, and about the PA becoming a mechanism for managing occupation rather than ending it proved accurate {{cite|said1995|p. xxiv|excerpt-10}}.\n\nHowever, at the time, his was a lonely voice against the prevailing euphoria, and he had no ability to affect the PLO's decisions.\n\nOver time, as Said later noted, 'more and more readers were won over, and now, in the general despair and disrepair, people have at last begun to ask questions' {{cite|said1995|p. xxiv|excerpt-11}}.",
       "related_strategies": [
         "The PISGA Counter-Proposal: Broad Interim Jurisdiction",
         "Rejection of Oslo and Continued Resistance"
@@ -299,9 +299,9 @@
     {
       "strategy_name": "Rejection of Oslo and Continued Resistance",
       "actor": "Hamas and Islamic Jihad (rejectionist resistance camp)",
-      "description": "Hamas, Islamic Jihad, and other rejectionist currents refused to endorse Oslo and insisted that the agreement would preserve occupation in another form.\n\nThey maintained that resistance, not negotiation from weakness, was the path to liberation, and that the PA's security cooperation with Israel amounted to policing one's own people on behalf of the occupier {{cite|roy2016|pp. 22-23|\"With the inception of the Middle East peace process in October 1991, factional violence between Hamas (which opposed the initiative) and Fatah increased markedly\" (p. 23);\"The signing of the Israeli-PLO Declaration of Principles in September 1993, which Hamas fiercely opposes, intensified existing divisions with Fatah\" (p. 22)}}.",
+      "description": "Hamas, Islamic Jihad, and other rejectionist currents refused to endorse Oslo and insisted that the agreement would preserve occupation in another form.\n\nThey maintained that resistance, not negotiation from weakness, was the path to liberation, and that the PA's security cooperation with Israel amounted to policing one's own people on behalf of the occupier {{cite|roy2016|pp. 22-23|excerpt-4}}.",
       "mechanism": "By refusing recognition of Israel and keeping resistance central, this strategy sought to deny legitimacy to a framework that did not end occupation and that redirected Palestinian energies toward policing and administration.\n\nThe rejectionists argued that Oslo traded the moral and political capital of the intifada for an autonomy arrangement that relieved Israel of occupation costs without requiring territorial withdrawal.",
-      "evidence": "The rejectionists were vindicated on the structural critique: settlements expanded, territorial fragmentation deepened, and the interim period became permanent. Hamas later benefited electorally from the discrediting of the negotiation strategy, winning the 2006 Palestinian legislative elections in what Khalidi calls a {{quote|resounding repudiation}} of Fatah's Oslo-era failures {{cite|khalidi2006|p. 152|\"The defeat of Fateh in the 2006 elections was a resounding repudiation of what the Palestinian public in the occupied West Bank and Gaza Strip perceived to be these and other failures on its part\" (p. 152)}}.\n\nHowever, the rejectionist camp did not produce a unified diplomatic alternative capable of replacing Oslo in the 1990s, and the internal Palestinian split between Fatah and Hamas that followed 2006 further weakened the national movement.",
+      "evidence": "The rejectionists were vindicated on the structural critique: settlements expanded, territorial fragmentation deepened, and the interim period became permanent. Hamas later benefited electorally from the discrediting of the negotiation strategy, winning the 2006 Palestinian legislative elections in what Khalidi calls a {{quote|resounding repudiation}} of Fatah's Oslo-era failures {{cite|khalidi2006|p. 152|excerpt-6}}.\n\nHowever, the rejectionist camp did not produce a unified diplomatic alternative capable of replacing Oslo in the 1990s, and the internal Palestinian split between Fatah and Hamas that followed 2006 further weakened the national movement.",
       "effectiveness": "mixed",
       "explanation": "The strategy preserved a clear critique of Oslo's defects and gained political force as those defects accumulated. But it also deepened internal Palestinian fragmentation and did not solve the problem of how to translate resistance into an internationally viable settlement framework.\n\nThe rejectionist camp's structural critique proved accurate, though they lacked a constructive diplomatic replacement.",
       "related_strategies": [
@@ -312,51 +312,51 @@
     }
   ],
   "outcomes": {
-    "description": "The Oslo Accords established a Palestinian Authority and brought the PLO leadership to the Occupied Territories but did not end or even constrain the occupation. The 'interim phase' that was supposed to last five years has persisted for over three decades.\n\nFinal status negotiations, when they did occur at Camp David in 2000 and Taba in 2001, failed to produce agreement. The second intifada erupted in September 2000, followed by full Israeli reoccupation of PA-controlled areas in 2002 {{cite|khalidi2020|pp. 281-282|\"In September 2002, the Israeli army imposed a siege on the Muqata'a, 'Arafat's Ramallah HQ... The remainder of the territory administered by the PA set up under the provisions of the Oslo and subsequent accords was reoccupied\" (pp. 281-282)}}.",
+    "description": "The Oslo Accords established a Palestinian Authority and brought the PLO leadership to the Occupied Territories but did not end or even constrain the occupation. The 'interim phase' that was supposed to last five years has persisted for over three decades.\n\nFinal status negotiations, when they did occur at Camp David in 2000 and Taba in 2001, failed to produce agreement. The second intifada erupted in September 2000, followed by full Israeli reoccupation of PA-controlled areas in 2002 {{cite|khalidi2020|pp. 281-282|excerpt-46}}.",
     "consequences": [
       {
         "title": "Settlement expansion and economic decline",
-        "description": "Settlement expansion accelerated throughout the Oslo period: settlers in the occupied territories more than doubled from roughly 262,500 in 1993 to over 520,000 by 2013 {{cite|roy2016|p. 26|\"the relentless growth of Israeli settlements (whose population more than doubled from 262,500 in 1993 to over 520,000 in 2013)\" (p. 26)}}. Between 1993 and 2004, Palestinian GDP per capita declined despite promises of imminent prosperity {{cite|khalidi2020|p. 283|\"Between 1993 and 2004, GDP per capita declined, despite promises of a prosperity that was just around the corner\" (p. 283)}}.\n\nThe closure regime imposed on Gaza increasingly severed it from the West Bank and from any normal economic life {{cite|roy2016|p. 21|\"the Oslo process enabled Israel to claim that it was mitigating if not ending the occupation. In fact, the Oslo peace process was doing the exact opposite: deepening Israel's control of the territories\" (pp. 21-22)}}.",
+        "description": "Settlement expansion accelerated throughout the Oslo period: settlers in the occupied territories more than doubled from roughly 262,500 in 1993 to over 520,000 by 2013 {{cite|roy2016|p. 26|excerpt-5}}. Between 1993 and 2004, Palestinian GDP per capita declined despite promises of imminent prosperity {{cite|khalidi2020|p. 283|excerpt-47}}.\n\nThe closure regime imposed on Gaza increasingly severed it from the West Bank and from any normal economic life {{cite|roy2016|p. 21|excerpt-6}}.",
         "domain": "economic"
       },
       {
         "title": "PLO exposure and security subcontracting",
-        "description": "The PLO's wholesale relocation to the Occupied Territories placed its entire leadership within the reach of Israeli military power. In 2002, Israeli troops stormed PA offices, shut down Orient House in Jerusalem, and besieged Arafat in his Ramallah headquarters, making him a virtual prisoner until shortly before his death {{cite|khalidi2020|pp. 281-282|\"the PLO had entered the lion's mouth, and it did not take long for the jaws to snap shut. In September 2002, the Israeli army imposed a siege on the Muqata'a, 'Arafat's Ramallah HQ, making him a virtual prisoner for the next two years until shortly before he died\" (pp. 281-282)}}.\n\nThe PA's primary function became security coordination with Israel against Palestinian resistance, consuming much of its budget {{cite|khalidi2020|p. 282|\"Its primary function, to which much of its budget is devoted, is security, but not for its people: it is mandated by US and Israeli dictates to provide security for Israel's settlers and occupation forces against the resistance, violent and otherwise, of other Palestinians\" (p. 282)}}.",
+        "description": "The PLO's wholesale relocation to the Occupied Territories placed its entire leadership within the reach of Israeli military power. In 2002, Israeli troops stormed PA offices, shut down Orient House in Jerusalem, and besieged Arafat in his Ramallah headquarters, making him a virtual prisoner until shortly before his death {{cite|khalidi2020|pp. 281-282|excerpt-48}}.\n\nThe PA's primary function became security coordination with Israel against Palestinian resistance, consuming much of its budget {{cite|khalidi2020|p. 282|excerpt-49}}.",
         "domain": "political"
       },
       {
         "title": "Movement restrictions and severed territories",
-        "description": "Post-Oslo, Palestinians experienced progressive confinement: a labyrinthine system of permits, checkpoints, walls, and fences was imposed. Gaza was severed from the West Bank, which was itself severed from Jerusalem. Freedom of movement that had existed before 1991 was eliminated {{cite|khalidi2020|pp. 283-284|\"Until 1991, great numbers of Palestinians had worked in Israel without hindrance and without requiring a special permit. One could travel in a car with West Bank or Gaza license plates anywhere in Israel and in the Occupied Territories. Any expectation of having that freedom restored was quickly quashed\" (pp. 283-284)}}.\n\nArab East Jerusalem's contribution to Palestinian GDP shrank from 15 percent in 1993 to 7 percent, as the city was cut off from its West Bank hinterland {{cite|khalidi2020|p. 285|\"the contribution of Arab East Jerusalem to the Palestinian GDP has shrunk from 15 percent in 1993 to 7 percent today\" (p. 285)}}.",
+        "description": "Post-Oslo, Palestinians experienced progressive confinement: a labyrinthine system of permits, checkpoints, walls, and fences was imposed. Gaza was severed from the West Bank, which was itself severed from Jerusalem. Freedom of movement that had existed before 1991 was eliminated {{cite|khalidi2020|pp. 283-284|excerpt-50}}.\n\nArab East Jerusalem's contribution to Palestinian GDP shrank from 15 percent in 1993 to 7 percent, as the city was cut off from its West Bank hinterland {{cite|khalidi2020|p. 285|excerpt-51}}.",
         "domain": "human"
       },
       {
         "title": "Fatah's repudiation and Hamas's rise",
-        "description": "The Oslo period was {{quote|adjudged in retrospect to have been disastrous by most Palestinians}} and became fully identified with Arafat and Fatah {{cite|khalidi2006|p. 149|\"The Oslo period (1991-2000), adjudged in retrospect to have been disastrous by most Palestinians, was fully identified with 'Arafat\" (p. 149)}}.\n\nThe PA's perceived failures in negotiation, governance, and protection led to Hamas's victory in the 2006 Palestinian legislative elections, fundamentally fragmenting Palestinian politics and further undermining the prospects for statehood {{cite|khalidi2006|p. 152|\"The defeat of Fateh in the 2006 elections was a resounding repudiation of what the Palestinian public in the occupied West Bank and Gaza Strip perceived to be these and other failures on its part\" (p. 152)}}.",
+        "description": "The Oslo period was {{quote|adjudged in retrospect to have been disastrous by most Palestinians}} and became fully identified with Arafat and Fatah {{cite|khalidi2006|p. 149|excerpt-9}}.\n\nThe PA's perceived failures in negotiation, governance, and protection led to Hamas's victory in the 2006 Palestinian legislative elections, fundamentally fragmenting Palestinian politics and further undermining the prospects for statehood {{cite|khalidi2006|p. 152|excerpt-6}}.",
         "domain": "political"
       }
     ]
   },
   "assessment": {
-    "verdict": "**Limited institutional gains at a moment of collapse.** The Oslo Accords did not constitute a balanced breakthrough so much as a negotiation framework shaped by a stark imbalance of power. For the PLO, Oslo brought limited but important institutional gains: its leadership returned from exile, the Palestinian Authority was established in parts of the Occupied Territories, and the organization retained its standing as the internationally recognized Palestinian representative. At a moment when the PLO was {{quote|more friendless and alone than perhaps at any stage in its history}} after the Gulf War {{cite|khalidi2020|p. 259|\"after the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history\" (p. 259)}}, these arrangements helped avert its political collapse.\n\n**Substantial costs: recognition without reciprocity.** The costs of those limited gains were substantial. The PLO recognized Israel without securing reciprocal recognition of Palestinian statehood or any Israeli commitment to permit one {{cite|khalidi2020|p. 273|\"This was a peculiar transaction, whereby a national liberation movement had obtained nominal recognition from its oppressors, without achieving liberation, by trading its own recognition of the state that had colonized its homeland and continued to occupy it\" (p. 273)}}. By deferring the core issues and imposing no constraints on Israeli settlement activity, the interim framework left the central structures of occupation intact and allowed them to deepen under the cover of a 'peace process.'\n\n**Structural asymmetry of the exchange.** The asymmetry of the exchange was structural, not incidental. The PLO negotiated from a position of severe weakness, without adequate legal or diplomatic resources, and under the sponsorship of a US government secretly committed to supporting Israeli positions {{cite|khalidi2020|p. 280|\"The Oslo straitjacket could not have been imposed on the Palestinians without American connivance\" (p. 280)}}. Israeli negotiators, meanwhile, understood that the PLO's vulnerability made extensive Palestinian concessions more likely {{cite|shlaim2000|p. 534|\"In his estimate the PLO was 'on the ropes,' and it was therefore highly probable that the PLO would drop some of its sacred principles to secure Israeli recognition\" (p. 534)}}.\n\n**Was refusal a better path?** Khalidi judged retrospectively that 'rejecting Israel's bare-bones offer in Washington and Oslo would have been the right course,' arguing that occupation would have continued regardless, but without the PA serving as Israel's security subcontractor {{cite|khalidi2020|p. 277|\"On balance, a failure to reach a deal would have been better than the deal that emerged from Oslo. Occupation would have continued, as it has anyway, but without the veil of Palestinian self-government, without relieving Israel of the financial burden of governing and administering a population of millions, and without 'security coordination', the worst outcome of Oslo, whereby the PA helps Israel police the restive Palestinians\" (p. 277)}}. The main argument for accepting Oslo was narrower: given the PLO's weakness in Tunis, refusal may have hastened its political disintegration and left Palestinians with no recognized interlocutor and no institutional foothold at all. Quandt emphasized the potential value of using a territorial base to begin building the institutions of a future state {{cite|quandt2005|pp. 329-330|\"the Palestinians had a territorial base in which they could begin to organize the future state that they dreamed of\" (p. 329);\"the chance to start building the institutions of the future state\" (p. 330)}}. Shlaim, for his part, interpreted the agreement as a compromise reached because neither side could impose its preferred outcome outright {{cite|shlaim2000|pp. 537-538|\"Each side was driven to this historic compromise by the recognition that it lacked the power to impose its own vision on the other side\" (pp. 537-538)}}. Rabin too {{quote|felt pressure}} to produce an agreement by August 1993, suggesting that the balance of leverage may not have been entirely fixed {{cite|khalidi2020|p. 277|\"According to Itamar Rabinovich, by August 1993, Rabin 'felt pressure' to make a dramatic move, given the stalemate after a year of negotiations with Syria and the Palestinians\" (p. 277)}}. But whether tougher Palestinian terms would have produced a better outcome or simply prolonged the deadlock remains an open question.\n\n**Structural lesson for weak-party negotiations.** The Oslo dilemma thus illustrates a structural problem confronting national liberation movements negotiating with vastly more powerful adversaries: the very vulnerability that drives a movement to the table simultaneously undermines its capacity to secure terms that serve its interests. The PLO's experience suggests that entering negotiations without adequate preparation, leverage, or willingness to walk away can produce agreements that institutionalize the power imbalance they were meant to redress, but also that the alternative to a flawed agreement is not necessarily a better one, particularly when organizational survival is at stake.",
+    "verdict": "**Limited institutional gains at a moment of collapse.** The Oslo Accords did not constitute a balanced breakthrough so much as a negotiation framework shaped by a stark imbalance of power. For the PLO, Oslo brought limited but important institutional gains: its leadership returned from exile, the Palestinian Authority was established in parts of the Occupied Territories, and the organization retained its standing as the internationally recognized Palestinian representative. At a moment when the PLO was {{quote|more friendless and alone than perhaps at any stage in its history}} after the Gulf War {{cite|khalidi2020|p. 259|excerpt-36}}, these arrangements helped avert its political collapse.\n\n**Substantial costs: recognition without reciprocity.** The costs of those limited gains were substantial. The PLO recognized Israel without securing reciprocal recognition of Palestinian statehood or any Israeli commitment to permit one {{cite|khalidi2020|p. 273|excerpt-52}}. By deferring the core issues and imposing no constraints on Israeli settlement activity, the interim framework left the central structures of occupation intact and allowed them to deepen under the cover of a 'peace process.'\n\n**Structural asymmetry of the exchange.** The asymmetry of the exchange was structural, not incidental. The PLO negotiated from a position of severe weakness, without adequate legal or diplomatic resources, and under the sponsorship of a US government secretly committed to supporting Israeli positions {{cite|khalidi2020|p. 280|excerpt-53}}. Israeli negotiators, meanwhile, understood that the PLO's vulnerability made extensive Palestinian concessions more likely {{cite|shlaim2000|p. 534|excerpt-4}}.\n\n**Was refusal a better path?** Khalidi judged retrospectively that 'rejecting Israel's bare-bones offer in Washington and Oslo would have been the right course,' arguing that occupation would have continued regardless, but without the PA serving as Israel's security subcontractor {{cite|khalidi2020|p. 277|excerpt-54}}. The main argument for accepting Oslo was narrower: given the PLO's weakness in Tunis, refusal may have hastened its political disintegration and left Palestinians with no recognized interlocutor and no institutional foothold at all. Quandt emphasized the potential value of using a territorial base to begin building the institutions of a future state {{cite|quandt2005|pp. 329-330|excerpt-1}}. Shlaim, for his part, interpreted the agreement as a compromise reached because neither side could impose its preferred outcome outright {{cite|shlaim2000|pp. 537-538|excerpt-19}}. Rabin too {{quote|felt pressure}} to produce an agreement by August 1993, suggesting that the balance of leverage may not have been entirely fixed {{cite|khalidi2020|p. 277|excerpt-55}}. But whether tougher Palestinian terms would have produced a better outcome or simply prolonged the deadlock remains an open question.\n\n**Structural lesson for weak-party negotiations.** The Oslo dilemma thus illustrates a structural problem confronting national liberation movements negotiating with vastly more powerful adversaries: the very vulnerability that drives a movement to the table simultaneously undermines its capacity to secure terms that serve its interests. The PLO's experience suggests that entering negotiations without adequate preparation, leverage, or willingness to walk away can produce agreements that institutionalize the power imbalance they were meant to redress, but also that the alternative to a flawed agreement is not necessarily a better one, particularly when organizational survival is at stake.",
     "historiography": [
       {
-        "interpretation": "Shlaim presented Oslo as a genuine 'historic compromise' based on acceptance of partition by both sides, while noting the fundamental asymmetry of the exchange and the silence on all core issues.\n\nHe emphasized the domestic dynamics on both sides: Rabin's belated conversion, Beilin's behind-the-scenes maneuvering, and the PLO's shift to accepting interim arrangements without prior commitment on final status {{cite|shlaim2000|pp. 537-538|\"The historic reconciliation was based on a historic compromise: acceptance of the principle of the partition of Palestine. Both sides accepted territorial compromise as the basis for the settlement of their long and bitter conflict\" (pp. 537-538)}} {{cite|shlaim2000|pp. 537-538|\"Each side was driven to this historic compromise by the recognition that it lacked the power to impose its own vision on the other side\" (pp. 537-538)}}.",
+        "interpretation": "Shlaim presented Oslo as a genuine 'historic compromise' based on acceptance of partition by both sides, while noting the fundamental asymmetry of the exchange and the silence on all core issues.\n\nHe emphasized the domestic dynamics on both sides: Rabin's belated conversion, Beilin's behind-the-scenes maneuvering, and the PLO's shift to accepting interim arrangements without prior commitment on final status {{cite|shlaim2000|pp. 537-538|excerpt-20}} {{cite|shlaim2000|pp. 537-538|excerpt-19}}.",
         "school": "Israeli revisionist"
       },
       {
-        "interpretation": "Khalidi (2006, 2020) placed Oslo within the longer history of Palestinian failures to build effective state structures, arguing that the PLO had done 'precious little to prepare for independent statehood' and that the Oslo process revealed the organization's deep structural weaknesses.\n\nHe emphasized the role of the PLO's under-qualified negotiating team, Arafat's autocratic decision-making, and the Norwegian hosts' partiality, while stressing that the outcome reflected the power imbalance more than anything else {{cite|khalidi2006|pp. 167-168|\"The Oslo Accords were a foretaste of what was to come in every Palestinian-Israeli negotiation over the following few years\" (pp. 167-168)}} {{cite|khalidi2006|pp. 167-168|\"the result of the entire Oslo process was a steep decline in mutual confidence\" (pp. 167-168)}}.",
+        "interpretation": "Khalidi (2006, 2020) placed Oslo within the longer history of Palestinian failures to build effective state structures, arguing that the PLO had done 'precious little to prepare for independent statehood' and that the Oslo process revealed the organization's deep structural weaknesses.\n\nHe emphasized the role of the PLO's under-qualified negotiating team, Arafat's autocratic decision-making, and the Norwegian hosts' partiality, while stressing that the outcome reflected the power imbalance more than anything else {{cite|khalidi2006|pp. 167-168|excerpt-10}} {{cite|khalidi2006|pp. 167-168|excerpt-11}}.",
         "school": "Palestinian critical-historical"
       },
       {
-        "interpretation": "Said offered a contemporaneous dissenting critique that framed Oslo as capitulation rather than compromise.\n\nHe argued that the PLO had accepted an arrangement worse than what it could have negotiated fifteen years earlier, and that for the first time in the twentieth century, {{quote|an anticolonial liberation movement had not only discarded its own considerable achievements but made an agreement to cooperate with a military occupation before that occupation had ended}} {{cite|said1995|pp. 29-30|\"For the first time in the twentieth century, an anticolonial liberation movement had not only discarded its own considerable achievements but made an agreement to cooperate with a military occupation before that occupation had ended, and before even the government of Israel had admitted that it was in effect a government of military occupation\" (pp. 29-30)}}.",
+        "interpretation": "Said offered a contemporaneous dissenting critique that framed Oslo as capitulation rather than compromise.\n\nHe argued that the PLO had accepted an arrangement worse than what it could have negotiated fifteen years earlier, and that for the first time in the twentieth century, {{quote|an anticolonial liberation movement had not only discarded its own considerable achievements but made an agreement to cooperate with a military occupation before that occupation had ended}} {{cite|said1995|pp. 29-30|excerpt-12}}.",
         "school": "postcolonial-critical"
       },
       {
-        "interpretation": "Roy analyzed the Oslo process through the lens of economic de-development, arguing that the framework enabled Israel to deepen its control of Palestinian territories through separation, closure, and the conflation of economic improvement with political freedom.\n\nShe showed that the 'economic peace' promised by Oslo's architects was 'fundamentally no different from the Israeli policies of the early years of occupation,' aimed at extinguishing Palestinian political demands through limited economic gains under continuing extraction of resources {{cite|roy2016|p. 22|\"the Oslo process was simply a more sophisticated expression of this deception\" (p. 22)}} {{cite|roy2016|pp. 21-22|\"By conflating freedom with free trade, economic peace as conceived by Oslo's architects holds that economic change must precede political change\" (pp. 21-22)}}.",
+        "interpretation": "Roy analyzed the Oslo process through the lens of economic de-development, arguing that the framework enabled Israel to deepen its control of Palestinian territories through separation, closure, and the conflation of economic improvement with political freedom.\n\nShe showed that the 'economic peace' promised by Oslo's architects was 'fundamentally no different from the Israeli policies of the early years of occupation,' aimed at extinguishing Palestinian political demands through limited economic gains under continuing extraction of resources {{cite|roy2016|p. 22|excerpt-7}} {{cite|roy2016|pp. 21-22|excerpt-8}}.",
         "school": "political-economy"
       },
       {
-        "interpretation": "Thrall argued that the fundamental driver of change in the Israeli-Palestinian conflict has always been force and pressure, not goodwill or negotiation processes.\n\nFrom this perspective, the Oslo framework failed because it removed incentives for Israel to make concessions by shielding it from the costs of occupation while international actors quashed Palestinian confrontation and promised an imminent negotiated solution {{cite|thrall2017|p. 7|\"By urging calm and restraint, quashing any hint of Palestinian confrontation, promising an imminent negotiated solution, facilitating security cooperation, developing the institutions of a still-unborn Palestinian state, and providing bounteous economic and military assistance, the United States and Europe have entrenched the conflict by lessening the incentives to end it\" (p. 7)}}.",
+        "interpretation": "Thrall argued that the fundamental driver of change in the Israeli-Palestinian conflict has always been force and pressure, not goodwill or negotiation processes.\n\nFrom this perspective, the Oslo framework failed because it removed incentives for Israel to make concessions by shielding it from the costs of occupation while international actors quashed Palestinian confrontation and promised an imminent negotiated solution {{cite|thrall2017|p. 7|excerpt-1}}.",
         "school": "realist"
       }
     ]
@@ -372,6 +372,503 @@
       "isbn": "9781627798556",
       "author_ids": [
         "rashid-khalidi"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "the PLO had entered the lion's mouth, and it did not take long for the jaws to snap shut",
+              "page": "p. 281"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-2",
+          "quotes": [
+            {
+              "text": "a national liberation movement had obtained nominal recognition from its oppressors, without achieving liberation, by trading its own recognition of the state that had colonized its homeland",
+              "page": "p. 273"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-3",
+          "quotes": [
+            {
+              "text": "Yasser 'Arafat has a choice. He can be a Lahd or a super-Lahd",
+              "page": "p. 280"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-4",
+          "quotes": [
+            {
+              "text": "The Intifada caused us a lot more political harm, damage to our image, than everything that the PLO had succeeded in doing throughout its existence",
+              "page": "p. 249"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-5",
+          "quotes": [
+            {
+              "text": "The mainly nonviolent intifada in Palestine enabled 'Arafat to take account, albeit belatedly, of Ahmad's view, and at the same time to respond positively to a prime US condition for dialogue: renouncing armed resistance",
+              "page": "pp. 248-249"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-6",
+          "quotes": [
+            {
+              "text": "Drafted largely by Mahmoud Darwish, who was aided by Edward Said and the respected intellectual Shafiq al-Hout, the document formally abandoned the PLO's claim to the entirety of Palestine, accepting the principles of partition, a two-state solution, and a peaceful resolution to the conflict",
+              "page": "p. 246"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-7",
+          "quotes": [
+            {
+              "text": "This capitulation to American conditions finally obtained for the PLO the long-sought opening with Washington, but it neither moved the Israelis to agree to deal with the organization nor led to peace negotiations, at least not for three more years",
+              "page": "p. 247"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-8",
+          "quotes": [
+            {
+              "text": "after the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history. The icebergs on which 'Arafat and his comrades were afloat were melting fast, and they were desperately eager to jump to solid ground",
+              "page": "p. 259"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-9",
+          "quotes": [
+            {
+              "text": "The intifada had brought Rabin and the Israeli security establishment to the realization that the occupation - with Israeli troops policing densely populated Palestinian centers simmering with anger - needed modification",
+              "page": "p. 278"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-10",
+          "quotes": [
+            {
+              "text": "After the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history. The icebergs on which 'Arafat and his comrades were afloat were melting fast, and they were desperately eager to jump to solid ground",
+              "page": "p. 259"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-11",
+          "quotes": [
+            {
+              "text": "Every item of essence, including Palestinian self-determination, sovereignty, the return of refugees, an end to occupation and colonization, the disposition of Jerusalem, the future of the Jewish settlements, and control of land and water rights, was disallowed. Instead, these issues were postponed, supposedly for four years, but in fact until a future that never came",
+              "page": "pp. 262-265"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-12",
+          "quotes": [
+            {
+              "text": "Although the PISGA proposal constituted a genuine effort to envisage a transition from occupation to independence, it was ultimately a vain attempt to do an end run around the limitations that constrained the negotiations and the restricted forms of self-rule that Israel was prepared to countenance",
+              "page": "pp. 270-271"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-13",
+          "quotes": [
+            {
+              "text": "the personnel the PLO sent to Oslo were not strong on details. Indeed, they did not have the linguistic or legal or other expertise necessary to comprehend exactly what the Israelis were doing",
+              "page": "pp. 274-275"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-14",
+          "quotes": [
+            {
+              "text": "Had I understood how heavily the deck was stacked and that the United States was bound in this way by a formal commitment, which meant that Israel effectively determined both its own position and that of its sponsor, I probably would not have gone to Madrid",
+              "page": "pp. 265-266"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-15",
+          "quotes": [
+            {
+              "text": "American negotiator Aaron David Miller later regretfully used the term 'Israel's lawyer' to describe his stance and that of many of his colleagues",
+              "page": "p. 268"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-16",
+          "quotes": [
+            {
+              "text": "So desperate were they to be brought into the negotiation process and to escape their isolation, that even had they known how tightly bound the United States was to follow the Israeli line, I believe they would likely have still made the mistakes they ended up making in the talks",
+              "page": "pp. 263-264"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-17",
+          "quotes": [
+            {
+              "text": "This was a peculiar transaction, whereby a national liberation movement had obtained nominal recognition from its oppressors, without achieving liberation, by trading its own recognition of the state that had colonized its homeland and continued to occupy it. This was a resounding, historic mistake, one with grave consequences for the Palestinian people",
+              "page": "p. 273"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-18",
+          "quotes": [
+            {
+              "text": "I received precisely the same brush-off later that day when I expressed similar concerns to Abu Mazin, also newly arrived in Gaza",
+              "page": "p. 280"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-19",
+          "quotes": [
+            {
+              "text": "leaders excluded by these terms, such as Husayni, 'Ashrawi, and Sari Nuseibeh, as well as advisors and legal and diplomatic experts, such as Raja Shehadeh, Camille Mansour, and me, were allowed to join the delegation, but were barred from the formal talks with the Israelis",
+              "page": "p. 263"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-20",
+          "quotes": [
+            {
+              "text": "After Israel's rejection of the PISGA proposal, our delegation had refused to accept self-rule a la Begin. The delegates from the Occupied Territories knew what self-rule Israeli style would mean in practice",
+              "page": "p. 276"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-21",
+          "quotes": [
+            {
+              "text": "At the outset of the conference, the dignified speech by the head of the Palestinian delegation, 'Abd al-Shafi... gave many Palestinians the impression that their cause was at last getting traction",
+              "page": "p. 263"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-22",
+          "quotes": [
+            {
+              "text": "the effective media appearances by 'Ashrawi gave many Palestinians the impression that their cause was at last getting traction and that the sacrifices of the intifada were not in vain",
+              "page": "p. 263"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-23",
+          "quotes": [
+            {
+              "text": "We were all aware of this tension, and we saw it flare into open dispute on occasion. Many of us were present in Faysal Husayni's Washington hotel suite during furious phone exchanges between him and 'Arafat",
+              "page": "p. 272"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-24",
+          "quotes": [
+            {
+              "text": "In a speech given in 1989, Rabin had made clear his commitment to Begin's Camp David approach, including autonomy but no independent state for the Palestinians",
+              "page": "p. 271"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-25",
+          "quotes": [
+            {
+              "text": "less than a month before he was assassinated, Rabin told the Knesset that any Palestinian 'entity' to be created would be 'less than a state'",
+              "page": "p. 271"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-26",
+          "quotes": [
+            {
+              "text": "The intifada had brought Rabin and the Israeli security establishment to the realization that the occupation, with Israeli troops policing densely populated Palestinian centres simmering with anger, needed modification",
+              "page": "p. 278"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-27",
+          "quotes": [
+            {
+              "text": "Oslo I also involved the most far-reaching modification, which was the decision to enlist the PLO as a subcontractor for the occupation",
+              "page": "p. 279"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-28",
+          "quotes": [
+            {
+              "text": "Shimon Peres, who was no more prepared to see the Palestinians as equals or to countenance Palestinian statehood and sovereignty than were Rabin or Shamir",
+              "page": "p. 275"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-29",
+          "quotes": [
+            {
+              "text": "I am convinced that rejecting Israel's bare-bones offer in Washington and Oslo would have been the right course. Had the PLO taken such a tough stance, the outcome would not have been worse than the loss of land, resources, and freedom of movement suffered by the Palestinians since 1993",
+              "page": "p. 277"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-30",
+          "quotes": [
+            {
+              "text": "the United States pledged to 'act as an honest broker in trying to resolve the Arab-Israeli conflict'",
+              "page": "p. 265"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-31",
+          "quotes": [
+            {
+              "text": "The United States never made good on these commitments, failing to prevent an unending series of unilateral Israeli actions, from settlement expansion and the closure of Jerusalem to West Bankers and Gazans",
+              "page": "p. 265"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-32",
+          "quotes": [
+            {
+              "text": "As one senior State Department official said of him: 'Ross's bad habit is pre-consultation with the Israelis.' Another was even more scathing: Ross, he said, was prone to 'preemptive capitulations to red lines,' referring to Israel's red lines",
+              "page": "p. 269"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-33",
+          "quotes": [
+            {
+              "text": "Baker was only able, or willing, to do so much",
+              "page": "pp. 268-269"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-34",
+          "quotes": [
+            {
+              "text": "he was gone from the State Department ten months after Madrid",
+              "page": "pp. 268-269"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-35",
+          "quotes": [
+            {
+              "text": "He deemed recognition of the PLO and its involvement in negotiations unacceptable to Israel, even though Rabin in fact eventually agreed to these terms",
+              "page": "p. 269"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-36",
+          "quotes": [
+            {
+              "text": "after the 1990-91 Gulf War, the PLO found itself more friendless and alone than perhaps at any stage in its history",
+              "page": "p. 259"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-37",
+          "quotes": [
+            {
+              "text": "Israel had not recognized a Palestinian state or even made a commitment to allow the creation of one",
+              "page": "p. 273"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-38",
+          "quotes": [
+            {
+              "text": "The authority would have complete jurisdiction (but neither sovereignty nor full security control) over the air, land, and water of the entirety of the Occupied Territories, including settlements (but not settlers), and over all their Palestinian inhabitants. Israel would have been obliged to freeze settlement activity and withdraw its troops 'to redeployment points along the borders of the occupied Palestinian territories'",
+              "page": "p. 270"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-39",
+          "quotes": [
+            {
+              "text": "When we first saw the text of what had been agreed in Oslo, those of us with twenty-one months of experience in Madrid and Washington grasped immediately that the Palestinian negotiators had failed to understand what Israel meant by autonomy. What they had signed on to was a highly restricted form of self-rule in a fragment of the Occupied Territories, and without control of land, water, borders, or much else",
+              "page": "pp. 275-276"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-40",
+          "quotes": [
+            {
+              "text": "they ended up accepting a barely modified version of the Begin autonomy plan",
+              "page": "pp. 275-276"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-41",
+          "quotes": [
+            {
+              "text": "Although the PLO leadership had approved the proposal, I sensed a distinct lack of enthusiasm for the concepts it embodied. They failed to promote it internationally, in the Arab world, or in Israel",
+              "page": "p. 271"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-42",
+          "quotes": [
+            {
+              "text": "Oslo I also involved the most far-reaching modification, which was the decision to enlist the PLO as a subcontractor for the occupation; this was the actual meaning of the security deal Rabin made with 'Arafat",
+              "page": "pp. 279-280"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-43",
+          "quotes": [
+            {
+              "text": "More bluntly, as Rabin's collaborator, Maj. Gen. Shlomo Gazit, put it publicly in 1994, 'Yasser 'Arafat has a choice. He can be a Lahd or a super-Lahd'",
+              "page": "pp. 279-280"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-44",
+          "quotes": [
+            {
+              "text": "It carved both regions into an infamous patchwork of areas, A, B, and C, with over 60 percent of the territory, Area C, under complete, direct, and unfettered Israeli control",
+              "page": "p. 279"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-45",
+          "quotes": [
+            {
+              "text": "spending on the settlements was curbed under Rabin's government but overall settlement activity increased",
+              "page": "p. 278"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-46",
+          "quotes": [
+            {
+              "text": "In September 2002, the Israeli army imposed a siege on the Muqata'a, 'Arafat's Ramallah HQ... The remainder of the territory administered by the PA set up under the provisions of the Oslo and subsequent accords was reoccupied",
+              "page": "pp. 281-282"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-47",
+          "quotes": [
+            {
+              "text": "Between 1993 and 2004, GDP per capita declined, despite promises of a prosperity that was just around the corner",
+              "page": "p. 283"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-48",
+          "quotes": [
+            {
+              "text": "the PLO had entered the lion's mouth, and it did not take long for the jaws to snap shut. In September 2002, the Israeli army imposed a siege on the Muqata'a, 'Arafat's Ramallah HQ, making him a virtual prisoner for the next two years until shortly before he died",
+              "page": "pp. 281-282"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-49",
+          "quotes": [
+            {
+              "text": "Its primary function, to which much of its budget is devoted, is security, but not for its people: it is mandated by US and Israeli dictates to provide security for Israel's settlers and occupation forces against the resistance, violent and otherwise, of other Palestinians",
+              "page": "p. 282"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-50",
+          "quotes": [
+            {
+              "text": "Until 1991, great numbers of Palestinians had worked in Israel without hindrance and without requiring a special permit. One could travel in a car with West Bank or Gaza license plates anywhere in Israel and in the Occupied Territories. Any expectation of having that freedom restored was quickly quashed",
+              "page": "pp. 283-284"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-51",
+          "quotes": [
+            {
+              "text": "the contribution of Arab East Jerusalem to the Palestinian GDP has shrunk from 15 percent in 1993 to 7 percent today",
+              "page": "p. 285"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-52",
+          "quotes": [
+            {
+              "text": "This was a peculiar transaction, whereby a national liberation movement had obtained nominal recognition from its oppressors, without achieving liberation, by trading its own recognition of the state that had colonized its homeland and continued to occupy it",
+              "page": "p. 273"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-53",
+          "quotes": [
+            {
+              "text": "The Oslo straitjacket could not have been imposed on the Palestinians without American connivance",
+              "page": "p. 280"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-54",
+          "quotes": [
+            {
+              "text": "On balance, a failure to reach a deal would have been better than the deal that emerged from Oslo. Occupation would have continued, as it has anyway, but without the veil of Palestinian self-government, without relieving Israel of the financial burden of governing and administering a population of millions, and without 'security coordination', the worst outcome of Oslo, whereby the PA helps Israel police the restive Palestinians",
+              "page": "p. 277"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-55",
+          "quotes": [
+            {
+              "text": "According to Itamar Rabinovich, by August 1993, Rabin 'felt pressure' to make a dramatic move, given the stalemate after a year of negotiations with Syria and the Palestinians",
+              "page": "p. 277"
+            }
+          ]
+        }
       ]
     },
     {
@@ -384,6 +881,107 @@
       "isbn": "9780807003091",
       "author_ids": [
         "rashid-khalidi"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "A blunder of a different sort was the PLO's disastrous alignment with Saddam Hussein after Iraq's invasion of Kuwait in 1990",
+              "page": "p. 146"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-2",
+          "quotes": [
+            {
+              "text": "[The practical effect of the ground rules was to] lighten the moral, political, and security burden for Israel of its military occupation of the West Bank, Gaza Strip, and East Jerusalem for a decade, while allowing it not only to maintain, but indeed to reinforce, its presence in most of the occupied territories... and a considerable expansion of its illegal settlements",
+              "page": "pp. 197-198"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-3",
+          "quotes": [
+            {
+              "text": "the PLO's disastrous alignment with Saddam Hussein after Iraq's invasion of Kuwait in 1990",
+              "page": "p. 146"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-4",
+          "quotes": [
+            {
+              "text": "there was the lamentable error of accepting a series of flawed accords with the Israelis, beginning with the 1993 Oslo agreement",
+              "page": "p. 146"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-5",
+          "quotes": [
+            {
+              "text": "Especially after the assassinations in Tunis of Abu Jihad in 1988 and Abu Iyyad in 1991 (by Israel and the Abu Nidal group respectively), there remained virtually no one within the Palestinian leadership who could stand up to al-khityar, the 'old man,' as 'Arafat was respectfully referred to privately",
+              "page": "p. 147"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-6",
+          "quotes": [
+            {
+              "text": "The defeat of Fateh in the 2006 elections was a resounding repudiation of what the Palestinian public in the occupied West Bank and Gaza Strip perceived to be these and other failures on its part",
+              "page": "p. 152"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-7",
+          "quotes": [
+            {
+              "text": "the Israeli delegation at Oslo, which we now know was assiduously aided and abetted by the Norwegian hosts (for reasons that can only be speculated at), out-negotiated the PLO team at every turn",
+              "page": "p. 167"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-8",
+          "quotes": [
+            {
+              "text": "during the decade of negotiations running from the spring of 1991 ... the number of Israeli settlers in the occupied Palestinian territories doubled",
+              "page": "p. 160"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-9",
+          "quotes": [
+            {
+              "text": "The Oslo period (1991-2000), adjudged in retrospect to have been disastrous by most Palestinians, was fully identified with 'Arafat",
+              "page": "p. 149"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-10",
+          "quotes": [
+            {
+              "text": "The Oslo Accords were a foretaste of what was to come in every Palestinian-Israeli negotiation over the following few years",
+              "page": "pp. 167-168"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-11",
+          "quotes": [
+            {
+              "text": "the result of the entire Oslo process was a steep decline in mutual confidence",
+              "page": "pp. 167-168"
+            }
+          ]
+        }
       ]
     },
     {
@@ -396,6 +994,188 @@
       "isbn": "9780393346862",
       "author_ids": [
         "avi-shlaim"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "Secret talks in Oslo got under way in late January 1993 with the active encouragement of Beilin, who kept Peres fully informed. Altogether, fourteen sessions of talks were held over an eight-month period, all behind a thick veil of secrecy",
+              "page": "p. 531"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-2",
+          "quotes": [
+            {
+              "text": "the assessment of the IDF director of military intelligence that Arafat's dire situation, and possible imminent collapse, made him the most convenient interlocutor for Israel at that juncture",
+              "page": "pp. 533-534"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-3",
+          "quotes": [
+            {
+              "text": "Other reports that reached Rabin during this period pointed to an alarming growth in the popular following of Hamas and Islamic Jihad in the occupied territories",
+              "page": "pp. 533-534"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-4",
+          "quotes": [
+            {
+              "text": "In his estimate the PLO was 'on the ropes,' and it was therefore highly probable that the PLO would drop some of its sacred principles to secure Israeli recognition",
+              "page": "p. 534"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-5",
+          "quotes": [
+            {
+              "text": "The Declaration of Principles on Interim Self-Government Arrangements was essentially an agenda for negotiations, governed by a tight timetable, rather than a full-blown agreement",
+              "page": "pp. 535-536"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-6",
+          "quotes": [
+            {
+              "text": "The declaration was completely silent on such vital issues as the right of return of the 1948 refugees, the borders of the Palestinian entity, the future of the Jewish settlements on the West Bank and Gaza, and the status of Jerusalem",
+              "page": "p. 536"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-7",
+          "quotes": [
+            {
+              "text": "Abu Ala reported directly to Arafat and to Arafat's deputy, Mahmoud Abbas (Abu Mazen), an indirect line of communication had been established between Jerusalem and the PLO headquarters in Tunis",
+              "page": "p. 532"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-8",
+          "quotes": [
+            {
+              "text": "Rabin held out against direct talks with the PLO for as long as he could",
+              "page": "p. 530"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-9",
+          "quotes": [
+            {
+              "text": "Beilin was even more categorical in his view that talking to the PLO was a necessary condition for an agreement with the Palestinians. He had always belonged to the extreme dovish wing of the Labor Party. He was the real architect behind the Israeli recognition of the PLO",
+              "page": "p. 530"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-10",
+          "quotes": [
+            {
+              "text": "He wanted to preserve the Jewish settlements in the occupied territories and to keep Israel's security border along the Jordan River",
+              "page": "p. 531"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-11",
+          "quotes": [
+            {
+              "text": "Beilin not only recognized the need to talk to the PLO but had a clear and coherent long-term strategy... a return to the pre-June 1967 borders with only minor modifications, an independent Palestinian state, the dismantling of Jewish settlements",
+              "page": "p. 530"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-12",
+          "quotes": [
+            {
+              "text": "It was this policy vacuum at the heart of the government that enabled Beilin to take the lead, to exert an influence that was out of all proportion to his junior position",
+              "page": "p. 531"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-13",
+          "quotes": [
+            {
+              "text": "The Norwegian foreign affairs minister, Johan Joergen Holst, and the social scientist Terge Rod Larsen acted as generous hosts and facilitators",
+              "page": "p. 531"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-14",
+          "quotes": [
+            {
+              "text": "Altogether, fourteen sessions of talks were held over an eight-month period, all behind a thick veil of secrecy",
+              "page": "pp. 531-532"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-15",
+          "quotes": [
+            {
+              "text": "In the past the PLO had always demanded that Israel recognize the right of the Palestinians to national self-determination as the price for recognizing Israel. Now the PLO men were prepared to discuss interim arrangements without prior agreement on the final outcome",
+              "page": "p. 532"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-16",
+          "quotes": [
+            {
+              "text": "In his letter to Rabin, Arafat observed that the signing of the Declaration of Principles marked a new era in the history of the Middle East. He then confirmed the PLO's commitment to recognize Israel's right to live in peace and security, to accept UN Security Council Resolutions 242 and 338, to renounce the use of terrorism",
+              "page": "pp. 535-536"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-17",
+          "quotes": [
+            {
+              "text": "In his terse, one-sentence reply to Arafat, Rabin confirmed that in the light of these commitments, the government of Israel decided to recognize the PLO as the representative of the Palestinian people",
+              "page": "pp. 535-536"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-18",
+          "quotes": [
+            {
+              "text": "At Oslo the PLO accepted the Israeli formula. In contrast to the official Palestinian position in Washington, the PLO agreed to a five-year transition period without clear commitments by Israel as to the nature of the permanent settlement",
+              "page": "p. 537"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-19",
+          "quotes": [
+            {
+              "text": "Each side was driven to this historic compromise by the recognition that it lacked the power to impose its own vision on the other side",
+              "page": "pp. 537-538"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-20",
+          "quotes": [
+            {
+              "text": "The historic reconciliation was based on a historic compromise: acceptance of the principle of the partition of Palestine. Both sides accepted territorial compromise as the basis for the settlement of their long and bitter conflict",
+              "page": "pp. 537-538"
+            }
+          ]
+        }
       ]
     },
     {
@@ -408,6 +1188,116 @@
       "isbn": "9780679767251",
       "author_ids": [
         "edward-said"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "So first of all let us call the agreement by its real name: an instrument of Palestinian surrender, a Palestinian Versailles",
+              "page": "p. 7"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-2",
+          "quotes": [
+            {
+              "text": "the PLO, which negotiated in English, a language that neither Arafat nor his emissary in Oslo knows, with no legal adviser",
+              "page": "p. 16"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-3",
+          "quotes": [
+            {
+              "text": "For the first time in our history, our leadership had simply given up on self-determination, Jerusalem, and the refugees, allowing them to become part of an undetermined set of 'final status negotiations.' For the first time in the twentieth century, an anticolonial liberation movement had not only discarded its own considerable achievements but made an agreement to cooperate with a military occupation before that occupation had ended",
+              "page": "pp. 29-30"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-4",
+          "quotes": [
+            {
+              "text": "My first piece, which appeared simultaneously in London's Guardian daily, al-Hayat, al-Ahram Weekly, and The Nation, was the only Palestinian dissent against the noisy (but terribly dishonest) celebrations of the Oslo Accords",
+              "page": "p. 24"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-5",
+          "quotes": [
+            {
+              "text": "when I was invited by President Clinton's office to attend the White House ceremony, I refused, saying that for all Palestinians September 13 ought to be a day of mourning",
+              "page": "p. 30"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-6",
+          "quotes": [
+            {
+              "text": "from the secret negotiations in Oslo between the PLO and Israel to the Israeli-Jordanian agreement proclaimed in Washington, and after, there has run a clear and, to me, unnecessary line of Arab capitulation by which Israel has achieved all of its tactical and strategic objectives at the expense of nearly every proclaimed principle of Arab and Palestinian nationalism and struggle",
+              "page": "pp. 24-25"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-7",
+          "quotes": [
+            {
+              "text": "true reconciliation cannot be imposed; neither can it occur between cultures and societies that are enormously uneven in power. The kind of reconciliation that can bring real peace can only occur between equals",
+              "page": "p. 26"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-8",
+          "quotes": [
+            {
+              "text": "the PLO, which negotiated in English, a language that neither Arafat nor his emissary in Oslo knows, with no legal adviser (the PLO's two main legal negotiators resigned in protest some time ago; Arafat and his three or four subordinates alone faced an entire corps of Israeli Foreign Ministry experts)",
+              "page": "p. 7"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-9",
+          "quotes": [
+            {
+              "text": "Neither Arafat, nor any of his Palestinian partners negotiating with the Israelis in Oslo, has ever seen an Israeli settlement",
+              "page": "p. 9"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-10",
+          "quotes": [
+            {
+              "text": "Over time, I regret to say, my initial misgivings... have generally been proved right, although the abuse against Palestinians continues",
+              "page": "p. xxiv"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-11",
+          "quotes": [
+            {
+              "text": "in the general despair and disrepair, people have at last begun to ask questions, express opposition, challenge the clammy embrace of Arafat, Rabin, and their apparatchiks, enforcers, and sophists",
+              "page": "p. xxiv"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-12",
+          "quotes": [
+            {
+              "text": "For the first time in the twentieth century, an anticolonial liberation movement had not only discarded its own considerable achievements but made an agreement to cooperate with a military occupation before that occupation had ended, and before even the government of Israel had admitted that it was in effect a government of military occupation",
+              "page": "pp. 29-30"
+            }
+          ]
+        }
       ]
     },
     {
@@ -420,6 +1310,92 @@
       "isbn": "9780887283215",
       "author_ids": [
         "sara-roy"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "the Oslo peace process was doing the exact opposite: deepening Israel's control of the territories through a variety of policies, including territorial fragmentation and the large-scale expropriation of Arab land and other resources, intended to ensure Israel's continued presence and preclude the establishment of a Palestinian state",
+              "page": "p. 21"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-2",
+          "quotes": [
+            {
+              "text": "Hamas believes that an Islamic state will emerge when Palestinian society is de-secularized",
+              "page": "p. 22"
+            },
+            {
+              "text": "can only be created as a result of armed confrontation with Israel",
+              "page": "p. 22"
+            },
+            {
+              "text": "The signing of the Israeli-PLO Declaration of Principles in September 1993, which Hamas fiercely opposes, intensified existing divisions with Fatah",
+              "page": "p. 22"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-3",
+          "quotes": [
+            {
+              "text": "the term 'occupation' appears nowhere in any of the Oslo agreements, which also fail to acknowledge Israel as an occupying power",
+              "page": "p. 21"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-4",
+          "quotes": [
+            {
+              "text": "With the inception of the Middle East peace process in October 1991, factional violence between Hamas (which opposed the initiative) and Fatah increased markedly",
+              "page": "p. 23"
+            },
+            {
+              "text": "The signing of the Israeli-PLO Declaration of Principles in September 1993, which Hamas fiercely opposes, intensified existing divisions with Fatah",
+              "page": "p. 22"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-5",
+          "quotes": [
+            {
+              "text": "the relentless growth of Israeli settlements (whose population more than doubled from 262,500 in 1993 to over 520,000 in 2013)",
+              "page": "p. 26"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-6",
+          "quotes": [
+            {
+              "text": "the Oslo process enabled Israel to claim that it was mitigating if not ending the occupation. In fact, the Oslo peace process was doing the exact opposite: deepening Israel's control of the territories",
+              "page": "pp. 21-22"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-7",
+          "quotes": [
+            {
+              "text": "the Oslo process was simply a more sophisticated expression of this deception",
+              "page": "p. 22"
+            }
+          ]
+        },
+        {
+          "id": "excerpt-8",
+          "quotes": [
+            {
+              "text": "By conflating freedom with free trade, economic peace as conceived by Oslo's architects holds that economic change must precede political change",
+              "page": "pp. 21-22"
+            }
+          ]
+        }
       ]
     },
     {
@@ -432,6 +1408,17 @@
       "isbn": "9781627797096",
       "author_ids": [
         "nathan-thrall"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "By urging calm and restraint, quashing any hint of Palestinian confrontation, promising an imminent negotiated solution, facilitating security cooperation, developing the institutions of a still-unborn Palestinian state, and providing bounteous economic and military assistance, the United States and Europe have entrenched the conflict by lessening the incentives to end it",
+              "page": "p. 7"
+            }
+          ]
+        }
       ]
     },
     {
@@ -444,6 +1431,21 @@
       "isbn": "9781590510605",
       "author_ids": [
         "charles-enderlin"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "a transitional period not exceeding five years",
+              "page": "p. 388"
+            },
+            {
+              "text": "these negotiations shall cover remaining issues, including: Jerusalem, refugees, settlements, security arrangements, borders",
+              "page": "p. 390"
+            }
+          ]
+        }
       ]
     },
     {
@@ -456,6 +1458,21 @@
       "isbn": "9780415944403",
       "author_ids": [
         "nigel-parsons"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "Go back to [19]48[...] the PLO saved itself and by saving itself it saved the Palestinian people",
+              "page": "p. 68"
+            },
+            {
+              "text": "The terms of the Oslo process clearly did redeem the institution and the chairman's patronage network",
+              "page": "p. 68"
+            }
+          ]
+        }
       ]
     },
     {
@@ -468,6 +1485,21 @@
       "isbn": "9780520246317",
       "author_ids": [
         "william-quandt"
+      ],
+      "excerpts": [
+        {
+          "id": "excerpt-1",
+          "quotes": [
+            {
+              "text": "the Palestinians had a territorial base in which they could begin to organize the future state that they dreamed of",
+              "page": "p. 329"
+            },
+            {
+              "text": "the chance to start building the institutions of the future state",
+              "page": "p. 330"
+            }
+          ]
+        }
       ]
     }
   ],

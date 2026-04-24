@@ -26,27 +26,32 @@ if not DATA_FILES:
     print("No event JSON files found in data/", file=sys.stderr)
     raise SystemExit(1)
 
-CITATION_SCHEMA_PATH = Path("schemas/inline_citation.json")
-if not CITATION_SCHEMA_PATH.exists():
-    print("schemas/inline_citation.json not found", file=sys.stderr)
+RECORD_SCHEMA_PATH = Path("schemas/v1/schema.json")
+if not RECORD_SCHEMA_PATH.exists():
+    print("schemas/v1/schema.json not found", file=sys.stderr)
     raise SystemExit(1)
-CITATION_SCHEMA = json.loads(CITATION_SCHEMA_PATH.read_text(encoding="utf-8"))
+RECORD_SCHEMA = json.loads(RECORD_SCHEMA_PATH.read_text(encoding="utf-8"))
 
-# Derive validation patterns from the inline citation schema
-_page_pattern = CITATION_SCHEMA["properties"]["pages"]["pattern"]
-_quote_page_pattern = CITATION_SCHEMA["definitions"]["quotation_entry"]["properties"]["page"]["pattern"]
+# Derive validation patterns from the record schema so the validator does not drift.
+_page_pattern = RECORD_SCHEMA["definitions"]["quotation_entry"]["properties"]["page"]["pattern"]
+_excerpt_id_pattern = RECORD_SCHEMA["definitions"]["reference_excerpt"]["properties"]["id"]["pattern"]
 PAGE_RE = re.compile(_page_pattern)
+EXCERPT_ID_RE = re.compile(_excerpt_id_pattern)
 
-# Citation tag: {{cite|ref_id|pages|quotations}}
-CITE_RE = re.compile(r"\{\{cite\|([^|}]+)\|([^|}]+)\|([^}]+)\}\}")
-# Each quotation entry: "text" (page ref)
-QUOTE_ENTRY_RE = re.compile(r'^"([^"]+)"\s*\((' + _quote_page_pattern[1:-1] + r')\)$')
+# Derive enums from the record schema so the integrity check never drifts from it
+VALID_EFFECTIVENESS = set(
+    RECORD_SCHEMA["definitions"]["strategy_entry"]["properties"]["effectiveness"]["enum"]
+)
+
+# Citation tag: {{cite|ref_id}}, {{cite|ref_id|pages}}, or {{cite|ref_id|pages|excerpt_id}}
+CITE_RE = re.compile(r"\{\{cite\|([^|}]+)(?:\|([^|}]+))?(?:\|([^|}]+))?\}\}")
 MALFORMED_CITE_RE = re.compile(
     r"(?<!\{)\{cite\|"                     # single opening brace (not preceded by {)
     r"|\{\{cite\|\}\}"                     # empty cite id: {{cite|}}
     r"|\{\{cite(?!\|)"                     # {{cite without pipe: {{cite}}
-    r"|\{\{cite\|[^|}]+\}\}"              # only ref_id, missing pages and quotations
-    r"|\{\{cite\|[^|}]+\|[^|}]+\}\}"      # only ref_id + pages, missing quotations
+    r"|\{\{cite\|[^|}]+\|\}\}"            # empty second field: {{cite|ref|}}
+    r"|\{\{cite\|[^|}]+\|\|[^}]+\}\}"     # empty second field before excerpt: {{cite|ref||excerpt}}
+    r"|\{\{cite\|[^|}]+\|[^|}]+\|\}\}"    # empty third field: {{cite|ref|p. 1|}}
 )
 FILENAME_YEAR_RE = re.compile(r"^[a-z]+-(\d{4})-")
 URL_MODE = os.environ.get("CHECK_URL_REACHABILITY", "off").strip().lower()
@@ -90,6 +95,33 @@ def iter_strings(value: object, path_parts: list[object] | None = None) -> Itera
 
     if isinstance(value, str):
         yield current_path, value
+
+
+def is_excerpt_quote_text_path(parts: list[object]) -> bool:
+    return (
+        len(parts) >= 7
+        and parts[-7] == "references"
+        and isinstance(parts[-6], int)
+        and parts[-5] == "excerpts"
+        and isinstance(parts[-4], int)
+        and parts[-3] == "quotes"
+        and isinstance(parts[-2], int)
+        and parts[-1] == "text"
+    )
+
+
+def validate_page_format(raw_page: str, file_path: Path, json_path: str, label: str) -> None:
+    if not PAGE_RE.match(raw_page):
+        errors.append(
+            f"{file_path}::{json_path}: invalid page format {raw_page!r} in {label} "
+            "(expected e.g. 'p. 47' or 'pp. 78-120')"
+        )
+        return
+
+    if "-" in raw_page and raw_page.startswith("p.") and not raw_page.startswith("pp."):
+        errors.append(f"{file_path}::{json_path}: page range {raw_page!r} should use 'pp.' instead of 'p.'")
+    elif "-" not in raw_page and raw_page.startswith("pp."):
+        errors.append(f"{file_path}::{json_path}: single page {raw_page!r} should use 'p.' instead of 'pp.'")
 
 
 def parse_iso_date(raw_value: str, file_path: Path, json_path: str) -> date | None:
@@ -195,7 +227,6 @@ for file_path in DATA_FILES:
         errors.append(f"{file_path}::$.strategies: must contain at least one entry")
     elif isinstance(strategies, list):
         strategy_names: list[str] = []
-        valid_effectiveness = {"effective", "ineffective", "mixed"}
         for idx, entry in enumerate(strategies):
             if not isinstance(entry, dict):
                 continue
@@ -203,7 +234,7 @@ for file_path in DATA_FILES:
             if isinstance(name, str):
                 strategy_names.append(name)
             effectiveness = entry.get("effectiveness")
-            if isinstance(effectiveness, str) and effectiveness not in valid_effectiveness:
+            if isinstance(effectiveness, str) and effectiveness not in VALID_EFFECTIVENESS:
                 errors.append(f"{file_path}::$.strategies[{idx}].effectiveness: invalid value {effectiveness!r}")
             
             actor = entry.get("actor")
@@ -233,6 +264,8 @@ for file_path in DATA_FILES:
     references = payload.get("references") or []
     ref_ids = [ref.get("id") for ref in references if isinstance(ref, dict) and isinstance(ref.get("id"), str)]
     ref_id_set = set(ref_ids)
+    ref_excerpt_ids: dict[str, set[str]] = {}
+    used_excerpt_ids: set[tuple[str, str]] = set()
     duplicate_ref_ids = sorted(ref_id for ref_id, count in Counter(ref_ids).items() if count > 1)
     for ref_id in duplicate_ref_ids:
         errors.append(f"{file_path}::$.references: duplicate reference id {ref_id!r}")
@@ -240,6 +273,7 @@ for file_path in DATA_FILES:
     for idx, ref in enumerate(references):
         if not isinstance(ref, dict):
             continue
+        ref_id = ref.get("id")
         ref_author_ids = ref.get("author_ids")
         if isinstance(ref_author_ids, list):
             for a_idx, a_id in enumerate(ref_author_ids):
@@ -247,6 +281,42 @@ for file_path in DATA_FILES:
                     if a_id not in author_ids:
                         errors.append(f"{file_path}::$.references[{idx}].author_ids[{a_idx}]: author id {a_id!r} not found in cited_authors array")
                     used_author_ids.add(a_id)
+
+        excerpt_ids_for_ref: set[str] = set()
+        excerpts = ref.get("excerpts")
+        if isinstance(excerpts, list):
+            for ex_idx, excerpt in enumerate(excerpts):
+                if not isinstance(excerpt, dict):
+                    continue
+                excerpt_id = excerpt.get("id")
+                if isinstance(excerpt_id, str):
+                    if not EXCERPT_ID_RE.fullmatch(excerpt_id):
+                        errors.append(
+                            f"{file_path}::$.references[{idx}].excerpts[{ex_idx}].id: "
+                            f"invalid excerpt id {excerpt_id!r}"
+                        )
+                    if excerpt_id in excerpt_ids_for_ref:
+                        errors.append(
+                            f"{file_path}::$.references[{idx}].excerpts: duplicate excerpt id {excerpt_id!r}"
+                        )
+                    excerpt_ids_for_ref.add(excerpt_id)
+
+                quotes = excerpt.get("quotes")
+                if isinstance(quotes, list):
+                    for quote_idx, quote in enumerate(quotes):
+                        if not isinstance(quote, dict):
+                            continue
+                        raw_page = quote.get("page")
+                        if isinstance(raw_page, str):
+                            validate_page_format(
+                                raw_page.strip(),
+                                file_path,
+                                f"$.references[{idx}].excerpts[{ex_idx}].quotes[{quote_idx}].page",
+                                "reference excerpt",
+                            )
+
+        if isinstance(ref_id, str):
+            ref_excerpt_ids[ref_id] = excerpt_ids_for_ref
                     
     unused_author_ids = author_ids - used_author_ids
     for unused_id in sorted(unused_author_ids):
@@ -268,39 +338,38 @@ for file_path in DATA_FILES:
         if not value.strip() and value != "":
             json_path = format_path(path_parts)
             warnings.append(f"{file_path}::{json_path}: string contains only whitespace")
+
+        if is_excerpt_quote_text_path(path_parts):
+            continue
             
         for m in CITE_RE.finditer(value):
-            ref_id, pages, quotations = m.group(1), m.group(2), m.group(3)
+            ref_id, pages, excerpt_id = m.group(1), m.group(2), m.group(3)
             cited_ref_ids.add(ref_id)
             json_path = format_path(path_parts)
-            
-            # Check smart quotes inside cite tags
-            if any(c in quotations for c in "“”‘’"):
-                errors.append(f"{file_path}::{json_path}: cite tag for {ref_id!r} contains smart quotes (use straight quotes)")
-                
-            # Check p. vs pp. logic
-            pages_stripped = pages.strip()
-            if not PAGE_RE.match(pages_stripped):
-                errors.append(f"{file_path}::{json_path}: invalid page format {pages_stripped!r} in cite tag (expected e.g. 'p. 47' or 'pp. 78-120')")
-            else:
-                if "-" in pages_stripped and pages_stripped.startswith("p.") and not pages_stripped.startswith("pp."):
-                    errors.append(f"{file_path}::{json_path}: page range {pages_stripped!r} should use 'pp.' instead of 'p.'")
-                elif "-" not in pages_stripped and pages_stripped.startswith("pp."):
-                    errors.append(f"{file_path}::{json_path}: single page {pages_stripped!r} should use 'p.' instead of 'pp.'")
+            pages_stripped = pages.strip() if isinstance(pages, str) else ""
+            excerpt_id_stripped = excerpt_id.strip() if isinstance(excerpt_id, str) else ""
 
-            quote_entries = [q.strip() for q in re.split(r'(?<=\))\s*;\s*(?=")', quotations) if q.strip()]
-            if not quote_entries:
-                errors.append(f"{file_path}::{json_path}: cite tag for {ref_id!r} has no quotation entries")
-            for qe in quote_entries:
-                if not QUOTE_ENTRY_RE.match(qe):
-                    errors.append(f"{file_path}::{json_path}: invalid quotation entry {qe!r} in cite tag (expected '\"text\" (p. N)' or '\"text\" (pp. N-M)')")
+            if pages_stripped:
+                validate_page_format(pages_stripped, file_path, json_path, "cite tag")
+
+            if excerpt_id_stripped:
+                if not pages_stripped:
+                    errors.append(
+                        f"{file_path}::{json_path}: cite tag for {ref_id!r} uses excerpt id "
+                        f"{excerpt_id_stripped!r} without a pages field"
+                    )
+                elif not EXCERPT_ID_RE.fullmatch(excerpt_id_stripped):
+                    errors.append(
+                        f"{file_path}::{json_path}: invalid excerpt id {excerpt_id_stripped!r} "
+                        "in cite tag"
+                    )
                 else:
-                    # Check p. vs pp. for individual quote entries
-                    q_page = QUOTE_ENTRY_RE.match(qe).group(2)
-                    if "-" in q_page and q_page.startswith("p.") and not q_page.startswith("pp."):
-                        errors.append(f"{file_path}::{json_path}: quote page range {q_page!r} should use 'pp.' instead of 'p.'")
-                    elif "-" not in q_page and q_page.startswith("pp."):
-                        errors.append(f"{file_path}::{json_path}: quote single page {q_page!r} should use 'p.' instead of 'pp.'")
+                    used_excerpt_ids.add((ref_id, excerpt_id_stripped))
+                    if ref_id in ref_id_set and excerpt_id_stripped not in ref_excerpt_ids.get(ref_id, set()):
+                        errors.append(
+                            f"{file_path}::{json_path}: cite tag for {ref_id!r} references "
+                            f"missing excerpt id {excerpt_id_stripped!r}"
+                        )
                         
         for m in MALFORMED_CITE_RE.finditer(value):
             json_path = format_path(path_parts)
@@ -313,6 +382,18 @@ for file_path in DATA_FILES:
     unused_ref_ids = sorted(ref_id for ref_id in ref_id_set if ref_id not in cited_ref_ids)
     for unused_ref_id in unused_ref_ids:
         errors.append(f"{file_path}::$.references: reference id {unused_ref_id!r} is never cited")
+
+    unused_excerpt_ids = sorted(
+        (ref_id, excerpt_id)
+        for ref_id, excerpt_ids in ref_excerpt_ids.items()
+        if ref_id in cited_ref_ids
+        for excerpt_id in excerpt_ids
+        if (ref_id, excerpt_id) not in used_excerpt_ids
+    )
+    for ref_id, excerpt_id in unused_excerpt_ids:
+        errors.append(
+            f"{file_path}::$.references: excerpt id {excerpt_id!r} on reference {ref_id!r} is never cited"
+        )
 
     defined_terms = payload.get("defined_terms") or []
     term_ids_seen: set[str] = set()

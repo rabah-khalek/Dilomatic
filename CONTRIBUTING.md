@@ -7,7 +7,7 @@ Dilomatic accepts new event records, corrections, and metadata improvements.
 When contributing data, please adhere to the following principles:
 
 1. **Neutral Point of View (NPOV):** Political history is inherently complex and often biased. All contributions must be written from a neutral, objective standpoint. Avoid editorializing, moralizing, or using loaded language.
-2. **High-Quality Citations:** Claims must be backed by reliable sources (e.g., academic papers, historical texts, primary documents). Use the `references` array to cite your sources properly. When a source has identifiable authors, link it with `references[].author_ids` and add a matching `cited_authors` entry with a short `bio`. Reserve `defined_terms` for concepts that genuinely need explanation and appear verbatim in the record's prose; do not pollute it with terms already clarified in context.
+2. **High-Quality Citations:** Claims must be backed by reliable sources (e.g., academic papers, historical texts, primary documents). Use the `references` array to cite your sources properly. When a source has identifiable authors, link it with `references[].author_ids` and add a matching `cited_authors` entry with a short `bio`. If a citation tooltip should show verbatim evidence, store it under `references[].excerpts` and cite it inline with `{{cite|ref_id|pages|excerpt_id}}`. Reserve `defined_terms` for concepts that genuinely need explanation and appear verbatim in the record's prose; do not pollute it with terms already clarified in context.
 3. **Documenting Disputed Outcomes:** Historians often disagree on *why* a strategy worked or failed. Instead of forcing a single "truth," use the `historiography` section to document both sides of a historical debate.
 
 ## Adding A New Event
@@ -40,7 +40,7 @@ By contributing data, you agree that event records are licensed under CC BY 4.0.
 ### Manual Pull Request
 
 1. Copy the latest template (e.g. [`schemas/v1/template.json`](schemas/v1/template.json)) to `data/<your-record-id>.json`.
-2. Fill in the record using the matching schema (e.g. [`schemas/v1/schema.json`](schemas/v1/schema.json)) as the source of truth. If your sources have identifiable authors, populate `references[].author_ids` and the top-level `cited_authors` array together.
+2. Fill in the record using the matching schema (e.g. [`schemas/v1/schema.json`](schemas/v1/schema.json)) as the source of truth. If your sources have identifiable authors, populate `references[].author_ids` and the top-level `cited_authors` array together. If you want cite tooltips to display verbatim evidence, put those quotations in `references[].excerpts` and refer to them from prose with `excerpt_id`.
 3. Validate before you open a PR:
    ```bash
    make validate

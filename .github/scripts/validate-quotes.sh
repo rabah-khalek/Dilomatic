@@ -21,15 +21,13 @@ if not DATA_FILES:
     raise SystemExit(1)
 
 QUOTE_TAG_RE = re.compile(r"\{\{quote\|(.+?)\}\}")
-CITE_RE = re.compile(r"\{\{cite\|([^|}]+)\|([^|}]+)\|([^}]+)\}\}")
-QUOTE_ENTRY_RE = re.compile(r'"([^"]+)"\s*\([^)]+\)')
+CITE_RE = re.compile(r"\{\{cite\|([^|}]+)(?:\|([^|}]+))?(?:\|([^|}]+))?\}\}")
 
 # Maximum character gap between a {{quote|}} end and the next {{cite|}} start
 # for the cite to be considered as backing the quote.
 MAX_CITE_GAP = 200
 
 errors: list[str] = []
-warnings: list[str] = []
 
 
 def format_path(parts: list[object]) -> str:
@@ -79,6 +77,12 @@ for file_path in DATA_FILES:
     with file_path.open("r", encoding="utf-8") as handle:
         payload = json.load(handle)
 
+    refs_by_id = {
+        ref.get("id"): ref
+        for ref in (payload.get("references") or [])
+        if isinstance(ref, dict) and isinstance(ref.get("id"), str)
+    }
+
     for path_parts, value in iter_strings(payload):
         quote_matches = list(QUOTE_TAG_RE.finditer(value))
         if not quote_matches:
@@ -102,17 +106,54 @@ for file_path in DATA_FILES:
                     break
 
             if next_cite is None:
-                warnings.append(
+                errors.append(
                     f"{file_path}::{json_path}: "
                     f"{{{{quote|{truncate(quote_text)}}}}} has no following {{{{cite}}}} tag"
                 )
                 continue
 
-            # Extract quoted text segments from the cite's quotation field
-            cite_quotation_field = next_cite.group(3)
-            cite_text_segments = [m.group(1) for m in QUOTE_ENTRY_RE.finditer(cite_quotation_field)]
+            ref_id = next_cite.group(1)
+            pages = next_cite.group(2).strip() if next_cite.group(2) else ""
+            excerpt_id = next_cite.group(3).strip() if next_cite.group(3) else ""
+            if not excerpt_id:
+                cite_preview = f"{{{{cite|{ref_id}|{pages}}}}}" if pages else f"{{{{cite|{ref_id}}}}}"
+                errors.append(
+                    f"{file_path}::{json_path}: "
+                    f"{{{{quote|{truncate(quote_text)}}}}} is followed by {cite_preview} "
+                    "without an excerpt_id, so the quote cannot be validated against references[].excerpts"
+                )
+                continue
+
+            reference = refs_by_id.get(ref_id)
+            if not isinstance(reference, dict):
+                continue
+
+            excerpt = next(
+                (
+                    entry for entry in (reference.get("excerpts") or [])
+                    if isinstance(entry, dict) and entry.get("id") == excerpt_id
+                ),
+                None,
+            )
+            if not isinstance(excerpt, dict):
+                errors.append(
+                    f"{file_path}::{json_path}: "
+                    f"{{{{quote|{truncate(quote_text)}}}}} is followed by {{{{cite|{ref_id}|...|{excerpt_id}}}}} "
+                    "but that excerpt was not found in references[]"
+                )
+                continue
+
+            cite_text_segments = [
+                quote.get("text")
+                for quote in (excerpt.get("quotes") or [])
+                if isinstance(quote, dict) and isinstance(quote.get("text"), str)
+            ]
             if not cite_text_segments:
-                cite_text_segments = [cite_quotation_field]
+                errors.append(
+                    f"{file_path}::{json_path}: "
+                    f"{{{{cite|{ref_id}|...|{excerpt_id}}}}} has no quote text to validate"
+                )
+                continue
 
             cite_combined = " ".join(cite_text_segments)
 
@@ -137,10 +178,6 @@ for file_path in DATA_FILES:
                 f"words not found in {{{{cite|{next_cite.group(1)}}}}}: "
                 f"{', '.join(sorted(missing))}"
             )
-
-if warnings:
-    for w in warnings:
-        print(f"  WARN  {w}")
 
 if errors:
     print("Quote validation errors were encountered.", file=sys.stderr)
