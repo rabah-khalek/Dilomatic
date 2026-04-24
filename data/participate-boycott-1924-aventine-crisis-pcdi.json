@@ -13,10 +13,10 @@
   "event": {
     "title": "The Aventine Crisis",
     "alternate_names": [
-      "War of Position vs. War of Maneuver {{cite|gramsci_notebooks1971|p. 243|excerpt-1}}",
-      "The Fortresses and Earthworks {{cite|gramsci_notebooks1971|p. 238|excerpt-2}}",
-      "Tribune or Trap {{cite|cammett1967|p. 169|excerpt-1}}",
-      "The Antinomies of Antonio Gramsci {{cite|anderson1976|p. 6|excerpt-1}}"
+      "War of Position vs. War of Maneuver {{cite|gramsci_notebooks1971|p. 243|modern-state-trenches-of-politics}}",
+      "The Fortresses and Earthworks {{cite|gramsci_notebooks1971|p. 238|state-as-outer-ditch-west}}",
+      "Tribune or Trap {{cite|cammett1967|p. 169|gramsci-returns-party-to-parliament}}",
+      "The Antinomies of Antonio Gramsci {{cite|anderson1976|p. 6|prison-notebooks-ecumenical-ambiguity}}"
     ],
     "time_period": {
       "start_year": 1921,
@@ -27,7 +27,7 @@
       "Western Europe"
     ],
     "iso_country_code": "IT",
-    "triggering_event": "On May 30, 1924, Socialist deputy Giacomo Matteotti delivered a speech in parliament denouncing fascist electoral fraud and violence. On June 10, fascist operatives abducted and murdered him {{cite|lyttelton2004|p. 198|excerpt-1}}.\n\nThe murder triggered a full political crisis: the non-communist opposition withdrew from parliament in the Aventine Secession, appealing to the King to dismiss Mussolini {{cite|lyttelton2004|p. 200|excerpt-2}}.",
+    "triggering_event": "On May 30, 1924, Socialist deputy Giacomo Matteotti delivered a speech in parliament denouncing fascist electoral fraud and violence. On June 10, fascist operatives abducted and murdered him {{cite|lyttelton2004|p. 198|matteotti-attack-ordered}}.\n\nThe murder triggered a full political crisis: the non-communist opposition withdrew from parliament in the Aventine Secession, appealing to the King to dismiss Mussolini {{cite|lyttelton2004|p. 200|passive-protest-dangerous-illusion}}.",
     "timeline": [
       {
         "date": "1919-05",
@@ -148,72 +148,72 @@
         "boycott"
       ]
     },
-    "context": "**Competing visions.** From 1921 to 1926, two strategic visions competed within the Communist Party of Italy (PCd'I): Amadeo Bordiga's abstentionism, which held that parliamentary participation corrupted revolutionary parties, versus Antonio Gramsci's participationism, which treated parliament as a tactical platform for agitation {{cite|adamson1980|p. 62|excerpt-1}}.\n\n**Fascism's rise.** Mussolini came to power in October 1922 via the March on Rome {{cite|lyttelton2004|pp. 70-77|excerpt-3}}. The Italian left was severely fragmented: the Socialist Party had split in 1921 at Livorno, with the Communist faction under Bordiga founding the PCd'I {{cite|cammett1967|p. 143|excerpt-2}}.\n\n**Leadership crackdown.** In February 1923, Mussolini launched a crackdown on the party leadership: on February 3, Bordiga and Ruggero Grieco, the main PCI figures opposing the Comintern line, were arrested {{cite|cammett1967|p. 166|excerpt-3}}. Bordiga spent most of 1923 in prison (February to October), and upon his release he found the party apparatus reorganized under Comintern guidance during his absence. His removal from active leadership during these eight months coincided with Gramsci's departure from Moscow to Vienna in November 1923. From Vienna, Gramsci directed party reorganization before returning to Italy in May 1924 to consolidate control {{cite|cammett1967|p. 167|excerpt-4}}.\n\n**Rigged ballot.** The Acerbo Law of 1923 restructured the electoral system to award two-thirds of parliamentary seats to any party or coalition winning at least 25% of the vote, heavily favoring the fascist coalition; the April 1924 elections were further marred by widespread fascist violence and intimidation {{cite|lyttelton2004|p. 103|excerpt-4}}.\n\n**Crisis and aftermath.** Gramsci's line, backed by the Comintern, was tested during the Aventine crisis of 1924: the PCd'I initially joined the parliamentary boycott, then returned to the chamber after the other Aventine parties rejected coordinated action {{cite|cammett1967|p. 169|excerpt-1}}. Gramsci's line prevailed definitively at the Lyon Congress in January 1926 {{cite|cammett1967|p. 171|excerpt-5}}. After Mussolini's regime banned all opposition parties in November 1926, both leaders were repressed: Gramsci was arrested and ultimately sentenced to over twenty years in prison, while Bordiga was sent to confino (internal exile) {{cite|lyttelton2004|p. 247|excerpt-5}}."
+    "context": "**Competing visions.** From 1921 to 1926, two strategic visions competed within the Communist Party of Italy (PCd'I): Amadeo Bordiga's abstentionism, which held that parliamentary participation corrupted revolutionary parties, versus Antonio Gramsci's participationism, which treated parliament as a tactical platform for agitation {{cite|adamson1980|p. 62|bordiga-fixated-on-elite-party}}.\n\n**Fascism's rise.** Mussolini came to power in October 1922 via the March on Rome {{cite|lyttelton2004|pp. 70-77|march-on-rome-colossal-bluff}}. The Italian left was severely fragmented: the Socialist Party had split in 1921 at Livorno, with the Communist faction under Bordiga founding the PCd'I {{cite|cammett1967|p. 143|abstentionist-ordine-nuovo-factions}}.\n\n**Leadership crackdown.** In February 1923, Mussolini launched a crackdown on the party leadership: on February 3, Bordiga and Ruggero Grieco, the main PCI figures opposing the Comintern line, were arrested {{cite|cammett1967|p. 166|bordiga-grieco-arrested-1923}}. Bordiga spent most of 1923 in prison (February to October), and upon his release he found the party apparatus reorganized under Comintern guidance during his absence. His removal from active leadership during these eight months coincided with Gramsci's departure from Moscow to Vienna in November 1923. From Vienna, Gramsci directed party reorganization before returning to Italy in May 1924 to consolidate control {{cite|cammett1967|p. 167|leonetti-urges-gramsci-save-party}}.\n\n**Rigged ballot.** The Acerbo Law of 1923 restructured the electoral system to award two-thirds of parliamentary seats to any party or coalition winning at least 25% of the vote, heavily favoring the fascist coalition; the April 1924 elections were further marred by widespread fascist violence and intimidation {{cite|lyttelton2004|p. 103|acerbo-scheme-moral-effect}}.\n\n**Crisis and aftermath.** Gramsci's line, backed by the Comintern, was tested during the Aventine crisis of 1924: the PCd'I initially joined the parliamentary boycott, then returned to the chamber after the other Aventine parties rejected coordinated action {{cite|cammett1967|p. 169|gramsci-returns-party-to-parliament}}. Gramsci's line prevailed definitively at the Lyon Congress in January 1926 {{cite|cammett1967|p. 171|togliatti-theses-scientific-analysis}}. After Mussolini's regime banned all opposition parties in November 1926, both leaders were repressed: Gramsci was arrested and ultimately sentenced to over twenty years in prison, while Bordiga was sent to confino (internal exile) {{cite|lyttelton2004|p. 247|confino-internal-exile}}."
   },
   "actors": [
     {
       "name": "L'Ordine Nuovo Group (participationists)",
-      "description": "Gramsci's political formation had been shaped by the biennio rosso (1919-1920), the two red years of mass worker mobilization that preceded the party's founding {{cite|femia1981|p. 4|excerpt-1}}. In May 1919, Gramsci, Palmiro Togliatti, Angelo Tasca, and Umberto Terracini co-founded the weekly journal L'Ordine Nuovo ('The New Order') in Turin {{cite|cammett1967|p. 70|excerpt-6}}. Through L'Ordine Nuovo, Gramsci promoted factory-based democracy, theorizing workplace councils as the embryo of a new workers' state {{cite|femia1981|pp. 77-78|excerpt-2}} {{cite|gramsci_preprison1994|pp. 96-99|excerpt-1}}.\n\nThe movement's collapse without effective Socialist Party coordination helped convince Gramsci that revolutionary transformation required sustained institutional engagement and political leadership beyond spontaneous action {{cite|femia1981|p. 79|excerpt-3}}. He argued that parliamentary participation was a tactical instrument, not legitimation, giving the party a platform for agitation and contact with the masses {{cite|cammett1967|pp. 167-168|excerpt-7}}. In 'Two Revolutions' (1920), Gramsci posed the dilemma as a direct question: {{quote|can the Party abstain from participating in the electoral struggles for the representative institutions of bourgeois democracy, if its task is that of politically organizing all the oppressed classes around the communist proletariat?}} His answer was a party that would {{quote|not be a collection of dogmatists or would-be Machiavellis, but a party of revolutionary communist action}} {{cite|gramsci_preprison1994|pp. 170-172|excerpt-2}}. This position reflected a deeper theoretical insight: because ruling-class power operates through hegemony (consent secured through civil society institutions), a revolutionary party must contest that consent from within institutions {{cite|gramsci_notebooks1971|p. 263|excerpt-3}}. His line, backed by the Comintern, prevailed at the Lyon Congress (January 1926) {{cite|cammett1967|p. 171|excerpt-8}}.",
+      "description": "Gramsci's political formation had been shaped by the biennio rosso (1919-1920), the two red years of mass worker mobilization that preceded the party's founding {{cite|femia1981|p. 4|biennio-rosso-mass-strikes}}. In May 1919, Gramsci, Palmiro Togliatti, Angelo Tasca, and Umberto Terracini co-founded the weekly journal L'Ordine Nuovo ('The New Order') in Turin {{cite|cammett1967|p. 70|ordine-nuovo-founded-april-1919}}. Through L'Ordine Nuovo, Gramsci promoted factory-based democracy, theorizing workplace councils as the embryo of a new workers' state {{cite|femia1981|pp. 77-78|factory-councils-as-italian-soviets}} {{cite|gramsci_preprison1994|pp. 96-99|socialist-state-in-workers-institutions}}.\n\nThe movement's collapse without effective Socialist Party coordination helped convince Gramsci that revolutionary transformation required sustained institutional engagement and political leadership beyond spontaneous action {{cite|femia1981|p. 79|gramsci-disenchanted-with-bordiga}}. He argued that parliamentary participation was a tactical instrument, not legitimation, giving the party a platform for agitation and contact with the masses {{cite|cammett1967|pp. 167-168|gramsci-bordiga-italy-not-russia}}. In 'Two Revolutions' (1920), Gramsci posed the dilemma as a direct question: {{quote|can the Party abstain from participating in the electoral struggles for the representative institutions of bourgeois democracy, if its task is that of politically organizing all the oppressed classes around the communist proletariat?}} His answer was a party that would {{quote|not be a collection of dogmatists or would-be Machiavellis, but a party of revolutionary communist action}} {{cite|gramsci_preprison1994|pp. 170-172|party-electoral-participation-question}}. This position reflected a deeper theoretical insight: because ruling-class power operates through hegemony (consent secured through civil society institutions), a revolutionary party must contest that consent from within institutions {{cite|gramsci_notebooks1971|p. 263|state-hegemony-plus-coercion}}. His line, backed by the Comintern, prevailed at the Lyon Congress (January 1926) {{cite|cammett1967|p. 171|spano-lyons-rebirth}}.",
       "key_leaders": [
         {
           "name": "Antonio Gramsci",
           "role": "Co-founder of L'Ordine Nuovo (May 1919); PCd'I representative to Comintern in Moscow (June 1922 - November 1923); based in Vienna directing party reorganization (December 1923 - May 1924); elected to parliament in absentia April 1924; returned to Italy May 1924; general secretary from August 1924; arrested November 1926",
-          "significance": "His prison writings (1929-1935), later excerpted in Selections from the Prison Notebooks {{cite|gramsci_notebooks1971|p. 57|excerpt-4}}, developed his distinctive theorization of hegemony and the concept of war of position, both of which became foundational to later Marxist and democratic socialist strategy. The concept of war of position represented Gramsci's recognition that in Western societies with developed civil society, the state cannot be taken by frontal assault (war of maneuver) as in Russia, but requires protracted institutional engagement {{cite|gramsci_notebooks1971|p. 243|excerpt-1}} {{cite|adamson1980|p. 225|excerpt-2}}.\n\nThese concepts grew from his pre-prison experience: the factory councils had shown him the importance of building consent and counter-hegemonic institutions within civil society before contesting state power, though the degree of continuity between the early and prison Gramsci remains debated {{cite|adamson1980|p. 172|excerpt-3}}."
+          "significance": "His prison writings (1929-1935), later excerpted in Selections from the Prison Notebooks {{cite|gramsci_notebooks1971|p. 57|domination-and-moral-leadership}}, developed his distinctive theorization of hegemony and the concept of war of position, both of which became foundational to later Marxist and democratic socialist strategy. The concept of war of position represented Gramsci's recognition that in Western societies with developed civil society, the state cannot be taken by frontal assault (war of maneuver) as in Russia, but requires protracted institutional engagement {{cite|gramsci_notebooks1971|p. 243|modern-state-trenches-of-politics}} {{cite|adamson1980|p. 225|war-of-position-new-theory}}.\n\nThese concepts grew from his pre-prison experience: the factory councils had shown him the importance of building consent and counter-hegemonic institutions within civil society before contesting state power, though the degree of continuity between the early and prison Gramsci remains debated {{cite|adamson1980|p. 172|hegemony-cultural-debt-to-croce}}."
         },
         {
           "name": "Palmiro Togliatti",
           "role": "Co-founder of L'Ordine Nuovo (with Gramsci, Tasca, and Terracini); Gramsci's closest ally; co-author of the Lyon Theses; led the PCd'I in exile after 1926",
-          "significance": "Co-authored the Lyon Theses with Gramsci {{cite|adamson1980|p. 92|excerpt-4}}. Led the party after Gramsci's arrest and through the exile years, becoming its defining postwar leader {{cite|gramsci_letters1994|p. 13|excerpt-1}}."
+          "significance": "Co-authored the Lyon Theses with Gramsci {{cite|adamson1980|p. 92|lyons-programme-with-togliatti}}. Led the party after Gramsci's arrest and through the exile years, becoming its defining postwar leader {{cite|gramsci_letters1994|p. 13|togliatti-led-after-gramsci-arrest}}."
         }
       ]
     },
     {
       "name": "Communist Abstentionist Faction",
-      "description": "Bordiga argued that any engagement with bourgeois institutions inevitably bred reformism, leading him to dismiss even Gramsci's worker councils as compromised {{cite|adamson1980|p. 62|excerpt-5}}. He founded the Communist Abstentionist Faction within the PSI in 1919 and his journal Il Soviet {{cite|femia1981|p. 77|excerpt-4}}. Lenin had directly criticized Bordiga's abstentionism in 'Left-Wing Communism: An Infantile Disorder' (1920) {{cite|cammett1967|pp. 105-106|excerpt-9}}.\n\nHis Rome Theses (1922) represented the high point of his influence, adopted overwhelmingly at the party's Rome Congress. His eight-month imprisonment in 1923 structurally disadvantaged his faction during the critical period when Gramsci returned from Moscow and consolidated control of the party apparatus. He accepted Comintern discipline on participation as an organizational matter but never abandoned his conviction that parliamentary engagement corrupted revolutionary parties. After his acquittal in 1928, Bordiga withdrew from active political life for over two decades, returning only in the 1950s to lead a small international communist left current. His political marginalization was complete long before the formal end of the factional struggle.",
+      "description": "Bordiga argued that any engagement with bourgeois institutions inevitably bred reformism, leading him to dismiss even Gramsci's worker councils as compromised {{cite|adamson1980|p. 62|bordiga-councils-as-reformism}}. He founded the Communist Abstentionist Faction within the PSI in 1919 and his journal Il Soviet {{cite|femia1981|p. 77|bordiga-il-soviet-journal}}. Lenin had directly criticized Bordiga's abstentionism in 'Left-Wing Communism: An Infantile Disorder' (1920) {{cite|cammett1967|pp. 105-106|lenin-disturbed-by-bordiga-extremism}}.\n\nHis Rome Theses (1922) represented the high point of his influence, adopted overwhelmingly at the party's Rome Congress. His eight-month imprisonment in 1923 structurally disadvantaged his faction during the critical period when Gramsci returned from Moscow and consolidated control of the party apparatus. He accepted Comintern discipline on participation as an organizational matter but never abandoned his conviction that parliamentary engagement corrupted revolutionary parties. After his acquittal in 1928, Bordiga withdrew from active political life for over two decades, returning only in the 1950s to lead a small international communist left current. His political marginalization was complete long before the formal end of the factional struggle.",
       "key_leaders": [
         {
           "name": "Amadeo Bordiga",
           "role": "Founded Communist Abstentionist Faction (1919); dominant at Livorno founding (1921); author of Rome Theses (1922); arrested February 3, 1923, imprisoned until October 1923; defeated at Lyon (1926); arrested and banished to Ustica (1926)",
-          "significance": "His faction was decisively defeated at Lyon, a dramatic reversal from the Rome Congress of 1922 where his theses had been adopted by a vote of 31,089 to 4,151 {{cite|cammett1967|p. 161|excerpt-10}}.\n\nThis shift reflected several converging factors: sustained Comintern pressure for the united front line, organizational changes during Bordiga's 1923 imprisonment, Gramsci's own effective party-building from Vienna and then Italy, and genuine internal realignment as cadres responded to the worsening fascist threat {{cite|cammett1967|pp. 170-172|excerpt-11}}."
+          "significance": "His faction was decisively defeated at Lyon, a dramatic reversal from the Rome Congress of 1922 where his theses had been adopted by a vote of 31,089 to 4,151 {{cite|cammett1967|p. 161|rome-theses-vote}}.\n\nThis shift reflected several converging factors: sustained Comintern pressure for the united front line, organizational changes during Bordiga's 1923 imprisonment, Gramsci's own effective party-building from Vienna and then Italy, and genuine internal realignment as cadres responded to the worsening fascist threat {{cite|cammett1967|pp. 170-172|lyons-congress-bolshevization}}."
         }
       ]
     },
     {
       "name": "National Fascist Party / Mussolini Government",
-      "description": "The fascist regime provided the external context for the PCd'I's internal debate rather than participating in it. Mussolini's consolidation, from the March on Rome (1922) through the Leggi fascistissime (1925-1926), progressively eliminated the space for any opposition strategy {{cite|lyttelton2004|pp. 230-247|excerpt-6}}."
+      "description": "The fascist regime provided the external context for the PCd'I's internal debate rather than participating in it. Mussolini's consolidation, from the March on Rome (1922) through the Leggi fascistissime (1925-1926), progressively eliminated the space for any opposition strategy {{cite|lyttelton2004|pp. 230-247|rocco-associations-and-confino}}."
     },
     {
       "name": "Aventine Secession Parties (PSI, PRI, PPI, liberal factions)",
-      "description": "Their boycott after the Matteotti murder represented a third position: not revolutionary abstentionism (Bordiga) or tactical participation (Gramsci), but liberal-constitutional protest relying on monarchical intervention {{cite|lyttelton2004|pp. 197-200|excerpt-7}}. Gramsci diagnosed them as fighting fascism with the tools of 19th-century liberalism {{cite|cammett1967|p. 176|excerpt-12}}."
+      "description": "Their boycott after the Matteotti murder represented a third position: not revolutionary abstentionism (Bordiga) or tactical participation (Gramsci), but liberal-constitutional protest relying on monarchical intervention {{cite|lyttelton2004|pp. 197-200|aventine-condemned-assimilationism}}. Gramsci diagnosed them as fighting fascism with the tools of 19th-century liberalism {{cite|cammett1967|p. 176|democratic-opposition-a-sham}}."
     },
     {
       "name": "Communist International (Comintern)",
-      "description": "Moscow's role went beyond support for the united-front line; the Comintern was a significant factor in the shift of power from Bordiga to Gramsci, though not the only one. Lenin had publicly criticized Bordiga's abstentionism in 1920. Gramsci came to champion the Comintern's united front line, arguing it was necessary for Western conditions with their entrenched social-democratic traditions {{cite|cammett1967|pp. 167-168|excerpt-13}}. This complicates the framing of the participate/boycott debate as a purely internal contest of ideas, though the Comintern's influence was one factor among several rather than the sole determinant.",
+      "description": "Moscow's role went beyond support for the united-front line; the Comintern was a significant factor in the shift of power from Bordiga to Gramsci, though not the only one. Lenin had publicly criticized Bordiga's abstentionism in 1920. Gramsci came to champion the Comintern's united front line, arguing it was necessary for Western conditions with their entrenched social-democratic traditions {{cite|cammett1967|pp. 167-168|social-democratic-traditions-rooted}}. This complicates the framing of the participate/boycott debate as a purely internal contest of ideas, though the Comintern's influence was one factor among several rather than the sole determinant.",
       "key_leaders": [
         {
           "name": "Vladimir Lenin",
           "role": "Chairman of the Council of People's Commissars; author of 'Left-Wing Communism: An Infantile Disorder' (1920) targeting Bordiga's abstentionism; defended united front tactics at Third Comintern Congress (1921); co-signed ultimatum to PCd'I (November 1922); died January 1924",
-          "significance": "Lenin's intervention against abstentionism carried unique authority in the international communist movement. At the Second Congress he insisted that parliament was {{quote|an arena of the class struggle}} and that boycott was merely a cheap evasion {{cite|cammett1967|pp. 105-106|excerpt-14}}.\n\nAt the Third Congress, he rebuked Terracini's defense of Bordiga's small-party purism with what Cammett called 'perhaps one of the best defenses of united front tactics': {{quote|To win the sympathy of the masses is necessary. An absolute majority is not always necessary; but to win, to stay in power, we must win over not only the majority of the working class [industrial proletariat] ... but also the majority of the exploited and of the agricultural workers}} {{cite|cammett1967|p. 160|excerpt-15}}."
+          "significance": "Lenin's intervention against abstentionism carried unique authority in the international communist movement. At the Second Congress he insisted that parliament was {{quote|an arena of the class struggle}} and that boycott was merely a cheap evasion {{cite|cammett1967|pp. 105-106|parliament-as-class-struggle-arena}}.\n\nAt the Third Congress, he rebuked Terracini's defense of Bordiga's small-party purism with what Cammett called 'perhaps one of the best defenses of united front tactics': {{quote|To win the sympathy of the masses is necessary. An absolute majority is not always necessary; but to win, to stay in power, we must win over not only the majority of the working class [industrial proletariat] ... but also the majority of the exploited and of the agricultural workers}} {{cite|cammett1967|p. 160|lenin-united-front-reply-terracini}}."
         },
         {
           "name": "Grigori Zinoviev",
           "role": "Chairman of the Communist International (1919-1926); enforced united front line against PCd'I abstentionism at successive Congresses and ECCI plenums (1920-1925); co-signed ultimatum to PCd'I with Lenin, Trotsky, Radek, and Bukharin (November 1922)",
-          "significance": "As Comintern chairman, Zinoviev was the primary institutional enforcer of the pro-participation line. He attacked the Italian party for boycotting the Alleanza del Lavoro in 1922, and pressured for fusion with the PSI, both positions that directly undermined Bordiga's abstentionist strategy. His frustration with the pace of change was evident even toward Gramsci: Zinoviev complained that Gramsci {{quote|makes vague promises; and when he fulfills them, they have an effect contrary to what was expected}} {{cite|cammett1967|p. 164|excerpt-16}}.\n\nYet Gramsci himself later acknowledged Zinoviev's essential role in educating the Italian communists: {{quote|Comrades Zinoviev, Trotsky, and Kamenev have made powerful contributions toward educating us for the Revolution. At times they have corrected us energetically and severely; they have been our teachers}} {{cite|cammett1967|p. 181|excerpt-17}}."
+          "significance": "As Comintern chairman, Zinoviev was the primary institutional enforcer of the pro-participation line. He attacked the Italian party for boycotting the Alleanza del Lavoro in 1922, and pressured for fusion with the PSI, both positions that directly undermined Bordiga's abstentionist strategy. His frustration with the pace of change was evident even toward Gramsci: Zinoviev complained that Gramsci {{quote|makes vague promises; and when he fulfills them, they have an effect contrary to what was expected}} {{cite|cammett1967|p. 164|zinoviev-on-gramsci-vague-promises}}.\n\nYet Gramsci himself later acknowledged Zinoviev's essential role in educating the Italian communists: {{quote|Comrades Zinoviev, Trotsky, and Kamenev have made powerful contributions toward educating us for the Revolution. At times they have corrected us energetically and severely; they have been our teachers}} {{cite|cammett1967|p. 181|gramsci-thanks-zinoviev-trotsky-kamenev}}."
         }
       ]
     },
     {
       "name": "King Victor Emmanuel III",
-      "description": "Held constitutional power to dismiss Mussolini. The Aventine strategy was premised on forcing his hand. He declined {{cite|lyttelton2004|p. 77|excerpt-8}}."
+      "description": "Held constitutional power to dismiss Mussolini. The Aventine strategy was premised on forcing his hand. He declined {{cite|lyttelton2004|p. 77|king-pessimist-without-confidence}}."
     }
   ],
   "strategies": [
     {
       "strategy_name": "Parliamentary Presence as Agitational Platform",
       "actor": "L'Ordine Nuovo Group (participationists)",
-      "description": "After the other Aventine parties rejected the PCd'I's proposal for an antiparlamento, the communist deputies returned to the chamber in November 1924 while the rest of the opposition remained outside.\n\nGramsci's deputies used their parliamentary immunity and floor access to denounce fascist violence and maintain public visibility {{cite|cammett1967|p. 169|excerpt-18}}.",
-      "mechanism": "Parliamentary immunity provided legal protection for PCd'I deputies {{cite|lyttelton2004|p. 86|excerpt-9}}. The parliamentary floor allowed denunciations of fascist violence to enter the formal record and reach audiences beyond the party's own networks.\n\nIt prevented the PCd'I from the Aventine's fatal mistake: believing withdrawal would shame the regime into concessions.",
-      "evidence": "The Aventine's collapse demonstrated the alternative: withdrawal removed the opposition from any institutional leverage without forcing the King's hand {{cite|lyttelton2004|p. 200|excerpt-10}}.\n\nBy contrast, the communist deputies returned to the hall and remained the only opposition presence through 1926 {{cite|lyttelton2004|p. 221|excerpt-11}}.",
+      "description": "After the other Aventine parties rejected the PCd'I's proposal for an antiparlamento, the communist deputies returned to the chamber in November 1924 while the rest of the opposition remained outside.\n\nGramsci's deputies used their parliamentary immunity and floor access to denounce fascist violence and maintain public visibility {{cite|cammett1967|p. 169|gramsci-joined-aventine-briefly}}.",
+      "mechanism": "Parliamentary immunity provided legal protection for PCd'I deputies {{cite|lyttelton2004|p. 86|mussolini-orders-pci-arrests}}. The parliamentary floor allowed denunciations of fascist violence to enter the formal record and reach audiences beyond the party's own networks.\n\nIt prevented the PCd'I from the Aventine's fatal mistake: believing withdrawal would shame the regime into concessions.",
+      "evidence": "The Aventine's collapse demonstrated the alternative: withdrawal removed the opposition from any institutional leverage without forcing the King's hand {{cite|lyttelton2004|p. 200|amendola-legalitarian-strategy}}.\n\nBy contrast, the communist deputies returned to the hall and remained the only opposition presence through 1926 {{cite|lyttelton2004|p. 221|aventinians-mandates-forfeited}}.",
       "effectiveness": "effective",
       "explanation": "The strategy succeeded because it exploited an asymmetry: the Aventine parties had voluntarily surrendered their institutional position, so the PCd'I's return gave it monopoly access to the parliamentary platform.\n\nThis meant the communists were the only opposition deputies on record challenging the regime, which amplified their visibility disproportionate to their actual electoral strength.",
       "related_strategies": [
@@ -224,9 +224,9 @@
     {
       "strategy_name": "Underground Organizational Discipline",
       "actor": "L'Ordine Nuovo Group (participationists)",
-      "description": "While developing its parliamentary strategy, the PCd'I simultaneously built clandestine cell networks, courier systems, underground printing, and exile leadership structures that could survive suppression {{cite|cammett1967|p. 169|excerpt-19}}.",
-      "mechanism": "Parties operating only in legal modes had no survivable structure once legality was eliminated. The PCd'I's reorganization by workplace cells rather than territorial sections kept cadres embedded in the working class {{cite|cammett1967|pp. 173-174|excerpt-20}}.\n\nExile leadership in Paris and Moscow maintained continuity after suppression.",
-      "evidence": "A fascist police report confirmed the effectiveness of this approach {{cite|cammett1967|p. 169|excerpt-21}}.\n\nLyttelton confirms the PCd'I's underground structures made them the only serious surviving opposition {{cite|lyttelton2004|p. 221|excerpt-12}}.",
+      "description": "While developing its parliamentary strategy, the PCd'I simultaneously built clandestine cell networks, courier systems, underground printing, and exile leadership structures that could survive suppression {{cite|cammett1967|p. 169|party-semi-clandestine-transformation}}.",
+      "mechanism": "Parties operating only in legal modes had no survivable structure once legality was eliminated. The PCd'I's reorganization by workplace cells rather than territorial sections kept cadres embedded in the working class {{cite|cammett1967|pp. 173-174|cells-keep-party-in-the-masses}}.\n\nExile leadership in Paris and Moscow maintained continuity after suppression.",
+      "evidence": "A fascist police report confirmed the effectiveness of this approach {{cite|cammett1967|p. 169|pci-best-preserved-mass-ties}}.\n\nLyttelton confirms the PCd'I's underground structures made them the only serious surviving opposition {{cite|lyttelton2004|p. 221|aventine-only-serious-opposition}}.",
       "effectiveness": "effective",
       "explanation": "The dual strategy of parliamentary presence plus clandestine preparation proved uniquely resilient, as the PCd'I was the only party capable of maintaining its structure after the regime banned all legal opposition.",
       "related_strategies": [
@@ -236,11 +236,11 @@
     {
       "strategy_name": "Electoral Abstention and Party Purification",
       "actor": "Communist Abstentionist Faction",
-      "description": "Bordiga's faction called for boycotting elections, immediately expelling reformists, and building a disciplined revolutionary organization insulated from bourgeois parliamentarism.\n\nHe founded the Communist Abstentionist Faction within the PSI in 1919, arguing that parliamentary engagement inevitably bred reformism and diverted energy from revolutionary preparation {{cite|cammett1967|pp. 68-69|excerpt-22}} {{cite|adamson1980|p. 62|excerpt-6}}.",
-      "mechanism": "By avoiding parliament, the party would preserve ideological clarity and refuse incorporation into bourgeois routines. Its center of gravity would be the vanguard organization itself, not institutions shared with reformists.\n\nBordiga dismissed even Gramsci's factory councils as 'reformist experiments' {{cite|adamson1980|p. 62|excerpt-5}}.",
-      "evidence": "The abstentionists built the strongest organized network inside the new PCd'I and dominated its early years; Bordiga's Rome Theses were adopted overwhelmingly (31,089 to 4,151) at the Rome Congress of 1922 {{cite|cammett1967|p. 161|excerpt-10}} {{cite|cammett1967|p. 155|excerpt-23}}.\n\nLenin directly criticized this position in 'Left-Wing Communism: An Infantile Disorder' (1920), calling abstentionism {{quote|merely a cheap way of avoiding the difficult problem of combating bourgeois-democratic influences inside the working-class movement}} {{cite|cammett1967|pp. 105-106|excerpt-9}}.\n\nBordiga formally suspended his anti-parliamentary line under Comintern pressure but never abandoned his conviction {{cite|cammett1967|pp. 105-106|excerpt-24}}.",
+      "description": "Bordiga's faction called for boycotting elections, immediately expelling reformists, and building a disciplined revolutionary organization insulated from bourgeois parliamentarism.\n\nHe founded the Communist Abstentionist Faction within the PSI in 1919, arguing that parliamentary engagement inevitably bred reformism and diverted energy from revolutionary preparation {{cite|cammett1967|pp. 68-69|early-pci-boycott-and-expel-reformists}} {{cite|adamson1980|p. 62|bordiga-revolutionary-elite-goal}}.",
+      "mechanism": "By avoiding parliament, the party would preserve ideological clarity and refuse incorporation into bourgeois routines. Its center of gravity would be the vanguard organization itself, not institutions shared with reformists.\n\nBordiga dismissed even Gramsci's factory councils as 'reformist experiments' {{cite|adamson1980|p. 62|bordiga-councils-as-reformism}}.",
+      "evidence": "The abstentionists built the strongest organized network inside the new PCd'I and dominated its early years; Bordiga's Rome Theses were adopted overwhelmingly (31,089 to 4,151) at the Rome Congress of 1922 {{cite|cammett1967|p. 161|rome-theses-vote}} {{cite|cammett1967|p. 155|former-abstentionists-dominated-pci}}.\n\nLenin directly criticized this position in 'Left-Wing Communism: An Infantile Disorder' (1920), calling abstentionism {{quote|merely a cheap way of avoiding the difficult problem of combating bourgeois-democratic influences inside the working-class movement}} {{cite|cammett1967|pp. 105-106|lenin-disturbed-by-bordiga-extremism}}.\n\nBordiga formally suspended his anti-parliamentary line under Comintern pressure but never abandoned his conviction {{cite|cammett1967|pp. 105-106|bordiga-halts-open-opposition}}.",
       "effectiveness": "mixed",
-      "explanation": "Abstentionism built the strongest initial party organization but offered no answer to the practical costs of surrendering legal terrain during the fascist advance of 1924-1926. When the Aventine crisis posed the participate-or-boycott question in practice, Bordiga's faction had no actionable strategy beyond the principled refusal it had already articulated.\n\nThe warning against reformist dilution through institutional engagement identified a real tension, but in the specific conditions of rising fascism, abstention left the party without the parliamentary platform and legal protections that Gramsci's deputies exploited. Anderson later credited Bordiga with a more accurate formulation of the East/West distinction at the Sixth Plenum of the Comintern (1926), but this theoretical insight came too late to shape practical strategy {{cite|anderson1976|p. 55|excerpt-2}}.",
+      "explanation": "Abstentionism built the strongest initial party organization but offered no answer to the practical costs of surrendering legal terrain during the fascist advance of 1924-1926. When the Aventine crisis posed the participate-or-boycott question in practice, Bordiga's faction had no actionable strategy beyond the principled refusal it had already articulated.\n\nThe warning against reformist dilution through institutional engagement identified a real tension, but in the specific conditions of rising fascism, abstention left the party without the parliamentary platform and legal protections that Gramsci's deputies exploited. Anderson later credited Bordiga with a more accurate formulation of the East/West distinction at the Sixth Plenum of the Comintern (1926), but this theoretical insight came too late to shape practical strategy {{cite|anderson1976|p. 55|bordiga-twin-character-of-state}}.",
       "related_strategies": [
         "Parliamentary Presence as Agitational Platform",
         "The Aventine Secession: Moral Boycott Without Mass Mobilization"
@@ -249,64 +249,64 @@
     {
       "strategy_name": "The Aventine Secession: Moral Boycott Without Mass Mobilization",
       "actor": "Aventine Secession Parties (PSI, PRI, PPI, liberal factions)",
-      "description": "After Matteotti's murder, the non-communist opposition withdrew from parliament, appealing to the King to dismiss Mussolini {{cite|lyttelton2004|p. 200|excerpt-13}}.",
-      "mechanism": "The Aventine parties expected that a public withdrawal from the legislature would delegitimize Mussolini's government and compel the King, as constitutional sovereign, to intervene and dismiss the prime minister {{cite|lyttelton2004|p. 200|excerpt-14}}.",
-      "evidence": "Mussolini ignored the boycott. The King did not act.\n\nLyttelton argues that the opposition's return to the Chamber would have greatly increased the chances of overthrowing fascism by legal methods; instead, by remaining outside Parliament, they gave the King a pretext to wash his hands of the situation {{cite|lyttelton2004|p. 200|excerpt-15}}.",
+      "description": "After Matteotti's murder, the non-communist opposition withdrew from parliament, appealing to the King to dismiss Mussolini {{cite|lyttelton2004|p. 200|june-12-secession-announcement}}.",
+      "mechanism": "The Aventine parties expected that a public withdrawal from the legislature would delegitimize Mussolini's government and compel the King, as constitutional sovereign, to intervene and dismiss the prime minister {{cite|lyttelton2004|p. 200|legalitarianism-needed-crown}}.",
+      "evidence": "Mussolini ignored the boycott. The King did not act.\n\nLyttelton argues that the opposition's return to the Chamber would have greatly increased the chances of overthrowing fascism by legal methods; instead, by remaining outside Parliament, they gave the King a pretext to wash his hands of the situation {{cite|lyttelton2004|p. 200|return-to-chamber-missed-chance}}.",
       "effectiveness": "ineffective",
-      "explanation": "The Aventine relied entirely on persuading existing power-holders to enforce constitutional norms rather than mobilizing mass organizations.\n\nThe parties were unwilling to call a general strike or build a unified mass movement because they feared a revival of left-wing mobilization as much as they feared fascism {{cite|lyttelton2004|p. 199|excerpt-16}}."
+      "explanation": "The Aventine relied entirely on persuading existing power-holders to enforce constitutional norms rather than mobilizing mass organizations.\n\nThe parties were unwilling to call a general strike or build a unified mass movement because they feared a revival of left-wing mobilization as much as they feared fascism {{cite|lyttelton2004|p. 199|general-strike-risk-to-bourgeoisie}}."
     },
     {
       "strategy_name": "Electoral Participation Under a Rigged System: The Legitimation Cost",
       "actor": "L'Ordine Nuovo Group (participationists)",
-      "description": "The PCd'I participated in the April 1924 elections under the Acerbo Law, which awarded two-thirds of parliamentary seats to any coalition winning at least 25% of the vote, structurally favoring the fascist coalition.\n\nThe elections were further marred by widespread fascist violence and intimidation {{cite|lyttelton2004|pp. 119-122|excerpt-17}}.",
+      "description": "The PCd'I participated in the April 1924 elections under the Acerbo Law, which awarded two-thirds of parliamentary seats to any coalition winning at least 25% of the vote, structurally favoring the fascist coalition.\n\nThe elections were further marred by widespread fascist violence and intimidation {{cite|lyttelton2004|pp. 119-122|matteotti-sixty-candidates-circulate}}.",
       "mechanism": "By fielding candidates and winning seats, the PCd'I could claim a parliamentary presence and use the elections to organize local cadres. The seats won gave the party a formal institutional foothold.",
-      "evidence": "The organizational benefits were real: by April 1925 the PCd'I had tripled its membership compared to April 1924, and was the only working-class party to maintain its vote at nearly 1921 levels {{cite|cammett1967|pp. 180-181|excerpt-25}}.\n\nBut the regime systematically instrumentalized election results as proof of popular consent, and the party was banned two years later regardless.",
+      "evidence": "The organizational benefits were real: by April 1925 the PCd'I had tripled its membership compared to April 1924, and was the only working-class party to maintain its vote at nearly 1921 levels {{cite|cammett1967|pp. 180-181|pci-tripled-membership-1924-1925}}.\n\nBut the regime systematically instrumentalized election results as proof of popular consent, and the party was banned two years later regardless.",
       "effectiveness": "mixed",
       "explanation": "Participation lent procedural legitimacy to a process the opposition knew was conducted under coercion. The PCd'I gained real organizational benefits, because parliamentary immunity shielded Gramsci and other deputies from arrest until November 1926, but these did not offset the regime's ability to claim electoral endorsement."
     }
   ],
   "outcomes": {
-    "description": "Mussolini's dictatorship progressively eliminated all opposition from January 3, 1925 onward {{cite|lyttelton2004|p. 221|excerpt-18}}; all opposition parties were formally banned by November 1926 {{cite|lyttelton2004|pp. 230-247|excerpt-19}}.\n\nGramsci was arrested November 8, 1926 {{cite|gramsci_letters1994|p. 35|excerpt-2}}, his parliamentary immunity violated by the regime {{cite|gramsci_letters1994|p. 35|excerpt-3}}.",
+    "description": "Mussolini's dictatorship progressively eliminated all opposition from January 3, 1925 onward {{cite|lyttelton2004|p. 221|january-3-dictatorship-begins}}; all opposition parties were formally banned by November 1926 {{cite|lyttelton2004|pp. 230-247|rocco-associations-and-confino-restated}}.\n\nGramsci was arrested November 8, 1926 {{cite|gramsci_letters1994|p. 35|gramsci-arrest-november-1926}}, his parliamentary immunity violated by the regime {{cite|gramsci_letters1994|p. 35|aventine-returnee-laws-trap}}.",
     "consequences": [
       {
         "title": "Gramsci's imprisonment and death",
-        "description": "Gramsci was sentenced to twenty years, four months, and five days {{cite|cammett1967|p. 182|excerpt-26}}, and died on April 27, 1937 {{cite|cammett1967|p. 212|excerpt-27}}, his health destroyed by imprisonment {{cite|gramsci_letters1994|pp. 35-37|excerpt-4}}.\n\nBordiga was arrested and banished to Ustica {{cite|gramsci_letters1994|p. 26|excerpt-5}}.\n\nGramsci's prison letters record the progressive collapse of his health {{cite|gramsci_letters1994|p. 5|excerpt-6}} {{cite|gramsci_letters1994|p. 91|excerpt-7}}.",
+        "description": "Gramsci was sentenced to twenty years, four months, and five days {{cite|cammett1967|p. 182|gramsci-sentenced-twenty-years}}, and died on April 27, 1937 {{cite|cammett1967|p. 212|gramsci-died-april-1937}}, his health destroyed by imprisonment {{cite|gramsci_letters1994|pp. 35-37|prevent-this-brain-from-functioning}}.\n\nBordiga was arrested and banished to Ustica {{cite|gramsci_letters1994|p. 26|bordiga-arrest-ustica-exile}}.\n\nGramsci's prison letters record the progressive collapse of his health {{cite|gramsci_letters1994|p. 5|gramsci-rotting-in-prison}} {{cite|gramsci_letters1994|p. 91|gramsci-militant-life-hardened}}.",
         "domain": "human"
       },
       {
         "title": "The Prison Notebooks and the theory of hegemony",
-        "description": "Gramsci's imprisonment produced the Prison Notebooks (1929-1935) {{cite|gramsci_notebooks1971|p. 80|excerpt-5}} {{cite|gramsci_notebooks1971|p. 120|excerpt-6}}, in which he developed his distinctive theorization of hegemony and the concept of 'war of position', diagnosing the left's failure as underestimating how fascism operated on cultural consent {{cite|adamson1980|pp. 200-225|excerpt-7}}.",
+        "description": "Gramsci's imprisonment produced the Prison Notebooks (1929-1935) {{cite|gramsci_notebooks1971|p. 80|corruption-between-consent-and-force}} {{cite|gramsci_notebooks1971|p. 120|war-of-movement-to-position-1917-1921}}, in which he developed his distinctive theorization of hegemony and the concept of 'war of position', diagnosing the left's failure as underestimating how fascism operated on cultural consent {{cite|adamson1980|pp. 200-225|war-of-position-against-fascism}}.",
         "domain": "intellectual"
       },
       {
         "title": "Boycott as surrender of institutional leverage",
-        "description": "The Aventine remained a notable historical example of a boycott that surrendered institutional leverage without toppling the regime {{cite|lyttelton2004|p. 200|excerpt-20}}.",
+        "description": "The Aventine remained a notable historical example of a boycott that surrendered institutional leverage without toppling the regime {{cite|lyttelton2004|p. 200|illusions-from-incompatible-aims}}.",
         "domain": "political"
       },
       {
         "title": "Authoritarian consolidation through elite accommodation",
-        "description": "The Matteotti crisis established the pattern for how authoritarian regimes survive legitimacy crises: by achieving stable accommodation with existing elites rather than relying on popular legitimacy.\n\nMussolini's consolidation after the crisis demonstrated that once established, an authoritarian regime could neutralize opposition by co-opting the institutions that might check it {{cite|lyttelton2004|p. 222|excerpt-21}}.",
+        "description": "The Matteotti crisis established the pattern for how authoritarian regimes survive legitimacy crises: by achieving stable accommodation with existing elites rather than relying on popular legitimacy.\n\nMussolini's consolidation after the crisis demonstrated that once established, an authoritarian regime could neutralize opposition by co-opting the institutions that might check it {{cite|lyttelton2004|p. 222|mussolini-entente-1925-1929}}.",
         "domain": "political"
       }
     ]
   },
   "assessment": {
-    "verdict": "**Gramsci's participationist line prevailed.** Gramsci's participationist line prevailed both within the party and in shaping its long-term strategy. The PCd'I under his strategic direction maintained organizational coherence, used parliament as a platform while it lasted, and survived underground after suppression {{cite|cammett1967|p. 169|excerpt-28}}. The Lyon Theses completed this trajectory, striking {{quote|a powerful blow against the determinism inherent in the early PCI}} and making the party {{quote|a permanent fixture in Italian politics}} {{cite|cammett1967|p. 175|excerpt-29}}. The Aventine Secession provided a direct comparison: the opposition parties' boycott of parliament removed them from institutional leverage without forcing the regime's hand {{cite|lyttelton2004|p. 200|excerpt-22}}.\n\n**Beyond participation: a national Communist strategy.** The Lyon Theses (January 1926) went beyond the participation question: they analyzed the class structure of Italian capitalism, diagnosed how fascism had exploited the failures of both the Socialist Party and the early PCd'I, and called for a united front strategy adapted to Italian national conditions {{cite|cammett1967|p. 170|excerpt-30}} {{cite|adamson1980|p. 92|excerpt-8}}.\n\n**Contingent victory, shared inheritance.** Gramsci's line proved strategically effective in the conditions of 1921-1926: the PCd'I remained {{quote|the only opposition group who caused the Government serious concern}} {{cite|lyttelton2004|p. 221|excerpt-12}}, a result that owed much to its combination of parliamentary presence and clandestine preparation. But the framing of this as a clean victory for one side over the other obscures the degree to which the outcome depended on several converging factors (Comintern pressure, Bordiga's structural disadvantage through imprisonment, Gramsci's own organizational effectiveness, and genuine cadre realignment) {{cite|cammett1967|p. 171|excerpt-31}} and the fact that the surviving party drew on both traditions: Gramscian tactical flexibility and the Leninist discipline Bordiga had helped build.\n\n**Hegemony reframes the participate/boycott question.** Gramsci's prison reflections reframed the participate/boycott question as inseparable from the structure of state power in societies where hegemony operates through civil society {{cite|gramsci_notebooks1971|p. 15|excerpt-7}} {{cite|anderson1976|p. 32|excerpt-3}}, making institutional engagement a structural necessity rather than a tactical compromise.\n\n**Bordiga's own argument against his position.** Bordiga's warning about reformist degeneration through institutional participation identified a real tension in participationist strategy, but at the Sixth Plenum of the Comintern in 1926 Bordiga himself articulated the very distinction between East and West that made his own abstentionism untenable {{cite|anderson1976|p. 55|excerpt-4}}.",
+    "verdict": "**Gramsci's participationist line prevailed.** Gramsci's participationist line prevailed both within the party and in shaping its long-term strategy. The PCd'I under his strategic direction maintained organizational coherence, used parliament as a platform while it lasted, and survived underground after suppression {{cite|cammett1967|p. 169|gramsci-led-clandestine-transition}}. The Lyon Theses completed this trajectory, striking {{quote|a powerful blow against the determinism inherent in the early PCI}} and making the party {{quote|a permanent fixture in Italian politics}} {{cite|cammett1967|p. 175|lyons-theses-blow-against-determinism}}. The Aventine Secession provided a direct comparison: the opposition parties' boycott of parliament removed them from institutional leverage without forcing the regime's hand {{cite|lyttelton2004|p. 200|secession-led-to-blind-alley}}.\n\n**Beyond participation: a national Communist strategy.** The Lyon Theses (January 1926) went beyond the participation question: they analyzed the class structure of Italian capitalism, diagnosed how fascism had exploited the failures of both the Socialist Party and the early PCd'I, and called for a united front strategy adapted to Italian national conditions {{cite|cammett1967|p. 170|lyons-theses-national-class-attitude}} {{cite|adamson1980|p. 92|lyons-theses-to-replace-rome}}.\n\n**Contingent victory, shared inheritance.** Gramsci's line proved strategically effective in the conditions of 1921-1926: the PCd'I remained {{quote|the only opposition group who caused the Government serious concern}} {{cite|lyttelton2004|p. 221|aventine-only-serious-opposition}}, a result that owed much to its combination of parliamentary presence and clandestine preparation. But the framing of this as a clean victory for one side over the other obscures the degree to which the outcome depended on several converging factors (Comintern pressure, Bordiga's structural disadvantage through imprisonment, Gramsci's own organizational effectiveness, and genuine cadre realignment) {{cite|cammett1967|p. 171|theses-changed-party-outlook}} and the fact that the surviving party drew on both traditions: Gramscian tactical flexibility and the Leninist discipline Bordiga had helped build.\n\n**Hegemony reframes the participate/boycott question.** Gramsci's prison reflections reframed the participate/boycott question as inseparable from the structure of state power in societies where hegemony operates through civil society {{cite|gramsci_notebooks1971|p. 15|party-as-civil-society-state}} {{cite|anderson1976|p. 32|hegemony-force-consent-equilibrium}}, making institutional engagement a structural necessity rather than a tactical compromise.\n\n**Bordiga's own argument against his position.** Bordiga's warning about reformist degeneration through institutional participation identified a real tension in participationist strategy, but at the Sixth Plenum of the Comintern in 1926 Bordiga himself articulated the very distinction between East and West that made his own abstentionism untenable {{cite|anderson1976|p. 55|bordiga-comintern-sixth-plenum}}.",
     "historiography": [
       {
-        "interpretation": "Togliatti and Spano framed the Lyon Theses as a decisive break with Bordiga's determinism and the foundation of the party's national strategy. Togliatti emphasized that the Theses' novelty lay in their {{quote|rigorous scientific and historical analysis}} of Italian social structure {{cite|cammett1967|pp. 171-172|excerpt-32}}.\n\nSpano called Lyon a {{quote|rebirth of our Party}} and argued in 1956 that party cadres should devote 'serious study' to the Theses, especially after Khrushchev's revelations {{cite|cammett1967|p. 171|excerpt-33}}.",
+        "interpretation": "Togliatti and Spano framed the Lyon Theses as a decisive break with Bordiga's determinism and the foundation of the party's national strategy. Togliatti emphasized that the Theses' novelty lay in their {{quote|rigorous scientific and historical analysis}} of Italian social structure {{cite|cammett1967|pp. 171-172|togliatti-theses-scientific-restated}}.\n\nSpano called Lyon a {{quote|rebirth of our Party}} and argued in 1956 that party cadres should devote 'serious study' to the Theses, especially after Khrushchev's revelations {{cite|cammett1967|p. 171|spano-lyons-rebirth-restated}}.",
         "school": "PCI party-line"
       },
       {
-        "interpretation": "Cammett argued that the outcome cannot be reduced to a simple victory of ideas: Gramsci's victory owed as much to Comintern pressure and organizational changes during Bordiga's 1923 imprisonment as to the intrinsic superiority of his position.\n\nHe noted the cost of the factional struggle: the Ordine Nuovo group, {{quote|the only one in the Party capable of making original contributions to Communist theory and practice, was isolated between the demagoguery of Bombacci and the ultimately sterile sectarianism of Bordiga}} {{cite|cammett1967|p. 155|excerpt-34}}.",
+        "interpretation": "Cammett argued that the outcome cannot be reduced to a simple victory of ideas: Gramsci's victory owed as much to Comintern pressure and organizational changes during Bordiga's 1923 imprisonment as to the intrinsic superiority of his position.\n\nHe noted the cost of the factional struggle: the Ordine Nuovo group, {{quote|the only one in the Party capable of making original contributions to Communist theory and practice, was isolated between the demagoguery of Bombacci and the ultimately sterile sectarianism of Bordiga}} {{cite|cammett1967|p. 155|ordine-nuovo-isolated-in-party}}.",
         "school": "critical-historical"
       },
       {
-        "interpretation": "Anderson positioned Gramsci as unique among Communists in recognizing that Russian experience could not be repeated in the West, but argued that his prison theorizations remained fundamentally ambiguous: {{quote|the price of so ecumenical an admiration is necessarily ambiguity: multiple and incompatible interpretations of the themes of the Prison Notebooks}} {{cite|anderson1976|pp. 5-6|excerpt-1}}.\n\nStrikingly, Anderson credited Bordiga with a more accurate formulation of the East/West distinction at the Sixth Plenum: Bordiga grasped the {{quote|essential twin character of the capitalist State,}} namely that it rests on both consent and superior coercion, while Gramsci's notebooks tended to overweight cultural hegemony {{cite|anderson1976|p. 52|excerpt-5}}.",
+        "interpretation": "Anderson positioned Gramsci as unique among Communists in recognizing that Russian experience could not be repeated in the West, but argued that his prison theorizations remained fundamentally ambiguous: {{quote|the price of so ecumenical an admiration is necessarily ambiguity: multiple and incompatible interpretations of the themes of the Prison Notebooks}} {{cite|anderson1976|pp. 5-6|prison-notebooks-ecumenical-ambiguity}}.\n\nStrikingly, Anderson credited Bordiga with a more accurate formulation of the East/West distinction at the Sixth Plenum: Bordiga grasped the {{quote|essential twin character of the capitalist State,}} namely that it rests on both consent and superior coercion, while Gramsci's notebooks tended to overweight cultural hegemony {{cite|anderson1976|p. 52|bordiga-stronger-than-tsarist-state}}.",
         "school": "Western Marxist"
       },
       {
-        "interpretation": "Adamson traced substantial continuity from Gramsci's pre-prison political practice to his prison theory, arguing that the problem of political legitimation and educational politics was already central by 1918. He positioned Gramsci as alone among the major Marxist thinkers in recognizing the need for a political response that analyzed the contemporary Western state {{cite|adamson1980|pp. 4-5|excerpt-9}}.\n\nAdamson positioned Gramsci as offering a fundamentally new theory of revolution suited to Western civil societies, distinct from both Leninist orthodoxy and social-democratic reformism {{cite|adamson1980|pp. 226-227|excerpt-10}}.",
+        "interpretation": "Adamson traced substantial continuity from Gramsci's pre-prison political practice to his prison theory, arguing that the problem of political legitimation and educational politics was already central by 1918. He positioned Gramsci as alone among the major Marxist thinkers in recognizing the need for a political response that analyzed the contemporary Western state {{cite|adamson1980|pp. 4-5|gramsci-alone-analyzed-western-state}}.\n\nAdamson positioned Gramsci as offering a fundamentally new theory of revolution suited to Western civil societies, distinct from both Leninist orthodoxy and social-democratic reformism {{cite|adamson1980|pp. 226-227|gramscian-gradualist-revolution}}.",
         "school": "cultural-theoretical"
       }
     ]
@@ -325,7 +325,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "gramsci-returns-party-to-parliament",
           "quotes": [
             {
               "text": "Gramsci then returned the Party to the regular Parliament, where, directly confronting the Fascists, he hoped to win the national audience that only a national legislative body could provide",
@@ -334,7 +334,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "abstentionist-ordine-nuovo-factions",
           "quotes": [
             {
               "text": "Bordiga's abstentionists, including Bruno Fortichiari, Luigi Repossi, and Luigi Polano; Gramsci's Ordine Nuovo group, including Terracini and Togliatti",
@@ -343,7 +343,7 @@
           ]
         },
         {
-          "id": "excerpt-3",
+          "id": "bordiga-grieco-arrested-1923",
           "quotes": [
             {
               "text": "On February 3, 1923, Bordiga and Grieco, the main PCI opposition to the line of the Third International, were arrested.",
@@ -352,7 +352,7 @@
           ]
         },
         {
-          "id": "excerpt-4",
+          "id": "leonetti-urges-gramsci-save-party",
           "quotes": [
             {
               "text": "[Leonetti] confided to Gramsci [...] that 'you alone are the person who can and must assume the initiative to save the Party from a schism with the International on the one hand, and from falling into chaos and the most degrading inertia on the other hand'",
@@ -361,7 +361,7 @@
           ]
         },
         {
-          "id": "excerpt-5",
+          "id": "togliatti-theses-scientific-analysis",
           "quotes": [
             {
               "text": "[Togliatti] emphasized that the importance and the novelty of the Theses lay in their 'rigorous scientific and historical analysis' of the Italian social structure, the development of the labor movement, and the nature of Italian capitalism",
@@ -370,7 +370,7 @@
           ]
         },
         {
-          "id": "excerpt-6",
+          "id": "ordine-nuovo-founded-april-1919",
           "quotes": [
             {
               "text": "Tasca, Togliatti, Terracini, and Gramsci reassembled the old student group of the FGS, intending to found a collectively managed journal of Marxist theory and culture... by the end of April 1919, plans had been made for launching a weekly newspaper, L'Ordine nuovo, and its first issue appeared on May 1, 1919",
@@ -379,7 +379,7 @@
           ]
         },
         {
-          "id": "excerpt-7",
+          "id": "gramsci-bordiga-italy-not-russia",
           "quotes": [
             {
               "text": "[Gramsci wrote:] Bordiga thinks that the tactics of the International reflect the Russian situation, produced by a backward and primitive capitalist civilization [...] I believe that the situation is very different [...] the development of capitalism in Central and Western Europe not only determined the formation of broad proletarian strata, but also created an upper stratum, the working-class aristocracy with its annexes of trade-union bureaucracy and social-democratic groups",
@@ -388,7 +388,7 @@
           ]
         },
         {
-          "id": "excerpt-8",
+          "id": "spano-lyons-rebirth",
           "quotes": [
             {
               "text": "For Velio Spano, Lyons was a 'rebirth of our Party'",
@@ -397,7 +397,7 @@
           ]
         },
         {
-          "id": "excerpt-9",
+          "id": "lenin-disturbed-by-bordiga-extremism",
           "quotes": [
             {
               "text": "Lenin was greatly disturbed by the extremist elements in Bordiga's position. Bordiga feared that participation in parliament would corrupt the Communist deputies with 'social-democratic' values. Even before the Second Congress, Lenin had warned Bordiga that abstentionism was merely a cheap way of avoiding 'the difficult problem of combating bourgeois-democratic influences inside the working-class movement.'",
@@ -406,7 +406,7 @@
           ]
         },
         {
-          "id": "excerpt-10",
+          "id": "rome-theses-vote",
           "quotes": [
             {
               "text": "[the Rome Theses] were accepted at Rome by a vote of 31,089 to 4,151",
@@ -415,7 +415,7 @@
           ]
         },
         {
-          "id": "excerpt-11",
+          "id": "lyons-congress-bolshevization",
           "quotes": [
             {
               "text": "The Third, or Lyons, Congress of the PCI had the specific task of defeating and isolating the Bordigan group, but also the more general task of 'bolshevizing' the Party, in accordance with the prior decisions of the ECCI's Fifth Plenum",
@@ -424,7 +424,7 @@
           ]
         },
         {
-          "id": "excerpt-12",
+          "id": "democratic-opposition-a-sham",
           "quotes": [
             {
               "text": "In Thesis 20, however, Gramsci called the whole 'democratic' opposition to Mussolini a sham. His experience with the Aventine groups had convinced him that the function of the 'bourgeois democratic opposition' was 'to collaborate with Fascism in preventing the reorganization of the working class.'",
@@ -433,7 +433,7 @@
           ]
         },
         {
-          "id": "excerpt-13",
+          "id": "social-democratic-traditions-rooted",
           "quotes": [
             {
               "text": "[Gramsci wrote:] Three years of experience have taught us, not only in Italy, how deeply rooted are social-democratic traditions, and how difficult it is to destroy the residue of the past with simple ideological polemics. A vast and detailed political action is necessary to disintegrate this tradition by disintegrating the organism that personifies it. The policy of the International is adequate for that.",
@@ -442,7 +442,7 @@
           ]
         },
         {
-          "id": "excerpt-14",
+          "id": "parliament-as-class-struggle-arena",
           "quotes": [
             {
               "text": "for the moment, Parliament was 'an arena of the class struggle'",
@@ -455,7 +455,7 @@
           ]
         },
         {
-          "id": "excerpt-15",
+          "id": "lenin-united-front-reply-terracini",
           "quotes": [
             {
               "text": "Lenin's reply to Terracini's speech was perhaps one of the best defenses of united front tactics: 'To win the sympathy of the masses is necessary. An absolute majority is not always necessary; but to win, to stay in power, we must win over not only the majority of the working class [industrial proletariat] ... but also the majority of the exploited and of the agricultural workers.'",
@@ -464,7 +464,7 @@
           ]
         },
         {
-          "id": "excerpt-16",
+          "id": "zinoviev-on-gramsci-vague-promises",
           "quotes": [
             {
               "text": "Zinoviev complained that Gramsci 'makes vague promises; and when he fulfills them, they have an effect contrary to what was expected.'",
@@ -473,7 +473,7 @@
           ]
         },
         {
-          "id": "excerpt-17",
+          "id": "gramsci-thanks-zinoviev-trotsky-kamenev",
           "quotes": [
             {
               "text": "Comrades Zinoviev, Trotsky, and Kamenev have made powerful contributions toward educating us for the Revolution. At times they have corrected us energetically and severely; they have been our teachers",
@@ -482,7 +482,7 @@
           ]
         },
         {
-          "id": "excerpt-18",
+          "id": "gramsci-joined-aventine-briefly",
           "quotes": [
             {
               "text": "[Gramsci] even participated in the Aventine opposition that followed the assassination of Matteotti in June 1924, until it was clear to him that the liberal and Socialist parties intended to limit their opposition to a 'moral protest.' Gramsci then returned the Party to the regular Parliament, where, directly confronting the Fascists, he hoped to win the national audience that only a national legislative body could provide.",
@@ -491,7 +491,7 @@
           ]
         },
         {
-          "id": "excerpt-19",
+          "id": "party-semi-clandestine-transformation",
           "quotes": [
             {
               "text": "[Gramsci] began transforming the Party into a semi-clandestine organization, so that it could continue in case of complete suppression",
@@ -500,7 +500,7 @@
           ]
         },
         {
-          "id": "excerpt-20",
+          "id": "cells-keep-party-in-the-masses",
           "quotes": [
             {
               "text": "Organization by cells provides the Party with many elements [cell secretaries, members of cell committees, etc.] that are part of the masses; and even though they exercise ruling functions they remain part of the masses, unlike the secretaries of territorial sections, who were necessarily detached from the workers",
@@ -509,7 +509,7 @@
           ]
         },
         {
-          "id": "excerpt-21",
+          "id": "pci-best-preserved-mass-ties",
           "quotes": [
             {
               "text": "it had not only succeeded better than the others in maintaining ties with the masses but, having become semi-clandestine, it had also partly salvaged the essential structure of its organization",
@@ -518,7 +518,7 @@
           ]
         },
         {
-          "id": "excerpt-22",
+          "id": "early-pci-boycott-and-expel-reformists",
           "quotes": [
             {
               "text": "the Party must abstain from elections, which it regarded as diversions from the fundamental task of preparing the revolution",
@@ -531,7 +531,7 @@
           ]
         },
         {
-          "id": "excerpt-23",
+          "id": "former-abstentionists-dominated-pci",
           "quotes": [
             {
               "text": "The relatively small PCI was dominated for some time by former abstentionists, who were the most numerous and best organized faction in the new Party",
@@ -540,7 +540,7 @@
           ]
         },
         {
-          "id": "excerpt-24",
+          "id": "bordiga-halts-open-opposition",
           "quotes": [
             {
               "text": "he did agree to halt his opposition to such work in the future",
@@ -549,7 +549,7 @@
           ]
         },
         {
-          "id": "excerpt-25",
+          "id": "pci-tripled-membership-1924-1925",
           "quotes": [
             {
               "text": "the PCI had tripled its membership from April 1924 to April 1925, and, alone among the proletarian parties, maintained its vote in the elections of 1924 at nearly the levels of 1921",
@@ -558,7 +558,7 @@
           ]
         },
         {
-          "id": "excerpt-26",
+          "id": "gramsci-sentenced-twenty-years",
           "quotes": [
             {
               "text": "Gramsci was sentenced to twenty years, four months, and five days of imprisonment, on six different charges of treason",
@@ -567,7 +567,7 @@
           ]
         },
         {
-          "id": "excerpt-27",
+          "id": "gramsci-died-april-1937",
           "quotes": [
             {
               "text": "[Gramsci] died on April 27, 1937, at the age of 46, only a few days after he was formally freed, and as a direct result of his confinement",
@@ -576,7 +576,7 @@
           ]
         },
         {
-          "id": "excerpt-28",
+          "id": "gramsci-led-clandestine-transition",
           "quotes": [
             {
               "text": "Gramsci's leadership was responsible for this successful transition to a clandestine organization",
@@ -585,7 +585,7 @@
           ]
         },
         {
-          "id": "excerpt-29",
+          "id": "lyons-theses-blow-against-determinism",
           "quotes": [
             {
               "text": "the Lyons Theses struck a powerful blow against the determinism inherent in the early PCI, and made the Party a permanent fixture in Italian politics",
@@ -594,7 +594,7 @@
           ]
         },
         {
-          "id": "excerpt-30",
+          "id": "lyons-theses-national-class-attitude",
           "quotes": [
             {
               "text": "the Lyons Theses, which Gramsci delivered at the Third Congress of the PCI (January 1926). With the Theses, he gave the Communists a 'national' as well as a class attitude",
@@ -603,7 +603,7 @@
           ]
         },
         {
-          "id": "excerpt-31",
+          "id": "theses-changed-party-outlook",
           "quotes": [
             {
               "text": "The Theses completely changed the intellectual outlook of the Party. Before Lyons, the Party's extremism had infected it with a fatalistic acceptance of historical determinism: the Party members had assumed that 'history would prove us right.' Gramsci's repeated assertions (Thesis 14) that the Left had been defeated in 1922 because of its own political deficiencies made the rank and file realize that 'history would prove us right in the measure we deserved!'",
@@ -612,7 +612,7 @@
           ]
         },
         {
-          "id": "excerpt-32",
+          "id": "togliatti-theses-scientific-restated",
           "quotes": [
             {
               "text": "Togliatti later emphasized that the importance and the novelty of the Theses lay in their 'rigorous scientific and historical analysis' of the Italian social structure, the development of the labor movement, and the nature of Italian capitalism",
@@ -621,7 +621,7 @@
           ]
         },
         {
-          "id": "excerpt-33",
+          "id": "spano-lyons-rebirth-restated",
           "quotes": [
             {
               "text": "For Velio Spano, Lyons was a 'rebirth of our Party.'",
@@ -630,7 +630,7 @@
           ]
         },
         {
-          "id": "excerpt-34",
+          "id": "ordine-nuovo-isolated-in-party",
           "quotes": [
             {
               "text": "The Ordine Nuovo group, the only one in the Party capable of making original contributions to Communist theory and practice, was isolated between the demagoguery of Bombacci and the ultimately sterile sectarianism of Bordiga [...] precious time was lost, and it is impossible to know how much Gramsci's own flexibility and richness of thought suffered in this process",
@@ -653,7 +653,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "bordiga-fixated-on-elite-party",
           "quotes": [
             {
               "text": "From his formation of the 'intransigents' in 1917, to his insistence on 'electoral abstentionism' in 1919, to his call for a purely Communist Party in 1920, Bordiga had been fixated on the single goal of forming a tight-knit revolutionary elite which would stand in stark opposition to bourgeois politics",
@@ -662,7 +662,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "war-of-position-new-theory",
           "quotes": [
             {
               "text": "By articulating the concept of a 'war of position,' Gramsci sought to put forward a fundamentally new theory of revolution, one which would be better suited to the intricate civil societies and superior state strength possessed by the more advanced Western nations",
@@ -671,7 +671,7 @@
           ]
         },
         {
-          "id": "excerpt-3",
+          "id": "hegemony-cultural-debt-to-croce",
           "quotes": [
             {
               "text": "the broadly cultural orientation implicit in hegemony as a form of rule, and the educational orientation implicit in it as an opposition to 'economic-corporative,' owe a considerable debt to Croce and very little, if anything, to Lenin",
@@ -680,7 +680,7 @@
           ]
         },
         {
-          "id": "excerpt-4",
+          "id": "lyons-programme-with-togliatti",
           "quotes": [
             {
               "text": "a major statement of program that Gramsci wrote with Togliatti in the fall of 1925",
@@ -689,7 +689,7 @@
           ]
         },
         {
-          "id": "excerpt-5",
+          "id": "bordiga-councils-as-reformism",
           "quotes": [
             {
               "text": "Bordiga's contention that the worker councils were nothing but 'reformist experiments' reveals at least as much about Bordiga as about Gramsci and the councils",
@@ -698,7 +698,7 @@
           ]
         },
         {
-          "id": "excerpt-6",
+          "id": "bordiga-revolutionary-elite-goal",
           "quotes": [
             {
               "text": "Bordiga had been fixated on the single goal of forming a tight-knit revolutionary elite which would stand in stark opposition to bourgeois politics",
@@ -707,7 +707,7 @@
           ]
         },
         {
-          "id": "excerpt-7",
+          "id": "war-of-position-against-fascism",
           "quotes": [
             {
               "text": "Gramsci referred to such a struggle as a 'war of position.' Fascism was a particularly fierce, institutionalized waging of this war",
@@ -720,7 +720,7 @@
           ]
         },
         {
-          "id": "excerpt-8",
+          "id": "lyons-theses-to-replace-rome",
           "quotes": [
             {
               "text": "The Lyons Theses were Gramsci's first and last attempt at a document which could match the stature of, and therefore replace, Bordiga's Rome Theses of 1922",
@@ -729,7 +729,7 @@
           ]
         },
         {
-          "id": "excerpt-9",
+          "id": "gramsci-alone-analyzed-western-state",
           "quotes": [
             {
               "text": "Gramsci alone had recognized the need for a political response which analyzed the contemporary Western state and the possibility of posing an activist and essentially educational politics against it. Central here was the problem of political legitimation",
@@ -738,7 +738,7 @@
           ]
         },
         {
-          "id": "excerpt-10",
+          "id": "gramscian-gradualist-revolution",
           "quotes": [
             {
               "text": "Though faithful to the value of total transformation beyond capitalism, Gramscian revolution also offered a gradualist approach consistent with the cultural and political complexity of the West and which seemed, by virtue of its unified character, to be devoid of the means-ends paradoxes that had plagued classical Leninism",
@@ -761,7 +761,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "socialist-state-in-workers-institutions",
           "quotes": [
             {
               "text": "The socialist State already exists, potentially, in the social institutions characteristic of the exploited working class. These institutions must be linked together, co-ordinated, and ranked in a hierarchy of competences and powers",
@@ -774,7 +774,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "party-electoral-participation-question",
           "quotes": [
             {
               "text": "can the Party abstain from participating in the electoral struggles for the representative institutions of bourgeois democracy, if its task is that of politically organizing all the oppressed classes around the communist proletariat?",
@@ -805,7 +805,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "modern-state-trenches-of-politics",
           "quotes": [
             {
               "text": "The massive structures of the modern democracies, both as State organisations, and as complexes of associations in civil society, constitute for the art of politics as it were the 'trenches' and the permanent fortifications of the front in the war of position",
@@ -814,7 +814,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "state-as-outer-ditch-west",
           "quotes": [
             {
               "text": "in the West, there was a proper relation between State and civil society, and when the State trembled a sturdy structure of civil society was at once revealed. The State was only an outer ditch, behind which there stood a powerful system of fortresses and earthworks",
@@ -823,7 +823,7 @@
           ]
         },
         {
-          "id": "excerpt-3",
+          "id": "state-hegemony-plus-coercion",
           "quotes": [
             {
               "text": "State = political society + civil society, in other words hegemony protected by the armour of coercion",
@@ -832,7 +832,7 @@
           ]
         },
         {
-          "id": "excerpt-4",
+          "id": "domination-and-moral-leadership",
           "quotes": [
             {
               "text": "the supremacy of a social group manifests itself in two ways, as 'domination' and as 'intellectual and moral leadership'. A social group dominates antagonistic groups, which it tends to 'liquidate', or to subjugate perhaps even by armed force; it leads kindred and allied groups.",
@@ -841,7 +841,7 @@
           ]
         },
         {
-          "id": "excerpt-5",
+          "id": "corruption-between-consent-and-force",
           "quotes": [
             {
               "text": "Between consent and force stands corruption/fraud (which is characteristic of certain situations when it is hard to exercise the hegemonic function, and when the use of force is too risky)",
@@ -850,7 +850,7 @@
           ]
         },
         {
-          "id": "excerpt-6",
+          "id": "war-of-movement-to-position-1917-1921",
           "quotes": [
             {
               "text": "In the present epoch, the war of movement took place politically from March 1917 to March 1921; this was followed by a war of position whose representative, both practical (for Italy) and ideological (for Europe), is fascism",
@@ -859,7 +859,7 @@
           ]
         },
         {
-          "id": "excerpt-7",
+          "id": "party-as-civil-society-state",
           "quotes": [
             {
               "text": "The political party, for all groups, is precisely the mechanism which carries out in civil society the same function as the State carries out, more synthetically and over a larger scale, in political society",
@@ -882,7 +882,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "togliatti-led-after-gramsci-arrest",
           "quotes": [
             {
               "text": "Togliatti became the leader of the party after Gramsci's arrest (1926) and was Secretary-General from 1945 until his death in 1964",
@@ -891,7 +891,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "gramsci-arrest-november-1926",
           "quotes": [
             {
               "text": "November 8, 1926, the date of Gramsci's arrest, marks the beginning of the last period of his life",
@@ -900,7 +900,7 @@
           ]
         },
         {
-          "id": "excerpt-3",
+          "id": "aventine-returnee-laws-trap",
           "quotes": [
             {
               "text": "These laws were not supposed to apply to deputies who had returned to Parliament after the Aventine secession; but despite this fact, the Communists, the only ones who had returned to the Chamber of Deputies, were the first to be arrested",
@@ -909,7 +909,7 @@
           ]
         },
         {
-          "id": "excerpt-4",
+          "id": "prevent-this-brain-from-functioning",
           "quotes": [
             {
               "text": "Gramsci was only thirty-five at the time, but he was literally consumed by his political activities",
@@ -922,7 +922,7 @@
           ]
         },
         {
-          "id": "excerpt-5",
+          "id": "bordiga-arrest-ustica-exile",
           "quotes": [
             {
               "text": "In [1926], Bordiga was arrested and banished to Ustica; he was later tried in Milan but was acquitted in 1928",
@@ -931,7 +931,7 @@
           ]
         },
         {
-          "id": "excerpt-6",
+          "id": "gramsci-rotting-in-prison",
           "quotes": [
             {
               "text": "Gramsci literally rotted away in prison, writing while his teeth fell out, his stomach was destroyed, and his nerves collapsed",
@@ -940,7 +940,7 @@
           ]
         },
         {
-          "id": "excerpt-7",
+          "id": "gramsci-militant-life-hardened",
           "quotes": [
             {
               "text": "[Gramsci wrote from prison:] My militant life of the past ten years or so has sufficiently hardened me. I could have been killed a dozen times, yet am still alive: this is already an incalculable asset.",
@@ -962,7 +962,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "prison-notebooks-ecumenical-ambiguity",
           "quotes": [
             {
               "text": "The price of so ecumenical an admiration is necessarily ambiguity: multiple and incompatible interpretations of the themes of the Prison Notebooks",
@@ -971,7 +971,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "bordiga-twin-character-of-state",
           "quotes": [
             {
               "text": "The accuracy of Bordiga's formulation allowed him to grasp the essential twin character of the capitalist State",
@@ -980,7 +980,7 @@
           ]
         },
         {
-          "id": "excerpt-3",
+          "id": "hegemony-force-consent-equilibrium",
           "quotes": [
             {
               "text": "The normal exercise of hegemony on the now classical terrain of a parliamentary regime is characterized by a combination of force and consent which form variable equilibria",
@@ -989,7 +989,7 @@
           ]
         },
         {
-          "id": "excerpt-4",
+          "id": "bordiga-comintern-sixth-plenum",
           "quotes": [
             {
               "text": "[Bordiga said at the Sixth Plenum of the Comintern:] Russian development does not provide us with an experience of how the proletariat can overthrow a liberal-parliamentary capitalist State that has existed for many years",
@@ -998,7 +998,7 @@
           ]
         },
         {
-          "id": "excerpt-5",
+          "id": "bordiga-stronger-than-tsarist-state",
           "quotes": [
             {
               "text": "The accuracy of Bordiga's formulation allowed him to grasp the essential twin character of the capitalist State: it was stronger than the Tsarist State, because it rested not only on the consent of the masses, but also on a superior repressive apparatus",
@@ -1021,7 +1021,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "biennio-rosso-mass-strikes",
           "quotes": [
             {
               "text": "the dramatic months of the biennia rosso of 1919-20, an epoch punctuated by mass strikes and factory occupations",
@@ -1030,7 +1030,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "factory-councils-as-italian-soviets",
           "quotes": [
             {
               "text": "the idea of the factory councils as the Italian equivalent of the Soviets",
@@ -1043,7 +1043,7 @@
           ]
         },
         {
-          "id": "excerpt-3",
+          "id": "gramsci-disenchanted-with-bordiga",
           "quotes": [
             {
               "text": "Even after his effective renunciation of the Ordine Nuovo principles he became increasingly disenchanted with Bordiga's sectarian approach, which elevated ideological and organizational purity above the need to keep in close contact with the masses",
@@ -1052,7 +1052,7 @@
           ]
         },
         {
-          "id": "excerpt-4",
+          "id": "bordiga-il-soviet-journal",
           "quotes": [
             {
               "text": "Bordiga, whose 'absentionist' journal published in Naples was entitled Il Soviet",
@@ -1075,7 +1075,7 @@
       ],
       "excerpts": [
         {
-          "id": "excerpt-1",
+          "id": "matteotti-attack-ordered",
           "quotes": [
             {
               "text": "it seems unquestionable that the attack on Matteotti was ordered either by Mussolini himself or by the two leading members of his entourage, Cesare Rossi and Marinelli, on their own responsibility",
@@ -1084,7 +1084,7 @@
           ]
         },
         {
-          "id": "excerpt-2",
+          "id": "passive-protest-dangerous-illusion",
           "quotes": [
             {
               "text": "The idea that a dignified but essentially passive protest would bring about the fall of Fascism was a dangerous illusion",
@@ -1093,7 +1093,7 @@
           ]
         },
         {
-          "id": "excerpt-3",
+          "id": "march-on-rome-colossal-bluff",
           "quotes": [
             {
               "text": "In reality, the March on Rome, in the strict sense, was a colossal bluff. The city was defended by 12,000 men of the regular army, under the loyal General Pugliese, who would have been able to disperse the Fascist bands without difficulty.",
@@ -1106,7 +1106,7 @@
           ]
         },
         {
-          "id": "excerpt-4",
+          "id": "acerbo-scheme-moral-effect",
           "quotes": [
             {
               "text": "The true importance of the Acerbo scheme [...] was not so much in the technical provisions of the premium, but in its moral effect. It discouraged all shades of opposition, and more especially attempts by the allies of Fascism to assert their independence",
@@ -1115,7 +1115,7 @@
           ]
         },
         {
-          "id": "excerpt-5",
+          "id": "confino-internal-exile",
           "quotes": [
             {
               "text": "The institution of confino made possible the internal exile and confinement to an enforced domicile, for a period of up to five years, of those suspected of the intention of engaging in subversive activity",
@@ -1124,7 +1124,7 @@
           ]
         },
         {
-          "id": "excerpt-6",
+          "id": "rocco-associations-and-confino",
           "quotes": [
             {
               "text": "Rocco struck the first legislative blow at the independence of the bureaucracy with the bill on associations (introduced on 12 January 1925), which made it illegal for public officials to belong to secret societies",
@@ -1137,7 +1137,7 @@
           ]
         },
         {
-          "id": "excerpt-7",
+          "id": "aventine-condemned-assimilationism",
           "quotes": [
             {
               "text": "The 'Aventine secession' condemned to failure the idea of an assimilationist, outwardly legal, constitutionally conservative, form of Fascism",
@@ -1150,7 +1150,7 @@
           ]
         },
         {
-          "id": "excerpt-8",
+          "id": "king-pessimist-without-confidence",
           "quotes": [
             {
               "text": "By temperament he was a pessimist, and he had little confidence in either his advisers or his subjects",
@@ -1163,7 +1163,7 @@
           ]
         },
         {
-          "id": "excerpt-9",
+          "id": "mussolini-orders-pci-arrests",
           "quotes": [
             {
               "text": "Mussolini personally gave orders for the arrest of Bordiga, Gramsci and all the other members of the Central Committee, excepting the two deputies who were covered by parliamentary immunity",
@@ -1172,7 +1172,7 @@
           ]
         },
         {
-          "id": "excerpt-10",
+          "id": "amendola-legalitarian-strategy",
           "quotes": [
             {
               "text": "Amendola and the other Aventinians wished to make a clean break with Fascism, but they also put their trust in a legalitarian strategy which required for success either the intervention of the Crown, or the disintegration of the Fascist majority, or both",
@@ -1181,7 +1181,7 @@
           ]
         },
         {
-          "id": "excerpt-11",
+          "id": "aventinians-mandates-forfeited",
           "quotes": [
             {
               "text": "The Aventine deputies were declared to have forfeited their mandate, together with the Communists, in spite of the fact that the latter had returned to the hall",
@@ -1190,7 +1190,7 @@
           ]
         },
         {
-          "id": "excerpt-12",
+          "id": "aventine-only-serious-opposition",
           "quotes": [
             {
               "text": "the only opposition group who caused the Government serious concern",
@@ -1199,7 +1199,7 @@
           ]
         },
         {
-          "id": "excerpt-13",
+          "id": "june-12-secession-announcement",
           "quotes": [
             {
               "text": "On the night of 12 June they announced that they would abstain from taking part in the work of the Chamber, but the definitive decision to secede was taken only two weeks later",
@@ -1208,7 +1208,7 @@
           ]
         },
         {
-          "id": "excerpt-14",
+          "id": "legalitarianism-needed-crown",
           "quotes": [
             {
               "text": "they also put their trust in a legalitarian strategy which required for success either the intervention of the Crown, or the disintegration of the Fascist majority, or both",
@@ -1217,7 +1217,7 @@
           ]
         },
         {
-          "id": "excerpt-15",
+          "id": "return-to-chamber-missed-chance",
           "quotes": [
             {
               "text": "their return to the Chamber would greatly increase the chances of overthrowing Fascism by legal methods",
@@ -1234,7 +1234,7 @@
           ]
         },
         {
-          "id": "excerpt-16",
+          "id": "general-strike-risk-to-bourgeoisie",
           "quotes": [
             {
               "text": "To have called a general strike would have run the danger of alarming the bourgeoisie and the forces of order, and driving them back into the arms of Fascism",
@@ -1243,7 +1243,7 @@
           ]
         },
         {
-          "id": "excerpt-17",
+          "id": "matteotti-sixty-candidates-circulate",
           "quotes": [
             {
               "text": "Matteotti estimated that in all only sixty to a hundred PSU candidates could circulate freely in their constituencies: some were not even able to stay in their own homes",
@@ -1256,7 +1256,7 @@
           ]
         },
         {
-          "id": "excerpt-18",
+          "id": "january-3-dictatorship-begins",
           "quotes": [
             {
               "text": "The third of January marked the beginning of Mussolini's dictatorship from a political point of view. The Opposition never recovered",
@@ -1265,7 +1265,7 @@
           ]
         },
         {
-          "id": "excerpt-19",
+          "id": "rocco-associations-and-confino-restated",
           "quotes": [
             {
               "text": "Rocco struck the first legislative blow at the independence of the bureaucracy with the bill on associations (introduced on 12 January 1925), which made it illegal for public officials to belong to secret societies",
@@ -1278,7 +1278,7 @@
           ]
         },
         {
-          "id": "excerpt-20",
+          "id": "illusions-from-incompatible-aims",
           "quotes": [
             {
               "text": "Like many illusions, it was the result of a compromise between incompatible aims",
@@ -1287,7 +1287,7 @@
           ]
         },
         {
-          "id": "excerpt-21",
+          "id": "mussolini-entente-1925-1929",
           "quotes": [
             {
               "text": "the history of 1925–9 is in large part the history of the process by which Mussolini eliminated the Fascist movement's resistance to the measures by which he achieved a stable entente with these institutions",
@@ -1296,7 +1296,7 @@
           ]
         },
         {
-          "id": "excerpt-22",
+          "id": "secession-led-to-blind-alley",
           "quotes": [
             {
               "text": "The maintenance of the secession, once the initial effect of the crime and the protest had worn off, led the Opposition into a blind alley",
