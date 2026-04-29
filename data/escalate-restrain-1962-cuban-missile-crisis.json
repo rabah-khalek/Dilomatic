@@ -193,19 +193,9 @@
           "significance": "McNamara argued the missiles did not fundamentally alter the military balance but posed an acute political problem {{cite|may_zelikow1997|p. 113|lemay-no-military-problem}}, and insisted military operations serve political objectives: he confronted Admiral Anderson over the quarantine's conduct to insist that the object was not to shoot Russians but to communicate a political message from JFK to Khrushchev {{cite|allison1971|p. 131|quarantine-as-political-message}}."
         },
         {
-          "name": "Dean Rusk",
-          "role": "Secretary of State; participated in ExComm deliberations; his phrase about the Soviet ships became the widely quoted summary of the confrontation",
-          "significance": "Rusk contributed a widely quoted line when Soviet ships halted short of the quarantine line on 24 October: {{quote|We looked into the mouth of the cannon; the Russians flinched}} {{cite|kennedy_rf1969|p. 18|russians-flinched-at-the-cannon}}. On October 27 he was party to the decision to have Robert Kennedy deliver the secret Turkey assurance to Dobrynin."
-        },
-        {
           "name": "Llewellyn Thompson",
           "role": "Ambassador-at-Large and former U.S. Ambassador to the Soviet Union (1957-1962); ExComm's resident Soviet expert; advised JFK on probable Soviet responses throughout the deliberations",
           "significance": "Thompson's reading of Khrushchev shaped the response to the rival 26 and 27 October letters. He pressed JFK on October 27 to answer the first, more conciliatory letter and ignore the second's demand for a Turkey trade, arguing that Khrushchev could still claim he had saved Cuba. Earlier in the deliberations Thompson had warned that a U.S. air strike that killed Soviet personnel would force Soviet retaliation, probably against the Jupiters in Turkey, and likely escalate the whole way {{cite|may_zelikow1997|p. 137|killing-russians-goes-all-the-way}}."
-        },
-        {
-          "name": "Dean Acheson",
-          "role": "Former Secretary of State (1949-1953); recalled to ExComm as a senior consultant; argued for an air strike against the missile sites",
-          "significance": "Acheson supplied the leading hawkish case from outside the standing administration. He pressed that the blockade was {{quote|a decision to postpone the issue at the expense of time within which the nuclear weapons might be made operable}} {{cite|allison1971|p. 198|postponement-lets-missiles-operable}}, and his stature as a Cold War elder gave the strike position a weight inside ExComm beyond the uniformed Joint Chiefs."
         }
       ]
     },
@@ -610,15 +600,6 @@
             {
               "text": "Whatever military reasons he and others could marshal, they were nevertheless, in the last analysis, advocating a surprise attack by a very large nation against a very small one",
               "page": "p. 38"
-            }
-          ]
-        },
-        {
-          "id": "russians-flinched-at-the-cannon",
-          "quotes": [
-            {
-              "text": "We looked into the mouth of the cannon; the Russians flinched",
-              "page": "p. 18"
             }
           ]
         },
